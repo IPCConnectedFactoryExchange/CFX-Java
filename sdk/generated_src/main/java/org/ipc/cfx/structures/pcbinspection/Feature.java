@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pcbinspection;
 
@@ -47,8 +47,9 @@ public class Feature extends NamedObject {
    * @param isDefect the value
    */
   @JsonSetter("IsDefect")
-  public void setIsDefect(boolean isDefect) {
+  public Feature setIsDefect(boolean isDefect) {
     this.isDefect = isDefect;
+    return this;
   }
 
   /**
@@ -69,8 +70,9 @@ public class Feature extends NamedObject {
    * @param isInspected the value
    */
   @JsonSetter("IsInspected")
-  public void setIsInspected(boolean isInspected) {
+  public Feature setIsInspected(boolean isInspected) {
     this.isInspected = isInspected;
+    return this;
   }
 
   /**
@@ -89,8 +91,9 @@ public class Feature extends NamedObject {
    * @param isDetectedDefect the value
    */
   @JsonSetter("IsDetectedDefect")
-  public void setIsDetectedDefect(boolean isDetectedDefect) {
+  public Feature setIsDetectedDefect(boolean isDetectedDefect) {
     this.isDetectedDefect = isDetectedDefect;
+    return this;
   }
 
   /**
@@ -107,8 +110,9 @@ public class Feature extends NamedObject {
    * @param isVerified the value
    */
   @JsonSetter("IsVerified")
-  public void setIsVerified(boolean isVerified) {
+  public Feature setIsVerified(boolean isVerified) {
     this.isVerified = isVerified;
+    return this;
   }
 
   /**
@@ -125,8 +129,9 @@ public class Feature extends NamedObject {
    * @param isVerifiedDefect the value
    */
   @JsonSetter("IsVerifiedDefect")
-  public void setIsVerifiedDefect(boolean isVerifiedDefect) {
+  public Feature setIsVerifiedDefect(boolean isVerifiedDefect) {
     this.isVerifiedDefect = isVerifiedDefect;
+    return this;
   }
 
   /**
@@ -143,8 +148,9 @@ public class Feature extends NamedObject {
    * @param isRepaired the value
    */
   @JsonSetter("IsRepaired")
-  public void setIsRepaired(boolean isRepaired) {
+  public Feature setIsRepaired(boolean isRepaired) {
     this.isRepaired = isRepaired;
+    return this;
   }
 
   /**
@@ -161,8 +167,9 @@ public class Feature extends NamedObject {
    * @param values the value
    */
   @JsonSetter("Values")
-  public void setValues(Value[] values) {
+  public Feature setValues(Value[] values) {
     this.values = values;
+    return this;
   }
 
   /**

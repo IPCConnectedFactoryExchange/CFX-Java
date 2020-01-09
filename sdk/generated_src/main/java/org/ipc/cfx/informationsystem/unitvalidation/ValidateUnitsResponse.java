@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:10 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.informationsystem.unitvalidation;
 
@@ -77,8 +77,9 @@ public class ValidateUnitsResponse extends CFXMessage {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(RequestResult result) {
+  public ValidateUnitsResponse setResult(RequestResult result) {
     this.result = result;
+    return this;
   }
 
   /**
@@ -95,8 +96,9 @@ public class ValidateUnitsResponse extends CFXMessage {
    * @param primaryResult the value
    */
   @JsonSetter("PrimaryResult")
-  public void setPrimaryResult(ValidationResult primaryResult) {
+  public ValidateUnitsResponse setPrimaryResult(ValidationResult primaryResult) {
     this.primaryResult = primaryResult;
+    return this;
   }
 
   /**
@@ -113,8 +115,9 @@ public class ValidateUnitsResponse extends CFXMessage {
    * @param validationResults the value
    */
   @JsonSetter("ValidationResults")
-  public void setValidationResults(ValidationResult[] validationResults) {
+  public ValidateUnitsResponse setValidationResults(ValidationResult[] validationResults) {
     this.validationResults = validationResults;
+    return this;
   }
 
   /**

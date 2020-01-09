@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.resourceperformance;
 
@@ -160,8 +160,9 @@ public class StationParametersModified extends CFXMessage {
    * @param modifiedParameters the value
    */
   @JsonSetter("ModifiedParameters")
-  public void setModifiedParameters(Parameter[] modifiedParameters) {
+  public StationParametersModified setModifiedParameters(Parameter[] modifiedParameters) {
     this.modifiedParameters = modifiedParameters;
+    return this;
   }
 
   /**

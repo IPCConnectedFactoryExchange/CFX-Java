@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production;
 
@@ -55,8 +55,9 @@ public class ActivateRecipeRequest extends CFXMessage {
    * @param recipeName the value
    */
   @JsonSetter("RecipeName")
-  public void setRecipeName(String recipeName) {
+  public ActivateRecipeRequest setRecipeName(String recipeName) {
     this.recipeName = recipeName;
+    return this;
   }
 
   /**
@@ -74,8 +75,9 @@ public class ActivateRecipeRequest extends CFXMessage {
    * @param revision the value
    */
   @JsonSetter("Revision")
-  public void setRevision(String revision) {
+  public ActivateRecipeRequest setRevision(String revision) {
     this.revision = revision;
+    return this;
   }
 
   /**
@@ -94,8 +96,9 @@ public class ActivateRecipeRequest extends CFXMessage {
    * @param lane the value
    */
   @JsonSetter("Lane")
-  public void setLane(Integer lane) {
+  public ActivateRecipeRequest setLane(Integer lane) {
     this.lane = lane;
+    return this;
   }
 
   /**
@@ -114,8 +117,9 @@ public class ActivateRecipeRequest extends CFXMessage {
    * @param stage the value
    */
   @JsonSetter("Stage")
-  public void setStage(Stage stage) {
+  public ActivateRecipeRequest setStage(Stage stage) {
     this.stage = stage;
+    return this;
   }
 
   /**

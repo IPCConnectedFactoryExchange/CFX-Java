@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.resourceperformance;
 
@@ -55,8 +55,9 @@ public class EnergyConsumed extends CFXMessage {
    * @param startTime the value
    */
   @JsonSetter("StartTime")
-  public void setStartTime(Date startTime) {
+  public EnergyConsumed setStartTime(Date startTime) {
     this.startTime = startTime;
+    return this;
   }
 
   /**
@@ -73,8 +74,9 @@ public class EnergyConsumed extends CFXMessage {
    * @param endTime the value
    */
   @JsonSetter("EndTime")
-  public void setEndTime(Date endTime) {
+  public EnergyConsumed setEndTime(Date endTime) {
     this.endTime = endTime;
+    return this;
   }
 
   /**
@@ -92,8 +94,9 @@ public class EnergyConsumed extends CFXMessage {
    * @param energyUsed the value
    */
   @JsonSetter("EnergyUsed")
-  public void setEnergyUsed(double energyUsed) {
+  public EnergyConsumed setEnergyUsed(double energyUsed) {
     this.energyUsed = energyUsed;
+    return this;
   }
 
   /**
@@ -112,8 +115,9 @@ public class EnergyConsumed extends CFXMessage {
    * @param peakPower the value
    */
   @JsonSetter("PeakPower")
-  public void setPeakPower(double peakPower) {
+  public EnergyConsumed setPeakPower(double peakPower) {
     this.peakPower = peakPower;
+    return this;
   }
 
   /**
@@ -132,8 +136,9 @@ public class EnergyConsumed extends CFXMessage {
    * @param minimumPower the value
    */
   @JsonSetter("MinimumPower")
-  public void setMinimumPower(double minimumPower) {
+  public EnergyConsumed setMinimumPower(double minimumPower) {
     this.minimumPower = minimumPower;
+    return this;
   }
 
   /**
@@ -152,8 +157,9 @@ public class EnergyConsumed extends CFXMessage {
    * @param meanPower the value
    */
   @JsonSetter("MeanPower")
-  public void setMeanPower(double meanPower) {
+  public EnergyConsumed setMeanPower(double meanPower) {
     this.meanPower = meanPower;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.materials.storage;
 
@@ -87,8 +87,9 @@ public class ValidateStationSetupRequest extends CFXMessage {
    * @param setupRequirements the value
    */
   @JsonSetter("SetupRequirements")
-  public void setSetupRequirements(StationSetupRequirements setupRequirements) {
+  public ValidateStationSetupRequest setSetupRequirements(StationSetupRequirements setupRequirements) {
     this.setupRequirements = setupRequirements;
+    return this;
   }
 
   /**

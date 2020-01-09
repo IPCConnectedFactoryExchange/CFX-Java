@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.geometry;
 
@@ -48,8 +48,9 @@ public class Vector3 {
    * @param zero the value
    */
   @JsonSetter("Zero")
-  public void setZero(org.ipc.cfx.structures.geometry.Vector3 zero) {
+  public Vector3 setZero(org.ipc.cfx.structures.geometry.Vector3 zero) {
     this.zero = zero;
+    return this;
   }
 
   /**
@@ -66,8 +67,9 @@ public class Vector3 {
    * @param one the value
    */
   @JsonSetter("One")
-  public void setOne(org.ipc.cfx.structures.geometry.Vector3 one) {
+  public Vector3 setOne(org.ipc.cfx.structures.geometry.Vector3 one) {
     this.one = one;
+    return this;
   }
 
   /**
@@ -84,8 +86,9 @@ public class Vector3 {
    * @param unitX the value
    */
   @JsonSetter("UnitX")
-  public void setUnitX(org.ipc.cfx.structures.geometry.Vector3 unitX) {
+  public Vector3 setUnitX(org.ipc.cfx.structures.geometry.Vector3 unitX) {
     this.unitX = unitX;
+    return this;
   }
 
   /**
@@ -102,8 +105,9 @@ public class Vector3 {
    * @param unitY the value
    */
   @JsonSetter("UnitY")
-  public void setUnitY(org.ipc.cfx.structures.geometry.Vector3 unitY) {
+  public Vector3 setUnitY(org.ipc.cfx.structures.geometry.Vector3 unitY) {
     this.unitY = unitY;
+    return this;
   }
 
   /**
@@ -120,8 +124,9 @@ public class Vector3 {
    * @param unitZ the value
    */
   @JsonSetter("UnitZ")
-  public void setUnitZ(org.ipc.cfx.structures.geometry.Vector3 unitZ) {
+  public Vector3 setUnitZ(org.ipc.cfx.structures.geometry.Vector3 unitZ) {
     this.unitZ = unitZ;
+    return this;
   }
 
   /**
@@ -138,8 +143,9 @@ public class Vector3 {
    * @param up the value
    */
   @JsonSetter("Up")
-  public void setUp(org.ipc.cfx.structures.geometry.Vector3 up) {
+  public Vector3 setUp(org.ipc.cfx.structures.geometry.Vector3 up) {
     this.up = up;
+    return this;
   }
 
   /**
@@ -156,8 +162,9 @@ public class Vector3 {
    * @param down the value
    */
   @JsonSetter("Down")
-  public void setDown(org.ipc.cfx.structures.geometry.Vector3 down) {
+  public Vector3 setDown(org.ipc.cfx.structures.geometry.Vector3 down) {
     this.down = down;
+    return this;
   }
 
   /**
@@ -174,8 +181,9 @@ public class Vector3 {
    * @param right the value
    */
   @JsonSetter("Right")
-  public void setRight(org.ipc.cfx.structures.geometry.Vector3 right) {
+  public Vector3 setRight(org.ipc.cfx.structures.geometry.Vector3 right) {
     this.right = right;
+    return this;
   }
 
   /**
@@ -192,8 +200,9 @@ public class Vector3 {
    * @param left the value
    */
   @JsonSetter("Left")
-  public void setLeft(org.ipc.cfx.structures.geometry.Vector3 left) {
+  public Vector3 setLeft(org.ipc.cfx.structures.geometry.Vector3 left) {
     this.left = left;
+    return this;
   }
 
   /**
@@ -210,8 +219,9 @@ public class Vector3 {
    * @param forward the value
    */
   @JsonSetter("Forward")
-  public void setForward(org.ipc.cfx.structures.geometry.Vector3 forward) {
+  public Vector3 setForward(org.ipc.cfx.structures.geometry.Vector3 forward) {
     this.forward = forward;
+    return this;
   }
 
   /**
@@ -228,8 +238,9 @@ public class Vector3 {
    * @param backward the value
    */
   @JsonSetter("Backward")
-  public void setBackward(org.ipc.cfx.structures.geometry.Vector3 backward) {
+  public Vector3 setBackward(org.ipc.cfx.structures.geometry.Vector3 backward) {
     this.backward = backward;
+    return this;
   }
 
   /**

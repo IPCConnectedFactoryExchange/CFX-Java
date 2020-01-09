@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production.testandinspection;
 
@@ -567,8 +567,9 @@ public class UnitsInspected extends CFXMessage {
    * @param transactionId the value
    */
   @JsonSetter("TransactionId")
-  public void setTransactionId(UUID transactionId) {
+  public UnitsInspected setTransactionId(UUID transactionId) {
     this.transactionId = transactionId;
+    return this;
   }
 
   /**
@@ -585,8 +586,9 @@ public class UnitsInspected extends CFXMessage {
    * @param inspectionMethod the value
    */
   @JsonSetter("InspectionMethod")
-  public void setInspectionMethod(InspectionMethod inspectionMethod) {
+  public UnitsInspected setInspectionMethod(InspectionMethod inspectionMethod) {
     this.inspectionMethod = inspectionMethod;
+    return this;
   }
 
   /**
@@ -603,8 +605,9 @@ public class UnitsInspected extends CFXMessage {
    * @param samplingInformation the value
    */
   @JsonSetter("SamplingInformation")
-  public void setSamplingInformation(SamplingInformation samplingInformation) {
+  public UnitsInspected setSamplingInformation(SamplingInformation samplingInformation) {
     this.samplingInformation = samplingInformation;
+    return this;
   }
 
   /**
@@ -621,8 +624,9 @@ public class UnitsInspected extends CFXMessage {
    * @param inspector the value
    */
   @JsonSetter("Inspector")
-  public void setInspector(Operator inspector) {
+  public UnitsInspected setInspector(Operator inspector) {
     this.inspector = inspector;
+    return this;
   }
 
   /**
@@ -639,8 +643,9 @@ public class UnitsInspected extends CFXMessage {
    * @param recipeName the value
    */
   @JsonSetter("RecipeName")
-  public void setRecipeName(String recipeName) {
+  public UnitsInspected setRecipeName(String recipeName) {
     this.recipeName = recipeName;
+    return this;
   }
 
   /**
@@ -658,8 +663,9 @@ public class UnitsInspected extends CFXMessage {
    * @param recipeRevision the value
    */
   @JsonSetter("RecipeRevision")
-  public void setRecipeRevision(String recipeRevision) {
+  public UnitsInspected setRecipeRevision(String recipeRevision) {
     this.recipeRevision = recipeRevision;
+    return this;
   }
 
   /**
@@ -678,8 +684,9 @@ public class UnitsInspected extends CFXMessage {
    * @param inspectedUnits the value
    */
   @JsonSetter("InspectedUnits")
-  public void setInspectedUnits(InspectedUnit[] inspectedUnits) {
+  public UnitsInspected setInspectedUnits(InspectedUnit[] inspectedUnits) {
     this.inspectedUnits = inspectedUnits;
+    return this;
   }
 
   /**

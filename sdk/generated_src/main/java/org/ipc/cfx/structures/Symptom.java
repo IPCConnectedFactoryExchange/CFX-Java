@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -49,8 +49,9 @@ public class Symptom {
    * @param uniqueIdentifier the value
    */
   @JsonSetter("UniqueIdentifier")
-  public void setUniqueIdentifier(String uniqueIdentifier) {
+  public Symptom setUniqueIdentifier(String uniqueIdentifier) {
     this.uniqueIdentifier = uniqueIdentifier;
+    return this;
   }
 
   /**
@@ -69,8 +70,9 @@ public class Symptom {
    * @param symptomCode the value
    */
   @JsonSetter("SymptomCode")
-  public void setSymptomCode(String symptomCode) {
+  public Symptom setSymptomCode(String symptomCode) {
     this.symptomCode = symptomCode;
+    return this;
   }
 
   /**
@@ -88,8 +90,9 @@ public class Symptom {
    * @param symptomCategory the value
    */
   @JsonSetter("SymptomCategory")
-  public void setSymptomCategory(String symptomCategory) {
+  public Symptom setSymptomCategory(String symptomCategory) {
     this.symptomCategory = symptomCategory;
+    return this;
   }
 
   /**
@@ -107,8 +110,9 @@ public class Symptom {
    * @param description the value
    */
   @JsonSetter("Description")
-  public void setDescription(String description) {
+  public Symptom setDescription(String description) {
     this.description = description;
+    return this;
   }
 
   /**
@@ -126,8 +130,9 @@ public class Symptom {
    * @param comments the value
    */
   @JsonSetter("Comments")
-  public void setComments(String comments) {
+  public Symptom setComments(String comments) {
     this.comments = comments;
+    return this;
   }
 
   /**
@@ -145,8 +150,9 @@ public class Symptom {
    * @param componentsOfInterest the value
    */
   @JsonSetter("ComponentsOfInterest")
-  public void setComponentsOfInterest(ComponentDesignator[] componentsOfInterest) {
+  public Symptom setComponentsOfInterest(ComponentDesignator[] componentsOfInterest) {
     this.componentsOfInterest = componentsOfInterest;
+    return this;
   }
 
   /**
@@ -164,8 +170,9 @@ public class Symptom {
    * @param regionOfInterest the value
    */
   @JsonSetter("RegionOfInterest")
-  public void setRegionOfInterest(Region regionOfInterest) {
+  public Symptom setRegionOfInterest(Region regionOfInterest) {
     this.regionOfInterest = regionOfInterest;
+    return this;
   }
 
   /**
@@ -184,8 +191,9 @@ public class Symptom {
    * @param priority the value
    */
   @JsonSetter("Priority")
-  public void setPriority(int priority) {
+  public Symptom setPriority(int priority) {
     this.priority = priority;
+    return this;
   }
 
   /**
@@ -203,8 +211,9 @@ public class Symptom {
    * @param relatedMeasurements the value
    */
   @JsonSetter("RelatedMeasurements")
-  public void setRelatedMeasurements(Measurement[] relatedMeasurements) {
+  public Symptom setRelatedMeasurements(Measurement[] relatedMeasurements) {
     this.relatedMeasurements = relatedMeasurements;
+    return this;
   }
 
   /**

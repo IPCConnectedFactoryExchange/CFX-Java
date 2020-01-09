@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -44,8 +44,9 @@ public class ToolSetupRequirement {
    * @param position the value
    */
   @JsonSetter("Position")
-  public void setPosition(String position) {
+  public ToolSetupRequirement setPosition(String position) {
     this.position = position;
+    return this;
   }
 
   /**
@@ -65,8 +66,9 @@ public class ToolSetupRequirement {
    * @param partNumber the value
    */
   @JsonSetter("PartNumber")
-  public void setPartNumber(String partNumber) {
+  public ToolSetupRequirement setPartNumber(String partNumber) {
     this.partNumber = partNumber;
+    return this;
   }
 
   /**
@@ -86,8 +88,9 @@ public class ToolSetupRequirement {
    * @param toolIdentifier the value
    */
   @JsonSetter("ToolIdentifier")
-  public void setToolIdentifier(String toolIdentifier) {
+  public ToolSetupRequirement setToolIdentifier(String toolIdentifier) {
     this.toolIdentifier = toolIdentifier;
+    return this;
   }
 
   /**

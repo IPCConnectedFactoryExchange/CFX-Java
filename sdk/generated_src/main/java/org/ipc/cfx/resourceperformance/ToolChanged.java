@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.resourceperformance;
 
@@ -76,8 +76,9 @@ public class ToolChanged extends CFXMessage {
    * @param oldTool the value
    */
   @JsonSetter("OldTool")
-  public void setOldTool(Tool oldTool) {
+  public ToolChanged setOldTool(Tool oldTool) {
     this.oldTool = oldTool;
+    return this;
   }
 
   /**
@@ -94,8 +95,9 @@ public class ToolChanged extends CFXMessage {
    * @param returnedToHolder the value
    */
   @JsonSetter("ReturnedToHolder")
-  public void setReturnedToHolder(ToolHolder returnedToHolder) {
+  public ToolChanged setReturnedToHolder(ToolHolder returnedToHolder) {
     this.returnedToHolder = returnedToHolder;
+    return this;
   }
 
   /**
@@ -112,8 +114,9 @@ public class ToolChanged extends CFXMessage {
    * @param newTool the value
    */
   @JsonSetter("NewTool")
-  public void setNewTool(Tool newTool) {
+  public ToolChanged setNewTool(Tool newTool) {
     this.newTool = newTool;
+    return this;
   }
 
   /**
@@ -130,8 +133,9 @@ public class ToolChanged extends CFXMessage {
    * @param loadedFromHolder the value
    */
   @JsonSetter("LoadedFromHolder")
-  public void setLoadedFromHolder(ToolHolder loadedFromHolder) {
+  public ToolChanged setLoadedFromHolder(ToolHolder loadedFromHolder) {
     this.loadedFromHolder = loadedFromHolder;
+    return this;
   }
 
   /**

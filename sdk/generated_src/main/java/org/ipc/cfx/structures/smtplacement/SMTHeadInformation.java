@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.smtplacement;
 
@@ -40,8 +40,9 @@ public class SMTHeadInformation extends HeadInformation {
    * @param sMTHeadType the value
    */
   @JsonSetter("SMTHeadType")
-  public void setSMTHeadType(SMTHeadType sMTHeadType) {
+  public SMTHeadInformation setSMTHeadType(SMTHeadType sMTHeadType) {
     this.sMTHeadType = sMTHeadType;
+    return this;
   }
 
   /**
@@ -58,8 +59,9 @@ public class SMTHeadInformation extends HeadInformation {
    * @param numberOfNozzleLocations the value
    */
   @JsonSetter("NumberOfNozzleLocations")
-  public void setNumberOfNozzleLocations(int numberOfNozzleLocations) {
+  public SMTHeadInformation setNumberOfNozzleLocations(int numberOfNozzleLocations) {
     this.numberOfNozzleLocations = numberOfNozzleLocations;
+    return this;
   }
 
   /**
@@ -77,8 +79,9 @@ public class SMTHeadInformation extends HeadInformation {
    * @param placementAccuracy the value
    */
   @JsonSetter("PlacementAccuracy")
-  public void setPlacementAccuracy(double placementAccuracy) {
+  public SMTHeadInformation setPlacementAccuracy(double placementAccuracy) {
     this.placementAccuracy = placementAccuracy;
+    return this;
   }
 
   /**

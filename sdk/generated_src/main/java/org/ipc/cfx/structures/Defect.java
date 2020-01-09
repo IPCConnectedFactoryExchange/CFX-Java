@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -50,8 +50,9 @@ public class Defect {
    * @param uniqueIdentifier the value
    */
   @JsonSetter("UniqueIdentifier")
-  public void setUniqueIdentifier(String uniqueIdentifier) {
+  public Defect setUniqueIdentifier(String uniqueIdentifier) {
     this.uniqueIdentifier = uniqueIdentifier;
+    return this;
   }
 
   /**
@@ -70,8 +71,9 @@ public class Defect {
    * @param defectCode the value
    */
   @JsonSetter("DefectCode")
-  public void setDefectCode(String defectCode) {
+  public Defect setDefectCode(String defectCode) {
     this.defectCode = defectCode;
+    return this;
   }
 
   /**
@@ -89,8 +91,9 @@ public class Defect {
    * @param defectCategory the value
    */
   @JsonSetter("DefectCategory")
-  public void setDefectCategory(String defectCategory) {
+  public Defect setDefectCategory(String defectCategory) {
     this.defectCategory = defectCategory;
+    return this;
   }
 
   /**
@@ -108,8 +111,9 @@ public class Defect {
    * @param description the value
    */
   @JsonSetter("Description")
-  public void setDescription(String description) {
+  public Defect setDescription(String description) {
     this.description = description;
+    return this;
   }
 
   /**
@@ -127,8 +131,9 @@ public class Defect {
    * @param comments the value
    */
   @JsonSetter("Comments")
-  public void setComments(String comments) {
+  public Defect setComments(String comments) {
     this.comments = comments;
+    return this;
   }
 
   /**
@@ -146,8 +151,9 @@ public class Defect {
    * @param componentOfInterest the value
    */
   @JsonSetter("ComponentOfInterest")
-  public void setComponentOfInterest(ComponentDesignator componentOfInterest) {
+  public Defect setComponentOfInterest(ComponentDesignator componentOfInterest) {
     this.componentOfInterest = componentOfInterest;
+    return this;
   }
 
   /**
@@ -166,8 +172,9 @@ public class Defect {
    * @param regionOfInterest the value
    */
   @JsonSetter("RegionOfInterest")
-  public void setRegionOfInterest(Region regionOfInterest) {
+  public Defect setRegionOfInterest(Region regionOfInterest) {
     this.regionOfInterest = regionOfInterest;
+    return this;
   }
 
   /**
@@ -186,8 +193,9 @@ public class Defect {
    * @param defectImages the value
    */
   @JsonSetter("DefectImages")
-  public void setDefectImages(Image[] defectImages) {
+  public Defect setDefectImages(Image[] defectImages) {
     this.defectImages = defectImages;
+    return this;
   }
 
   /**
@@ -205,8 +213,9 @@ public class Defect {
    * @param priority the value
    */
   @JsonSetter("Priority")
-  public void setPriority(Integer priority) {
+  public Defect setPriority(Integer priority) {
     this.priority = priority;
+    return this;
   }
 
   /**
@@ -227,8 +236,9 @@ public class Defect {
    * @param confidenceLevel the value
    */
   @JsonSetter("ConfidenceLevel")
-  public void setConfidenceLevel(Double confidenceLevel) {
+  public Defect setConfidenceLevel(Double confidenceLevel) {
     this.confidenceLevel = confidenceLevel;
+    return this;
   }
 
   /**
@@ -248,8 +258,9 @@ public class Defect {
    * @param relatedMeasurements the value
    */
   @JsonSetter("RelatedMeasurements")
-  public void setRelatedMeasurements(Measurement[] relatedMeasurements) {
+  public Defect setRelatedMeasurements(Measurement[] relatedMeasurements) {
     this.relatedMeasurements = relatedMeasurements;
+    return this;
   }
 
   /**
@@ -266,8 +277,9 @@ public class Defect {
    * @param relatedSymptoms the value
    */
   @JsonSetter("RelatedSymptoms")
-  public void setRelatedSymptoms(Symptom[] relatedSymptoms) {
+  public Defect setRelatedSymptoms(Symptom[] relatedSymptoms) {
     this.relatedSymptoms = relatedSymptoms;
+    return this;
   }
 
   /**

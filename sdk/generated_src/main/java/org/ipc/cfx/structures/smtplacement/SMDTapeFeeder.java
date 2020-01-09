@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.smtplacement;
 
@@ -47,8 +47,9 @@ public class SMDTapeFeeder extends MaterialCarrier {
    * @param baseUniqueIdentifier the value
    */
   @JsonSetter("BaseUniqueIdentifier")
-  public void setBaseUniqueIdentifier(String baseUniqueIdentifier) {
+  public SMDTapeFeeder setBaseUniqueIdentifier(String baseUniqueIdentifier) {
     this.baseUniqueIdentifier = baseUniqueIdentifier;
+    return this;
   }
 
   /**
@@ -70,8 +71,9 @@ public class SMDTapeFeeder extends MaterialCarrier {
    * @param baseName the value
    */
   @JsonSetter("BaseName")
-  public void setBaseName(String baseName) {
+  public SMDTapeFeeder setBaseName(String baseName) {
     this.baseName = baseName;
+    return this;
   }
 
   /**
@@ -90,8 +92,9 @@ public class SMDTapeFeeder extends MaterialCarrier {
    * @param laneNumber the value
    */
   @JsonSetter("LaneNumber")
-  public void setLaneNumber(int laneNumber) {
+  public SMDTapeFeeder setLaneNumber(int laneNumber) {
     this.laneNumber = laneNumber;
+    return this;
   }
 
   /**
@@ -109,8 +112,9 @@ public class SMDTapeFeeder extends MaterialCarrier {
    * @param tapeWidth the value
    */
   @JsonSetter("TapeWidth")
-  public void setTapeWidth(double tapeWidth) {
+  public SMDTapeFeeder setTapeWidth(double tapeWidth) {
     this.tapeWidth = tapeWidth;
+    return this;
   }
 
   /**
@@ -127,8 +131,9 @@ public class SMDTapeFeeder extends MaterialCarrier {
    * @param tapePitch the value
    */
   @JsonSetter("TapePitch")
-  public void setTapePitch(double tapePitch) {
+  public SMDTapeFeeder setTapePitch(double tapePitch) {
     this.tapePitch = tapePitch;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:10 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.informationsystem.unitvalidation;
 
@@ -77,8 +77,9 @@ public class ValidateUnitsRequest extends CFXMessage {
    * @param validations the value
    */
   @JsonSetter("Validations")
-  public void setValidations(ValidationType[] validations) {
+  public ValidateUnitsRequest setValidations(ValidationType[] validations) {
     this.validations = validations;
+    return this;
   }
 
   /**
@@ -95,8 +96,9 @@ public class ValidateUnitsRequest extends CFXMessage {
    * @param primaryIdentifier the value
    */
   @JsonSetter("PrimaryIdentifier")
-  public void setPrimaryIdentifier(String primaryIdentifier) {
+  public ValidateUnitsRequest setPrimaryIdentifier(String primaryIdentifier) {
     this.primaryIdentifier = primaryIdentifier;
+    return this;
   }
 
   /**
@@ -122,8 +124,9 @@ public class ValidateUnitsRequest extends CFXMessage {
    * @param hermesIdentifier the value
    */
   @JsonSetter("HermesIdentifier")
-  public void setHermesIdentifier(String hermesIdentifier) {
+  public ValidateUnitsRequest setHermesIdentifier(String hermesIdentifier) {
     this.hermesIdentifier = hermesIdentifier;
+    return this;
   }
 
   /**
@@ -149,8 +152,9 @@ public class ValidateUnitsRequest extends CFXMessage {
    * @param units the value
    */
   @JsonSetter("Units")
-  public void setUnits(UnitPosition[] units) {
+  public ValidateUnitsRequest setUnits(UnitPosition[] units) {
     this.units = units;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.smtplacement;
 
@@ -49,8 +49,9 @@ public class SMTPlacementConstraints {
    * @param minumumComponentBodySizeX the value
    */
   @JsonSetter("MinumumComponentBodySizeX")
-  public void setMinumumComponentBodySizeX(double minumumComponentBodySizeX) {
+  public SMTPlacementConstraints setMinumumComponentBodySizeX(double minumumComponentBodySizeX) {
     this.minumumComponentBodySizeX = minumumComponentBodySizeX;
+    return this;
   }
 
   /**
@@ -69,8 +70,9 @@ public class SMTPlacementConstraints {
    * @param maximumComponentBodySizeX the value
    */
   @JsonSetter("MaximumComponentBodySizeX")
-  public void setMaximumComponentBodySizeX(double maximumComponentBodySizeX) {
+  public SMTPlacementConstraints setMaximumComponentBodySizeX(double maximumComponentBodySizeX) {
     this.maximumComponentBodySizeX = maximumComponentBodySizeX;
+    return this;
   }
 
   /**
@@ -89,8 +91,9 @@ public class SMTPlacementConstraints {
    * @param minumumComponentBodySizeY the value
    */
   @JsonSetter("MinumumComponentBodySizeY")
-  public void setMinumumComponentBodySizeY(double minumumComponentBodySizeY) {
+  public SMTPlacementConstraints setMinumumComponentBodySizeY(double minumumComponentBodySizeY) {
     this.minumumComponentBodySizeY = minumumComponentBodySizeY;
+    return this;
   }
 
   /**
@@ -109,8 +112,9 @@ public class SMTPlacementConstraints {
    * @param maximumComponentBodySizeY the value
    */
   @JsonSetter("MaximumComponentBodySizeY")
-  public void setMaximumComponentBodySizeY(double maximumComponentBodySizeY) {
+  public SMTPlacementConstraints setMaximumComponentBodySizeY(double maximumComponentBodySizeY) {
     this.maximumComponentBodySizeY = maximumComponentBodySizeY;
+    return this;
   }
 
   /**
@@ -129,8 +133,9 @@ public class SMTPlacementConstraints {
    * @param minumumComponentHeight the value
    */
   @JsonSetter("MinumumComponentHeight")
-  public void setMinumumComponentHeight(double minumumComponentHeight) {
+  public SMTPlacementConstraints setMinumumComponentHeight(double minumumComponentHeight) {
     this.minumumComponentHeight = minumumComponentHeight;
+    return this;
   }
 
   /**
@@ -149,8 +154,9 @@ public class SMTPlacementConstraints {
    * @param maximumComponentHeight the value
    */
   @JsonSetter("MaximumComponentHeight")
-  public void setMaximumComponentHeight(double maximumComponentHeight) {
+  public SMTPlacementConstraints setMaximumComponentHeight(double maximumComponentHeight) {
     this.maximumComponentHeight = maximumComponentHeight;
+    return this;
   }
 
   /**
@@ -169,8 +175,9 @@ public class SMTPlacementConstraints {
    * @param minimumLeadWidth the value
    */
   @JsonSetter("MinimumLeadWidth")
-  public void setMinimumLeadWidth(double minimumLeadWidth) {
+  public SMTPlacementConstraints setMinimumLeadWidth(double minimumLeadWidth) {
     this.minimumLeadWidth = minimumLeadWidth;
+    return this;
   }
 
   /**
@@ -189,8 +196,9 @@ public class SMTPlacementConstraints {
    * @param minimumBGAPitch the value
    */
   @JsonSetter("MinimumBGAPitch")
-  public void setMinimumBGAPitch(double minimumBGAPitch) {
+  public SMTPlacementConstraints setMinimumBGAPitch(double minimumBGAPitch) {
     this.minimumBGAPitch = minimumBGAPitch;
+    return this;
   }
 
   /**
@@ -209,8 +217,9 @@ public class SMTPlacementConstraints {
    * @param minimumSOICPitch the value
    */
   @JsonSetter("MinimumSOICPitch")
-  public void setMinimumSOICPitch(double minimumSOICPitch) {
+  public SMTPlacementConstraints setMinimumSOICPitch(double minimumSOICPitch) {
     this.minimumSOICPitch = minimumSOICPitch;
+    return this;
   }
 
   /**
@@ -229,8 +238,9 @@ public class SMTPlacementConstraints {
    * @param minimumMountingPressure the value
    */
   @JsonSetter("MinimumMountingPressure")
-  public void setMinimumMountingPressure(double minimumMountingPressure) {
+  public SMTPlacementConstraints setMinimumMountingPressure(double minimumMountingPressure) {
     this.minimumMountingPressure = minimumMountingPressure;
+    return this;
   }
 
   /**
@@ -249,8 +259,9 @@ public class SMTPlacementConstraints {
    * @param maximumMountingPressure the value
    */
   @JsonSetter("MaximumMountingPressure")
-  public void setMaximumMountingPressure(double maximumMountingPressure) {
+  public SMTPlacementConstraints setMaximumMountingPressure(double maximumMountingPressure) {
     this.maximumMountingPressure = maximumMountingPressure;
+    return this;
   }
 
   /**

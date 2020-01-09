@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production;
 
@@ -65,8 +65,9 @@ public class LockStationRequest extends CFXMessage {
    * @param lane the value
    */
   @JsonSetter("Lane")
-  public void setLane(Integer lane) {
+  public LockStationRequest setLane(Integer lane) {
     this.lane = lane;
+    return this;
   }
 
   /**
@@ -83,8 +84,9 @@ public class LockStationRequest extends CFXMessage {
    * @param stage the value
    */
   @JsonSetter("Stage")
-  public void setStage(Stage stage) {
+  public LockStationRequest setStage(Stage stage) {
     this.stage = stage;
+    return this;
   }
 
   /**
@@ -101,8 +103,9 @@ public class LockStationRequest extends CFXMessage {
    * @param reason the value
    */
   @JsonSetter("Reason")
-  public void setReason(LockReason reason) {
+  public LockStationRequest setReason(LockReason reason) {
     this.reason = reason;
+    return this;
   }
 
   /**
@@ -119,8 +122,9 @@ public class LockStationRequest extends CFXMessage {
    * @param requestor the value
    */
   @JsonSetter("Requestor")
-  public void setRequestor(Operator requestor) {
+  public LockStationRequest setRequestor(Operator requestor) {
     this.requestor = requestor;
+    return this;
   }
 
   /**

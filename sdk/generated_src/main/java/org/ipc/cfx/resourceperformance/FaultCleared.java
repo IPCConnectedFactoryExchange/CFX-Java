@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.resourceperformance;
 
@@ -54,8 +54,9 @@ public class FaultCleared extends CFXMessage {
    * @param faultOccurrenceId the value
    */
   @JsonSetter("FaultOccurrenceId")
-  public void setFaultOccurrenceId(UUID faultOccurrenceId) {
+  public FaultCleared setFaultOccurrenceId(UUID faultOccurrenceId) {
     this.faultOccurrenceId = faultOccurrenceId;
+    return this;
   }
 
   /**
@@ -73,8 +74,9 @@ public class FaultCleared extends CFXMessage {
    * @param operator the value
    */
   @JsonSetter("Operator")
-  public void setOperator(Operator operator) {
+  public FaultCleared setOperator(Operator operator) {
     this.operator = operator;
+    return this;
   }
 
   /**

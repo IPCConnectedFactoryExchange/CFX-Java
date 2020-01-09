@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.resourceperformance;
 
@@ -111,8 +111,9 @@ public class MaintenancePerformed extends CFXMessage {
    * @param maintenanceType the value
    */
   @JsonSetter("MaintenanceType")
-  public void setMaintenanceType(MaintenanceType maintenanceType) {
+  public MaintenancePerformed setMaintenanceType(MaintenanceType maintenanceType) {
     this.maintenanceType = maintenanceType;
+    return this;
   }
 
   /**
@@ -129,8 +130,9 @@ public class MaintenancePerformed extends CFXMessage {
    * @param maintenanceOrderNumber the value
    */
   @JsonSetter("MaintenanceOrderNumber")
-  public void setMaintenanceOrderNumber(String maintenanceOrderNumber) {
+  public MaintenancePerformed setMaintenanceOrderNumber(String maintenanceOrderNumber) {
     this.maintenanceOrderNumber = maintenanceOrderNumber;
+    return this;
   }
 
   /**
@@ -149,8 +151,9 @@ public class MaintenancePerformed extends CFXMessage {
    * @param maintenanceJobCode the value
    */
   @JsonSetter("MaintenanceJobCode")
-  public void setMaintenanceJobCode(String maintenanceJobCode) {
+  public MaintenancePerformed setMaintenanceJobCode(String maintenanceJobCode) {
     this.maintenanceJobCode = maintenanceJobCode;
+    return this;
   }
 
   /**
@@ -170,8 +173,9 @@ public class MaintenancePerformed extends CFXMessage {
    * @param consumedMaterials the value
    */
   @JsonSetter("ConsumedMaterials")
-  public void setConsumedMaterials(ConsumedMaterial[] consumedMaterials) {
+  public MaintenancePerformed setConsumedMaterials(ConsumedMaterial[] consumedMaterials) {
     this.consumedMaterials = consumedMaterials;
+    return this;
   }
 
   /**
@@ -190,8 +194,9 @@ public class MaintenancePerformed extends CFXMessage {
    * @param tasks the value
    */
   @JsonSetter("Tasks")
-  public void setTasks(MaintenanceTask[] tasks) {
+  public MaintenancePerformed setTasks(MaintenanceTask[] tasks) {
     this.tasks = tasks;
+    return this;
   }
 
   /**

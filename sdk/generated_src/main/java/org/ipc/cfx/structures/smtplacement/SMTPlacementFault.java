@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.smtplacement;
 
@@ -46,8 +46,9 @@ public class SMTPlacementFault extends Fault {
    * @param placementFaultType the value
    */
   @JsonSetter("PlacementFaultType")
-  public void setPlacementFaultType(SMTPlacementFaultType placementFaultType) {
+  public SMTPlacementFault setPlacementFaultType(SMTPlacementFaultType placementFaultType) {
     this.placementFaultType = placementFaultType;
+    return this;
   }
 
   /**
@@ -65,8 +66,9 @@ public class SMTPlacementFault extends Fault {
    * @param programStep the value
    */
   @JsonSetter("ProgramStep")
-  public void setProgramStep(int programStep) {
+  public SMTPlacementFault setProgramStep(int programStep) {
     this.programStep = programStep;
+    return this;
   }
 
   /**
@@ -85,8 +87,9 @@ public class SMTPlacementFault extends Fault {
    * @param designator the value
    */
   @JsonSetter("Designator")
-  public void setDesignator(ComponentDesignator designator) {
+  public SMTPlacementFault setDesignator(ComponentDesignator designator) {
     this.designator = designator;
+    return this;
   }
 
   /**
@@ -104,8 +107,9 @@ public class SMTPlacementFault extends Fault {
    * @param materialLocation the value
    */
   @JsonSetter("MaterialLocation")
-  public void setMaterialLocation(MaterialLocation materialLocation) {
+  public SMTPlacementFault setMaterialLocation(MaterialLocation materialLocation) {
     this.materialLocation = materialLocation;
+    return this;
   }
 
   /**
@@ -122,8 +126,9 @@ public class SMTPlacementFault extends Fault {
    * @param headAndNozzle the value
    */
   @JsonSetter("HeadAndNozzle")
-  public void setHeadAndNozzle(SMTHeadAndNozzle headAndNozzle) {
+  public SMTPlacementFault setHeadAndNozzle(SMTHeadAndNozzle headAndNozzle) {
     this.headAndNozzle = headAndNozzle;
+    return this;
   }
 
   /**

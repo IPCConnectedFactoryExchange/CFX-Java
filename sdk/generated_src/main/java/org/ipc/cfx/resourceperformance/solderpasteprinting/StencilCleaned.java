@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.resourceperformance.solderpasteprinting;
 
@@ -58,8 +58,9 @@ public class StencilCleaned extends CFXMessage {
    * @param stencil the value
    */
   @JsonSetter("Stencil")
-  public void setStencil(SMTStencil stencil) {
+  public StencilCleaned setStencil(SMTStencil stencil) {
     this.stencil = stencil;
+    return this;
   }
 
   /**
@@ -76,8 +77,9 @@ public class StencilCleaned extends CFXMessage {
    * @param stencilCleanMode the value
    */
   @JsonSetter("StencilCleanMode")
-  public void setStencilCleanMode(SMTStencilCleanMode stencilCleanMode) {
+  public StencilCleaned setStencilCleanMode(SMTStencilCleanMode stencilCleanMode) {
     this.stencilCleanMode = stencilCleanMode;
+    return this;
   }
 
   /**
@@ -95,8 +97,9 @@ public class StencilCleaned extends CFXMessage {
    * @param timeSinceLastClean the value
    */
   @JsonSetter("TimeSinceLastClean")
-  public void setTimeSinceLastClean(long timeSinceLastClean) {
+  public StencilCleaned setTimeSinceLastClean(long timeSinceLastClean) {
     this.timeSinceLastClean = timeSinceLastClean;
+    return this;
   }
 
   /**
@@ -115,8 +118,9 @@ public class StencilCleaned extends CFXMessage {
    * @param cyclesSinceLastClean the value
    */
   @JsonSetter("CyclesSinceLastClean")
-  public void setCyclesSinceLastClean(int cyclesSinceLastClean) {
+  public StencilCleaned setCyclesSinceLastClean(int cyclesSinceLastClean) {
     this.cyclesSinceLastClean = cyclesSinceLastClean;
+    return this;
   }
 
   /**
@@ -135,8 +139,9 @@ public class StencilCleaned extends CFXMessage {
    * @param stencilCleanCycles the value
    */
   @JsonSetter("StencilCleanCycles")
-  public void setStencilCleanCycles(int stencilCleanCycles) {
+  public StencilCleaned setStencilCleanCycles(int stencilCleanCycles) {
     this.stencilCleanCycles = stencilCleanCycles;
+    return this;
   }
 
   /**
@@ -154,8 +159,9 @@ public class StencilCleaned extends CFXMessage {
    * @param stencilCleanTime the value
    */
   @JsonSetter("StencilCleanTime")
-  public void setStencilCleanTime(long stencilCleanTime) {
+  public StencilCleaned setStencilCleanTime(long stencilCleanTime) {
     this.stencilCleanTime = stencilCleanTime;
+    return this;
   }
 
   /**

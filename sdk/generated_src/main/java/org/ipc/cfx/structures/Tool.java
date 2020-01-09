@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -59,8 +59,9 @@ public class Tool {
    * @param uniqueIdentifier the value
    */
   @JsonSetter("UniqueIdentifier")
-  public void setUniqueIdentifier(String uniqueIdentifier) {
+  public Tool setUniqueIdentifier(String uniqueIdentifier) {
     this.uniqueIdentifier = uniqueIdentifier;
+    return this;
   }
 
   /**
@@ -78,8 +79,9 @@ public class Tool {
    * @param name the value
    */
   @JsonSetter("Name")
-  public void setName(String name) {
+  public Tool setName(String name) {
     this.name = name;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.transport;
 
@@ -40,8 +40,9 @@ public class AmqpChannelAddress {
             amqps://myamqpbroker.company1.com:8856, etc.).
    * @param uri the value
    */
-  public void setUri(URI uri) {
+  public AmqpChannelAddress setUri(URI uri) {
     this.uri = uri;
+    return this;
   }
 
   /**
@@ -58,8 +59,9 @@ public class AmqpChannelAddress {
    * The AMQP 1.0 source or target address (eg.  /exchange/exchange1, /queue/queue1, etc.)
    * @param address the value
    */
-  public void setAddress(String address) {
+  public AmqpChannelAddress setAddress(String address) {
     this.address = address;
+    return this;
   }
 
   /**

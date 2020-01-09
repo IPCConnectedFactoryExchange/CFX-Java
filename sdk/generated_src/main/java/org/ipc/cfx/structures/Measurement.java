@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -63,8 +63,9 @@ public class Measurement {
    * @param uniqueIdentifier the value
    */
   @JsonSetter("UniqueIdentifier")
-  public void setUniqueIdentifier(String uniqueIdentifier) {
+  public Measurement setUniqueIdentifier(String uniqueIdentifier) {
     this.uniqueIdentifier = uniqueIdentifier;
+    return this;
   }
 
   /**
@@ -83,8 +84,9 @@ public class Measurement {
    * @param measurementName the value
    */
   @JsonSetter("MeasurementName")
-  public void setMeasurementName(String measurementName) {
+  public Measurement setMeasurementName(String measurementName) {
     this.measurementName = measurementName;
+    return this;
   }
 
   /**
@@ -102,8 +104,9 @@ public class Measurement {
    * @param timeRecorded the value
    */
   @JsonSetter("TimeRecorded")
-  public void setTimeRecorded(Date timeRecorded) {
+  public Measurement setTimeRecorded(Date timeRecorded) {
     this.timeRecorded = timeRecorded;
+    return this;
   }
 
   /**
@@ -122,8 +125,9 @@ public class Measurement {
    * @param sequence the value
    */
   @JsonSetter("Sequence")
-  public void setSequence(int sequence) {
+  public Measurement setSequence(int sequence) {
     this.sequence = sequence;
+    return this;
   }
 
   /**
@@ -142,8 +146,9 @@ public class Measurement {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(TestResult result) {
+  public Measurement setResult(TestResult result) {
     this.result = result;
+    return this;
   }
 
   /**
@@ -160,8 +165,9 @@ public class Measurement {
    * @param verification the value
    */
   @JsonSetter("Verification")
-  public void setVerification(VerificationResult verification) {
+  public Measurement setVerification(VerificationResult verification) {
     this.verification = verification;
+    return this;
   }
 
   /**
@@ -179,8 +185,9 @@ public class Measurement {
    * @param cRDs the value
    */
   @JsonSetter("CRDs")
-  public void setCRDs(String cRDs) {
+  public Measurement setCRDs(String cRDs) {
     this.cRDs = cRDs;
+    return this;
   }
 
   /**

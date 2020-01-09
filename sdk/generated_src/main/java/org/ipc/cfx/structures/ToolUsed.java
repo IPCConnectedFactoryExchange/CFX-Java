@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -42,8 +42,9 @@ public class ToolUsed {
    * @param unitIdentifier the value
    */
   @JsonSetter("UnitIdentifier")
-  public void setUnitIdentifier(String unitIdentifier) {
+  public ToolUsed setUnitIdentifier(String unitIdentifier) {
     this.unitIdentifier = unitIdentifier;
+    return this;
   }
 
   /**
@@ -61,8 +62,9 @@ public class ToolUsed {
    * @param unitPositionNumber the value
    */
   @JsonSetter("UnitPositionNumber")
-  public void setUnitPositionNumber(Integer unitPositionNumber) {
+  public ToolUsed setUnitPositionNumber(Integer unitPositionNumber) {
     this.unitPositionNumber = unitPositionNumber;
+    return this;
   }
 
   /**
@@ -79,8 +81,9 @@ public class ToolUsed {
    * @param tool the value
    */
   @JsonSetter("Tool")
-  public void setTool(Tool tool) {
+  public ToolUsed setTool(Tool tool) {
     this.tool = tool;
+    return this;
   }
 
   /**
@@ -97,8 +100,9 @@ public class ToolUsed {
    * @param usageCycles the value
    */
   @JsonSetter("UsageCycles")
-  public void setUsageCycles(int usageCycles) {
+  public ToolUsed setUsageCycles(int usageCycles) {
     this.usageCycles = usageCycles;
+    return this;
   }
 
   /**
@@ -115,8 +119,9 @@ public class ToolUsed {
    * @param installedComponents the value
    */
   @JsonSetter("InstalledComponents")
-  public void setInstalledComponents(InstalledComponent[] installedComponents) {
+  public ToolUsed setInstalledComponents(InstalledComponent[] installedComponents) {
     this.installedComponents = installedComponents;
+    return this;
   }
 
   /**

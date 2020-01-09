@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -53,8 +53,9 @@ public class Recipe {
    * @param name the value
    */
   @JsonSetter("Name")
-  public void setName(String name) {
+  public Recipe setName(String name) {
     this.name = name;
+    return this;
   }
 
   /**
@@ -73,8 +74,9 @@ public class Recipe {
    * @param revision the value
    */
   @JsonSetter("Revision")
-  public void setRevision(String revision) {
+  public Recipe setRevision(String revision) {
     this.revision = revision;
+    return this;
   }
 
   /**
@@ -94,8 +96,9 @@ public class Recipe {
    * @param expectedCycleTime the value
    */
   @JsonSetter("ExpectedCycleTime")
-  public void setExpectedCycleTime(double expectedCycleTime) {
+  public Recipe setExpectedCycleTime(double expectedCycleTime) {
     this.expectedCycleTime = expectedCycleTime;
+    return this;
   }
 
   /**
@@ -116,8 +119,9 @@ public class Recipe {
    * @param expectedUnitsPerWorkTransaction the value
    */
   @JsonSetter("ExpectedUnitsPerWorkTransaction")
-  public void setExpectedUnitsPerWorkTransaction(double expectedUnitsPerWorkTransaction) {
+  public Recipe setExpectedUnitsPerWorkTransaction(double expectedUnitsPerWorkTransaction) {
     this.expectedUnitsPerWorkTransaction = expectedUnitsPerWorkTransaction;
+    return this;
   }
 
   /**
@@ -136,8 +140,9 @@ public class Recipe {
    * @param mimeType the value
    */
   @JsonSetter("MimeType")
-  public void setMimeType(String mimeType) {
+  public Recipe setMimeType(String mimeType) {
     this.mimeType = mimeType;
+    return this;
   }
 
   /**
@@ -155,8 +160,9 @@ public class Recipe {
    * @param recipeData the value
    */
   @JsonSetter("RecipeData")
-  public void setRecipeData(Byte[] recipeData) {
+  public Recipe setRecipeData(Byte[] recipeData) {
     this.recipeData = recipeData;
+    return this;
   }
 
   /**

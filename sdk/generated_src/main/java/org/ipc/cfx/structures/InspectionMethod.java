@@ -17,17 +17,18 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
 import com.fasterxml.jackson.annotation.JsonValue;
-// assembly CFX : version = 1.1.3.0
+// assembly CFX : version = 1.1.6.0
 public enum InspectionMethod {
   HUMAN("Human"),
   AOI("AOI"),
-  SPI("SPI");
+  SPI("SPI"),
+  AXI("AXI");
   private String text;
 
   private InspectionMethod(String text) {

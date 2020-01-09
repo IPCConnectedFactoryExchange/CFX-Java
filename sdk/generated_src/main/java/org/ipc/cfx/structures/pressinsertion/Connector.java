@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pressinsertion;
 
@@ -52,8 +52,9 @@ public class Connector extends ComponentDesignator {
    * @param connectorTool the value
    */
   @JsonSetter("ConnectorTool")
-  public void setConnectorTool(PressTool connectorTool) {
+  public Connector setConnectorTool(PressTool connectorTool) {
     this.connectorTool = connectorTool;
+    return this;
   }
 
   /**
@@ -70,8 +71,9 @@ public class Connector extends ComponentDesignator {
    * @param profileApplied the value
    */
   @JsonSetter("ProfileApplied")
-  public void setProfileApplied(PressProfile profileApplied) {
+  public Connector setProfileApplied(PressProfile profileApplied) {
     this.profileApplied = profileApplied;
+    return this;
   }
 
   /**
@@ -88,8 +90,9 @@ public class Connector extends ComponentDesignator {
    * @param pinCount the value
    */
   @JsonSetter("PinCount")
-  public void setPinCount(int pinCount) {
+  public Connector setPinCount(int pinCount) {
     this.pinCount = pinCount;
+    return this;
   }
 
   /**
@@ -106,8 +109,9 @@ public class Connector extends ComponentDesignator {
    * @param connectorImage the value
    */
   @JsonSetter("ConnectorImage")
-  public void setConnectorImage(Image connectorImage) {
+  public Connector setConnectorImage(Image connectorImage) {
     this.connectorImage = connectorImage;
+    return this;
   }
 
   /**
@@ -124,8 +128,9 @@ public class Connector extends ComponentDesignator {
    * @param unseatedTop the value
    */
   @JsonSetter("UnseatedTop")
-  public void setUnseatedTop(double unseatedTop) {
+  public Connector setUnseatedTop(double unseatedTop) {
     this.unseatedTop = unseatedTop;
+    return this;
   }
 
   /**
@@ -142,8 +147,9 @@ public class Connector extends ComponentDesignator {
    * @param seatedHeight the value
    */
   @JsonSetter("SeatedHeight")
-  public void setSeatedHeight(double seatedHeight) {
+  public Connector setSeatedHeight(double seatedHeight) {
     this.seatedHeight = seatedHeight;
+    return this;
   }
 
   /**
@@ -160,8 +166,9 @@ public class Connector extends ComponentDesignator {
    * @param baseThickness the value
    */
   @JsonSetter("BaseThickness")
-  public void setBaseThickness(double baseThickness) {
+  public Connector setBaseThickness(double baseThickness) {
     this.baseThickness = baseThickness;
+    return this;
   }
 
   /**
@@ -178,8 +185,9 @@ public class Connector extends ComponentDesignator {
    * @param flatrockTooling the value
    */
   @JsonSetter("FlatrockTooling")
-  public void setFlatrockTooling(boolean flatrockTooling) {
+  public Connector setFlatrockTooling(boolean flatrockTooling) {
     this.flatrockTooling = flatrockTooling;
+    return this;
   }
 
   /**
@@ -196,8 +204,9 @@ public class Connector extends ComponentDesignator {
    * @param forces the value
    */
   @JsonSetter("Forces")
-  public void setForces(ConnectorForces forces) {
+  public Connector setForces(ConnectorForces forces) {
     this.forces = forces;
+    return this;
   }
 
   /**
@@ -214,8 +223,9 @@ public class Connector extends ComponentDesignator {
    * @param manufacturerData the value
    */
   @JsonSetter("ManufacturerData")
-  public void setManufacturerData(Manufacturer manufacturerData) {
+  public Connector setManufacturerData(Manufacturer manufacturerData) {
     this.manufacturerData = manufacturerData;
+    return this;
   }
 
   /**
@@ -232,8 +242,9 @@ public class Connector extends ComponentDesignator {
    * @param group the value
    */
   @JsonSetter("Group")
-  public void setGroup(String group) {
+  public Connector setGroup(String group) {
     this.group = group;
+    return this;
   }
 
   /**
@@ -251,8 +262,9 @@ public class Connector extends ComponentDesignator {
    * @param parsSetting the value
    */
   @JsonSetter("ParsSetting")
-  public void setParsSetting(Pars parsSetting) {
+  public Connector setParsSetting(Pars parsSetting) {
     this.parsSetting = parsSetting;
+    return this;
   }
 
   /**
@@ -269,8 +281,9 @@ public class Connector extends ComponentDesignator {
    * @param sPCSetting the value
    */
   @JsonSetter("SPCSetting")
-  public void setSPCSetting(SPC sPCSetting) {
+  public Connector setSPCSetting(SPC sPCSetting) {
     this.sPCSetting = sPCSetting;
+    return this;
   }
 
   /**

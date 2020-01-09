@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -42,8 +42,9 @@ public class InspectedUnit {
    * @param unitIdentifier the value
    */
   @JsonSetter("UnitIdentifier")
-  public void setUnitIdentifier(String unitIdentifier) {
+  public InspectedUnit setUnitIdentifier(String unitIdentifier) {
     this.unitIdentifier = unitIdentifier;
+    return this;
   }
 
   /**
@@ -61,8 +62,9 @@ public class InspectedUnit {
    * @param unitPositionNumber the value
    */
   @JsonSetter("UnitPositionNumber")
-  public void setUnitPositionNumber(Integer unitPositionNumber) {
+  public InspectedUnit setUnitPositionNumber(Integer unitPositionNumber) {
     this.unitPositionNumber = unitPositionNumber;
+    return this;
   }
 
   /**
@@ -79,8 +81,9 @@ public class InspectedUnit {
    * @param overallResult the value
    */
   @JsonSetter("OverallResult")
-  public void setOverallResult(TestResult overallResult) {
+  public InspectedUnit setOverallResult(TestResult overallResult) {
     this.overallResult = overallResult;
+    return this;
   }
 
   /**
@@ -97,8 +100,9 @@ public class InspectedUnit {
    * @param verification the value
    */
   @JsonSetter("Verification")
-  public void setVerification(VerificationResult verification) {
+  public InspectedUnit setVerification(VerificationResult verification) {
     this.verification = verification;
+    return this;
   }
 
   /**
@@ -115,8 +119,9 @@ public class InspectedUnit {
    * @param inspections the value
    */
   @JsonSetter("Inspections")
-  public void setInspections(Inspection[] inspections) {
+  public InspectedUnit setInspections(Inspection[] inspections) {
     this.inspections = inspections;
+    return this;
   }
 
   /**

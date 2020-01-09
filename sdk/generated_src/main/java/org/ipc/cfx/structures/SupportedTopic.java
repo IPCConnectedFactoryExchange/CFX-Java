@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -40,8 +40,9 @@ public class SupportedTopic {
    * @param topicName the value
    */
   @JsonSetter("TopicName")
-  public void setTopicName(String topicName) {
+  public SupportedTopic setTopicName(String topicName) {
     this.topicName = topicName;
+    return this;
   }
 
   /**
@@ -59,8 +60,9 @@ public class SupportedTopic {
    * @param topicSupportType the value
    */
   @JsonSetter("TopicSupportType")
-  public void setTopicSupportType(TopicSupportType topicSupportType) {
+  public SupportedTopic setTopicSupportType(TopicSupportType topicSupportType) {
     this.topicSupportType = topicSupportType;
+    return this;
   }
 
   /**
@@ -79,8 +81,9 @@ public class SupportedTopic {
    * @param supportedMessages the value
    */
   @JsonSetter("SupportedMessages")
-  public void setSupportedMessages(String[] supportedMessages) {
+  public SupportedTopic setSupportedMessages(String[] supportedMessages) {
     this.supportedMessages = supportedMessages;
+    return this;
   }
 
   /**

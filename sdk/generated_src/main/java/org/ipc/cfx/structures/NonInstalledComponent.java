@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -54,8 +54,9 @@ public class NonInstalledComponent {
    * @param referenceDesignator the value
    */
   @JsonSetter("ReferenceDesignator")
-  public void setReferenceDesignator(String referenceDesignator) {
+  public NonInstalledComponent setReferenceDesignator(String referenceDesignator) {
     this.referenceDesignator = referenceDesignator;
+    return this;
   }
 
   /**
@@ -73,8 +74,9 @@ public class NonInstalledComponent {
    * @param nonInstallationTime the value
    */
   @JsonSetter("NonInstallationTime")
-  public void setNonInstallationTime(Date nonInstallationTime) {
+  public NonInstalledComponent setNonInstallationTime(Date nonInstallationTime) {
     this.nonInstallationTime = nonInstallationTime;
+    return this;
   }
 
   /**
@@ -91,8 +93,9 @@ public class NonInstalledComponent {
    * @param location the value
    */
   @JsonSetter("Location")
-  public void setLocation(NonInstalledComponentLocation location) {
+  public NonInstalledComponent setLocation(NonInstalledComponentLocation location) {
     this.location = location;
+    return this;
   }
 
   /**
@@ -109,8 +112,9 @@ public class NonInstalledComponent {
    * @param rejectionBoxId the value
    */
   @JsonSetter("RejectionBoxId")
-  public void setRejectionBoxId(String rejectionBoxId) {
+  public NonInstalledComponent setRejectionBoxId(String rejectionBoxId) {
     this.rejectionBoxId = rejectionBoxId;
+    return this;
   }
 
   /**
@@ -128,8 +132,9 @@ public class NonInstalledComponent {
    * @param rejectionComment the value
    */
   @JsonSetter("RejectionComment")
-  public void setRejectionComment(String rejectionComment) {
+  public NonInstalledComponent setRejectionComment(String rejectionComment) {
     this.rejectionComment = rejectionComment;
+    return this;
   }
 
   /**
@@ -147,8 +152,9 @@ public class NonInstalledComponent {
    * @param rejectionReason the value
    */
   @JsonSetter("RejectionReason")
-  public void setRejectionReason(RejectionReason rejectionReason) {
+  public NonInstalledComponent setRejectionReason(RejectionReason rejectionReason) {
     this.rejectionReason = rejectionReason;
+    return this;
   }
 
   /**
@@ -165,8 +171,9 @@ public class NonInstalledComponent {
    * @param rejectionDetails the value
    */
   @JsonSetter("RejectionDetails")
-  public void setRejectionDetails(RejectionDetails rejectionDetails) {
+  public NonInstalledComponent setRejectionDetails(RejectionDetails rejectionDetails) {
     this.rejectionDetails = rejectionDetails;
+    return this;
   }
 
   /**

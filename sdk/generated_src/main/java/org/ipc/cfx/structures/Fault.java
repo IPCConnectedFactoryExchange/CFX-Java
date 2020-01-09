@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -70,8 +70,9 @@ public class Fault {
    * @param cause the value
    */
   @JsonSetter("Cause")
-  public void setCause(FaultCause cause) {
+  public Fault setCause(FaultCause cause) {
     this.cause = cause;
+    return this;
   }
 
   /**
@@ -88,8 +89,9 @@ public class Fault {
    * @param severity the value
    */
   @JsonSetter("Severity")
-  public void setSeverity(FaultSeverity severity) {
+  public Fault setSeverity(FaultSeverity severity) {
     this.severity = severity;
+    return this;
   }
 
   /**
@@ -106,8 +108,9 @@ public class Fault {
    * @param faultCode the value
    */
   @JsonSetter("FaultCode")
-  public void setFaultCode(String faultCode) {
+  public Fault setFaultCode(String faultCode) {
     this.faultCode = faultCode;
+    return this;
   }
 
   /**
@@ -126,8 +129,9 @@ public class Fault {
    * @param faultOccurrenceId the value
    */
   @JsonSetter("FaultOccurrenceId")
-  public void setFaultOccurrenceId(UUID faultOccurrenceId) {
+  public Fault setFaultOccurrenceId(UUID faultOccurrenceId) {
     this.faultOccurrenceId = faultOccurrenceId;
+    return this;
   }
 
   /**
@@ -145,8 +149,9 @@ public class Fault {
    * @param lane the value
    */
   @JsonSetter("Lane")
-  public void setLane(Integer lane) {
+  public Fault setLane(Integer lane) {
     this.lane = lane;
+    return this;
   }
 
   /**
@@ -163,8 +168,9 @@ public class Fault {
    * @param stage the value
    */
   @JsonSetter("Stage")
-  public void setStage(Stage stage) {
+  public Fault setStage(Stage stage) {
     this.stage = stage;
+    return this;
   }
 
   /**
@@ -182,8 +188,9 @@ public class Fault {
    * @param sideLocation the value
    */
   @JsonSetter("SideLocation")
-  public void setSideLocation(SideLocation sideLocation) {
+  public Fault setSideLocation(SideLocation sideLocation) {
     this.sideLocation = sideLocation;
+    return this;
   }
 
   /**
@@ -201,8 +208,9 @@ public class Fault {
    * @param accessType the value
    */
   @JsonSetter("AccessType")
-  public void setAccessType(AccessType accessType) {
+  public Fault setAccessType(AccessType accessType) {
     this.accessType = accessType;
+    return this;
   }
 
   /**
@@ -220,8 +228,9 @@ public class Fault {
    * @param description the value
    */
   @JsonSetter("Description")
-  public void setDescription(String description) {
+  public Fault setDescription(String description) {
     this.description = description;
+    return this;
   }
 
   /**
@@ -260,8 +269,9 @@ public class Fault {
    * @param descriptionTranslations the value
    */
   @JsonSetter("DescriptionTranslations")
-  public void setDescriptionTranslations(Map<String, String> descriptionTranslations) {
+  public Fault setDescriptionTranslations(Map<String, String> descriptionTranslations) {
     this.descriptionTranslations = descriptionTranslations;
+    return this;
   }
 
   /**
@@ -298,8 +308,9 @@ public class Fault {
    * @param occurredAt the value
    */
   @JsonSetter("OccurredAt")
-  public void setOccurredAt(Date occurredAt) {
+  public Fault setOccurredAt(Date occurredAt) {
     this.occurredAt = occurredAt;
+    return this;
   }
 
   /**
@@ -319,8 +330,9 @@ public class Fault {
    * @param dueDateTime the value
    */
   @JsonSetter("DueDateTime")
-  public void setDueDateTime(Date dueDateTime) {
+  public Fault setDueDateTime(Date dueDateTime) {
     this.dueDateTime = dueDateTime;
+    return this;
   }
 
   /**

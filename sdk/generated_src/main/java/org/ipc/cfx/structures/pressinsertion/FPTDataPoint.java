@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pressinsertion;
 
@@ -42,8 +42,9 @@ public class FPTDataPoint {
    * @param totalForce the value
    */
   @JsonSetter("TotalForce")
-  public void setTotalForce(double totalForce) {
+  public FPTDataPoint setTotalForce(double totalForce) {
     this.totalForce = totalForce;
+    return this;
   }
 
   /**
@@ -60,8 +61,9 @@ public class FPTDataPoint {
    * @param forceA the value
    */
   @JsonSetter("ForceA")
-  public void setForceA(double forceA) {
+  public FPTDataPoint setForceA(double forceA) {
     this.forceA = forceA;
+    return this;
   }
 
   /**
@@ -78,8 +80,9 @@ public class FPTDataPoint {
    * @param forceB the value
    */
   @JsonSetter("ForceB")
-  public void setForceB(double forceB) {
+  public FPTDataPoint setForceB(double forceB) {
     this.forceB = forceB;
+    return this;
   }
 
   /**
@@ -96,8 +99,9 @@ public class FPTDataPoint {
    * @param position the value
    */
   @JsonSetter("Position")
-  public void setPosition(double position) {
+  public FPTDataPoint setPosition(double position) {
     this.position = position;
+    return this;
   }
 
   /**
@@ -114,8 +118,9 @@ public class FPTDataPoint {
    * @param time the value
    */
   @JsonSetter("Time")
-  public void setTime(double time) {
+  public FPTDataPoint setTime(double time) {
     this.time = time;
+    return this;
   }
 
   /**

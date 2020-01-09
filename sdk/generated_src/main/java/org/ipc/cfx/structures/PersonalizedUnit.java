@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -40,8 +40,9 @@ public class PersonalizedUnit {
    * @param unitIdentifier the value
    */
   @JsonSetter("UnitIdentifier")
-  public void setUnitIdentifier(String unitIdentifier) {
+  public PersonalizedUnit setUnitIdentifier(String unitIdentifier) {
     this.unitIdentifier = unitIdentifier;
+    return this;
   }
 
   /**
@@ -59,8 +60,9 @@ public class PersonalizedUnit {
    * @param unitPositionNumber the value
    */
   @JsonSetter("UnitPositionNumber")
-  public void setUnitPositionNumber(Integer unitPositionNumber) {
+  public PersonalizedUnit setUnitPositionNumber(Integer unitPositionNumber) {
     this.unitPositionNumber = unitPositionNumber;
+    return this;
   }
 
   /**
@@ -77,8 +79,9 @@ public class PersonalizedUnit {
    * @param characteristics the value
    */
   @JsonSetter("Characteristics")
-  public void setCharacteristics(Characteristic[] characteristics) {
+  public PersonalizedUnit setCharacteristics(Characteristic[] characteristics) {
     this.characteristics = characteristics;
+    return this;
   }
 
   /**

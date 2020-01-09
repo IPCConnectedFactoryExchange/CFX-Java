@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -41,8 +41,9 @@ public class BooleanMeasurement extends Measurement {
    * @param value the value
    */
   @JsonSetter("Value")
-  public void setValue(boolean value) {
+  public BooleanMeasurement setValue(boolean value) {
     this.value = value;
+    return this;
   }
 
   /**
@@ -59,8 +60,9 @@ public class BooleanMeasurement extends Measurement {
    * @param expectedValue the value
    */
   @JsonSetter("ExpectedValue")
-  public void setExpectedValue(boolean expectedValue) {
+  public BooleanMeasurement setExpectedValue(boolean expectedValue) {
     this.expectedValue = expectedValue;
+    return this;
   }
 
   /**

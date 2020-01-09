@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -43,8 +43,9 @@ public class OperatingRequirements {
    * @param minimumHumidity the value
    */
   @JsonSetter("MinimumHumidity")
-  public void setMinimumHumidity(double minimumHumidity) {
+  public OperatingRequirements setMinimumHumidity(double minimumHumidity) {
     this.minimumHumidity = minimumHumidity;
+    return this;
   }
 
   /**
@@ -63,8 +64,9 @@ public class OperatingRequirements {
    * @param maximumHumidity the value
    */
   @JsonSetter("MaximumHumidity")
-  public void setMaximumHumidity(double maximumHumidity) {
+  public OperatingRequirements setMaximumHumidity(double maximumHumidity) {
     this.maximumHumidity = maximumHumidity;
+    return this;
   }
 
   /**
@@ -83,8 +85,9 @@ public class OperatingRequirements {
    * @param minimumTemperature the value
    */
   @JsonSetter("MinimumTemperature")
-  public void setMinimumTemperature(double minimumTemperature) {
+  public OperatingRequirements setMinimumTemperature(double minimumTemperature) {
     this.minimumTemperature = minimumTemperature;
+    return this;
   }
 
   /**
@@ -102,8 +105,9 @@ public class OperatingRequirements {
    * @param maximumTemperature the value
    */
   @JsonSetter("MaximumTemperature")
-  public void setMaximumTemperature(double maximumTemperature) {
+  public OperatingRequirements setMaximumTemperature(double maximumTemperature) {
     this.maximumTemperature = maximumTemperature;
+    return this;
   }
 
   /**

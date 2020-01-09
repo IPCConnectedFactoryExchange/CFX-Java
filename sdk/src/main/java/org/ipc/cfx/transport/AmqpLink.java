@@ -128,4 +128,9 @@ public class AmqpLink {
   public LinkType getLinkType() {
     return linkType;
   }
+  
+  public AmqpLink(String address)
+  {
+      this.address = address;
+  }  
 }

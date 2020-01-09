@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -40,8 +40,9 @@ public class UnitConveyingActivity extends Activity {
    * @param conveyingDistance the value
    */
   @JsonSetter("ConveyingDistance")
-  public void setConveyingDistance(float conveyingDistance) {
+  public UnitConveyingActivity setConveyingDistance(float conveyingDistance) {
     this.conveyingDistance = conveyingDistance;
+    return this;
   }
 
   /**
@@ -58,8 +59,9 @@ public class UnitConveyingActivity extends Activity {
    * @param departureStage the value
    */
   @JsonSetter("DepartureStage")
-  public void setDepartureStage(Stage departureStage) {
+  public UnitConveyingActivity setDepartureStage(Stage departureStage) {
     this.departureStage = departureStage;
+    return this;
   }
 
   /**
@@ -76,8 +78,9 @@ public class UnitConveyingActivity extends Activity {
    * @param arrivalStage the value
    */
   @JsonSetter("ArrivalStage")
-  public void setArrivalStage(Stage arrivalStage) {
+  public UnitConveyingActivity setArrivalStage(Stage arrivalStage) {
     this.arrivalStage = arrivalStage;
+    return this;
   }
 
   /**

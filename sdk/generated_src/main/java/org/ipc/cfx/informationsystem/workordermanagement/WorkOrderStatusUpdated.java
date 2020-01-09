@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:10 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.informationsystem.workordermanagement;
 
@@ -52,8 +52,9 @@ public class WorkOrderStatusUpdated extends CFXMessage {
    * @param workOrderIdentifier the value
    */
   @JsonSetter("WorkOrderIdentifier")
-  public void setWorkOrderIdentifier(WorkOrderIdentifier workOrderIdentifier) {
+  public WorkOrderStatusUpdated setWorkOrderIdentifier(WorkOrderIdentifier workOrderIdentifier) {
     this.workOrderIdentifier = workOrderIdentifier;
+    return this;
   }
 
   /**
@@ -70,8 +71,9 @@ public class WorkOrderStatusUpdated extends CFXMessage {
    * @param newStatus the value
    */
   @JsonSetter("NewStatus")
-  public void setNewStatus(WorkOrderStatus newStatus) {
+  public WorkOrderStatusUpdated setNewStatus(WorkOrderStatus newStatus) {
     this.newStatus = newStatus;
+    return this;
   }
 
   /**
@@ -88,8 +90,9 @@ public class WorkOrderStatusUpdated extends CFXMessage {
    * @param previousStatus the value
    */
   @JsonSetter("PreviousStatus")
-  public void setPreviousStatus(WorkOrderStatus previousStatus) {
+  public WorkOrderStatusUpdated setPreviousStatus(WorkOrderStatus previousStatus) {
     this.previousStatus = previousStatus;
+    return this;
   }
 
   /**

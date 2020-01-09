@@ -22,6 +22,10 @@
  */
 package org.ipc.cfx.transport;
 
+import javax.xml.ws.handler.MessageContext;
+
+import org.ipc.cfx.CFXEnvelope;
+
 import amqp.listener.LinkEndpoint;
 
 /**
@@ -29,5 +33,30 @@ import amqp.listener.LinkEndpoint;
  * original type: CFX.Transport.InternalIncomingLinkEndpoint
  */
 public class InternalIncomingLinkEndpoint extends LinkEndpoint {
+  public InternalIncomingLinkEndpoint(AmqpRequestProcessor requestProcessor, String targetAddress) {
+    parentProcessor = requestProcessor;
+    this.targetAddress = targetAddress;
+  }
 
+  private AmqpRequestProcessor parentProcessor;
+  private String targetAddress;
+
+  public void OnMessage(MessageContext messageContext) {
+//    try {
+//      CFXEnvelope message = AmqpUtilities.EnvelopeFromMessage(messageContext.Message);
+//      if (message != null) {
+//        parentProcessor.fire_OnMessageReceivedFromListener(targetAddress, message);
+//      } else {
+//        AmqpRequestProcessor.logger.warn("Undecodeable message received on listener {0}", targetAddress);
+//      }
+//    } catch (Exception ex) {
+//      AmqpRequestProcessor.logger.error("error", ex);
+//    }
+
+//    messageContext.complete();
+  }
+
+//  public void OnFlow(FlowContext flowContext) {}
+//
+//  public void OnDisposition(DispositionContext dispositionContext) {}
 }

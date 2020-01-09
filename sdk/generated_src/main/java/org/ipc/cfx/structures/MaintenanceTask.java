@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -41,8 +41,9 @@ public class MaintenanceTask {
    * @param task the value
    */
   @JsonSetter("Task")
-  public void setTask(String task) {
+  public MaintenanceTask setTask(String task) {
     this.task = task;
+    return this;
   }
 
   /**
@@ -60,8 +61,9 @@ public class MaintenanceTask {
    * @param taskId the value
    */
   @JsonSetter("TaskId")
-  public void setTaskId(String taskId) {
+  public MaintenanceTask setTaskId(String taskId) {
     this.taskId = taskId;
+    return this;
   }
 
   /**
@@ -79,8 +81,9 @@ public class MaintenanceTask {
    * @param operator the value
    */
   @JsonSetter("Operator")
-  public void setOperator(Operator operator) {
+  public MaintenanceTask setOperator(Operator operator) {
     this.operator = operator;
+    return this;
   }
 
   /**
@@ -97,8 +100,9 @@ public class MaintenanceTask {
    * @param manHoursConsumed the value
    */
   @JsonSetter("ManHoursConsumed")
-  public void setManHoursConsumed(double manHoursConsumed) {
+  public MaintenanceTask setManHoursConsumed(double manHoursConsumed) {
     this.manHoursConsumed = manHoursConsumed;
+    return this;
   }
 
   /**

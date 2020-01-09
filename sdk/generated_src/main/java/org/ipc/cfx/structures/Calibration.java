@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -40,8 +40,9 @@ public class Calibration {
    * @param calibrationCode the value
    */
   @JsonSetter("CalibrationCode")
-  public void setCalibrationCode(String calibrationCode) {
+  public Calibration setCalibrationCode(String calibrationCode) {
     this.calibrationCode = calibrationCode;
+    return this;
   }
 
   /**
@@ -59,8 +60,9 @@ public class Calibration {
    * @param calibrationType the value
    */
   @JsonSetter("CalibrationType")
-  public void setCalibrationType(CalibrationType calibrationType) {
+  public Calibration setCalibrationType(CalibrationType calibrationType) {
     this.calibrationType = calibrationType;
+    return this;
   }
 
   /**
@@ -77,8 +79,9 @@ public class Calibration {
    * @param comments the value
    */
   @JsonSetter("Comments")
-  public void setComments(String comments) {
+  public Calibration setComments(String comments) {
     this.comments = comments;
+    return this;
   }
 
   /**

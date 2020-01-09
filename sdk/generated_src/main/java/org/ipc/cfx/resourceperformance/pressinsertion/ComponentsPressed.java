@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.resourceperformance.pressinsertion;
 
@@ -51,8 +51,9 @@ public class ComponentsPressed extends CFXMessage {
    * @param startTime the value
    */
   @JsonSetter("StartTime")
-  public void setStartTime(Date startTime) {
+  public ComponentsPressed setStartTime(Date startTime) {
     this.startTime = startTime;
+    return this;
   }
 
   /**
@@ -69,8 +70,9 @@ public class ComponentsPressed extends CFXMessage {
    * @param endTime the value
    */
   @JsonSetter("EndTime")
-  public void setEndTime(Date endTime) {
+  public ComponentsPressed setEndTime(Date endTime) {
     this.endTime = endTime;
+    return this;
   }
 
   /**
@@ -87,8 +89,9 @@ public class ComponentsPressed extends CFXMessage {
    * @param totalComponentsPressed the value
    */
   @JsonSetter("TotalComponentsPressed")
-  public void setTotalComponentsPressed(int totalComponentsPressed) {
+  public ComponentsPressed setTotalComponentsPressed(int totalComponentsPressed) {
     this.totalComponentsPressed = totalComponentsPressed;
+    return this;
   }
 
   /**
@@ -105,8 +108,9 @@ public class ComponentsPressed extends CFXMessage {
    * @param totalComponentsNotPressed the value
    */
   @JsonSetter("TotalComponentsNotPressed")
-  public void setTotalComponentsNotPressed(int totalComponentsNotPressed) {
+  public ComponentsPressed setTotalComponentsNotPressed(int totalComponentsNotPressed) {
     this.totalComponentsNotPressed = totalComponentsNotPressed;
+    return this;
   }
 
   /**

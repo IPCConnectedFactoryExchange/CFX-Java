@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production;
 
@@ -58,8 +58,9 @@ public class GetRecipeResponse extends CFXMessage {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(RequestResult result) {
+  public GetRecipeResponse setResult(RequestResult result) {
     this.result = result;
+    return this;
   }
 
   /**
@@ -77,8 +78,9 @@ public class GetRecipeResponse extends CFXMessage {
    * @param recipe the value
    */
   @JsonSetter("Recipe")
-  public void setRecipe(Recipe recipe) {
+  public GetRecipeResponse setRecipe(Recipe recipe) {
     this.recipe = recipe;
+    return this;
   }
 
   /**

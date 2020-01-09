@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -53,8 +53,9 @@ public class UnitAlignmentActivity extends Activity {
    * @param dX the value
    */
   @JsonSetter("DX")
-  public void setDX(double dX) {
+  public UnitAlignmentActivity setDX(double dX) {
     this.dX = dX;
+    return this;
   }
 
   /**
@@ -71,8 +72,9 @@ public class UnitAlignmentActivity extends Activity {
    * @param dY the value
    */
   @JsonSetter("DY")
-  public void setDY(double dY) {
+  public UnitAlignmentActivity setDY(double dY) {
     this.dY = dY;
+    return this;
   }
 
   /**
@@ -89,8 +91,9 @@ public class UnitAlignmentActivity extends Activity {
    * @param dZ the value
    */
   @JsonSetter("DZ")
-  public void setDZ(double dZ) {
+  public UnitAlignmentActivity setDZ(double dZ) {
     this.dZ = dZ;
+    return this;
   }
 
   /**
@@ -107,8 +110,9 @@ public class UnitAlignmentActivity extends Activity {
    * @param dXY the value
    */
   @JsonSetter("DXY")
-  public void setDXY(double dXY) {
+  public UnitAlignmentActivity setDXY(double dXY) {
     this.dXY = dXY;
+    return this;
   }
 
   /**
@@ -125,8 +129,9 @@ public class UnitAlignmentActivity extends Activity {
    * @param dZX the value
    */
   @JsonSetter("DZX")
-  public void setDZX(double dZX) {
+  public UnitAlignmentActivity setDZX(double dZX) {
     this.dZX = dZX;
+    return this;
   }
 
   /**
@@ -143,8 +148,9 @@ public class UnitAlignmentActivity extends Activity {
    * @param dZY the value
    */
   @JsonSetter("DZY")
-  public void setDZY(double dZY) {
+  public UnitAlignmentActivity setDZY(double dZY) {
     this.dZY = dZY;
+    return this;
   }
 
   /**

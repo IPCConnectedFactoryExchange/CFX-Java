@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pressinsertion;
 
@@ -44,8 +44,9 @@ public class PressData {
    * @param status the value
    */
   @JsonSetter("Status")
-  public void setStatus(String status) {
+  public PressData setStatus(String status) {
     this.status = status;
+    return this;
   }
 
   /**
@@ -63,8 +64,9 @@ public class PressData {
    * @param terminationMeasurement the value
    */
   @JsonSetter("TerminationMeasurement")
-  public void setTerminationMeasurement(String terminationMeasurement) {
+  public PressData setTerminationMeasurement(String terminationMeasurement) {
     this.terminationMeasurement = terminationMeasurement;
+    return this;
   }
 
   /**
@@ -82,8 +84,9 @@ public class PressData {
    * @param sPCAverageForce the value
    */
   @JsonSetter("SPCAverageForce")
-  public void setSPCAverageForce(double sPCAverageForce) {
+  public PressData setSPCAverageForce(double sPCAverageForce) {
     this.sPCAverageForce = sPCAverageForce;
+    return this;
   }
 
   /**
@@ -100,8 +103,9 @@ public class PressData {
    * @param heightAtMaxForce the value
    */
   @JsonSetter("HeightAtMaxForce")
-  public void setHeightAtMaxForce(double heightAtMaxForce) {
+  public PressData setHeightAtMaxForce(double heightAtMaxForce) {
     this.heightAtMaxForce = heightAtMaxForce;
+    return this;
   }
 
   /**
@@ -118,8 +122,9 @@ public class PressData {
    * @param maxForce the value
    */
   @JsonSetter("MaxForce")
-  public void setMaxForce(double maxForce) {
+  public PressData setMaxForce(double maxForce) {
     this.maxForce = maxForce;
+    return this;
   }
 
   /**
@@ -136,8 +141,9 @@ public class PressData {
    * @param terminationHeight the value
    */
   @JsonSetter("TerminationHeight")
-  public void setTerminationHeight(double terminationHeight) {
+  public PressData setTerminationHeight(double terminationHeight) {
     this.terminationHeight = terminationHeight;
+    return this;
   }
 
   /**
@@ -154,8 +160,9 @@ public class PressData {
    * @param terminationForce the value
    */
   @JsonSetter("TerminationForce")
-  public void setTerminationForce(double terminationForce) {
+  public PressData setTerminationForce(double terminationForce) {
     this.terminationForce = terminationForce;
+    return this;
   }
 
   /**

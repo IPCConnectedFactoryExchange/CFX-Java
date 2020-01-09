@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -64,8 +64,9 @@ public class Activity {
    * @param timeStamp the value
    */
   @JsonSetter("TimeStamp")
-  public void setTimeStamp(Date timeStamp) {
+  public Activity setTimeStamp(Date timeStamp) {
     this.timeStamp = timeStamp;
+    return this;
   }
 
   /**
@@ -84,8 +85,9 @@ public class Activity {
    * @param activityInstanceId the value
    */
   @JsonSetter("ActivityInstanceId")
-  public void setActivityInstanceId(UUID activityInstanceId) {
+  public Activity setActivityInstanceId(UUID activityInstanceId) {
     this.activityInstanceId = activityInstanceId;
+    return this;
   }
 
   /**
@@ -103,8 +105,9 @@ public class Activity {
    * @param activityState the value
    */
   @JsonSetter("ActivityState")
-  public void setActivityState(ActivityState activityState) {
+  public Activity setActivityState(ActivityState activityState) {
     this.activityState = activityState;
+    return this;
   }
 
   /**
@@ -121,8 +124,9 @@ public class Activity {
    * @param activityName the value
    */
   @JsonSetter("ActivityName")
-  public void setActivityName(String activityName) {
+  public Activity setActivityName(String activityName) {
     this.activityName = activityName;
+    return this;
   }
 
   /**
@@ -140,8 +144,9 @@ public class Activity {
    * @param comments the value
    */
   @JsonSetter("Comments")
-  public void setComments(String comments) {
+  public Activity setComments(String comments) {
     this.comments = comments;
+    return this;
   }
 
   /**
@@ -159,8 +164,9 @@ public class Activity {
    * @param valueAddType the value
    */
   @JsonSetter("ValueAddType")
-  public void setValueAddType(ValueAddType valueAddType) {
+  public Activity setValueAddType(ValueAddType valueAddType) {
     this.valueAddType = valueAddType;
+    return this;
   }
 
   /**

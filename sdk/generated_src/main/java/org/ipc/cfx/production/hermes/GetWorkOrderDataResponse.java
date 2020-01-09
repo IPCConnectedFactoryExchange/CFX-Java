@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production.hermes;
 
@@ -49,8 +49,9 @@ public class GetWorkOrderDataResponse extends CFXMessage {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(RequestResult result) {
+  public GetWorkOrderDataResponse setResult(RequestResult result) {
     this.result = result;
+    return this;
   }
 
   /**
@@ -67,8 +68,9 @@ public class GetWorkOrderDataResponse extends CFXMessage {
    * @param workOrderIdentifier the value
    */
   @JsonSetter("WorkOrderIdentifier")
-  public void setWorkOrderIdentifier(WorkOrderIdentifier workOrderIdentifier) {
+  public GetWorkOrderDataResponse setWorkOrderIdentifier(WorkOrderIdentifier workOrderIdentifier) {
     this.workOrderIdentifier = workOrderIdentifier;
+    return this;
   }
 
   /**
@@ -85,8 +87,9 @@ public class GetWorkOrderDataResponse extends CFXMessage {
    * @param productTypeId the value
    */
   @JsonSetter("ProductTypeId")
-  public void setProductTypeId(String productTypeId) {
+  public GetWorkOrderDataResponse setProductTypeId(String productTypeId) {
     this.productTypeId = productTypeId;
+    return this;
   }
 
   /**
@@ -104,8 +107,9 @@ public class GetWorkOrderDataResponse extends CFXMessage {
    * @param length the value
    */
   @JsonSetter("Length")
-  public void setLength(double length) {
+  public GetWorkOrderDataResponse setLength(double length) {
     this.length = length;
+    return this;
   }
 
   /**
@@ -122,8 +126,9 @@ public class GetWorkOrderDataResponse extends CFXMessage {
    * @param width the value
    */
   @JsonSetter("Width")
-  public void setWidth(double width) {
+  public GetWorkOrderDataResponse setWidth(double width) {
     this.width = width;
+    return this;
   }
 
   /**
@@ -140,8 +145,9 @@ public class GetWorkOrderDataResponse extends CFXMessage {
    * @param thickness the value
    */
   @JsonSetter("Thickness")
-  public void setThickness(double thickness) {
+  public GetWorkOrderDataResponse setThickness(double thickness) {
     this.thickness = thickness;
+    return this;
   }
 
   /**
@@ -158,8 +164,9 @@ public class GetWorkOrderDataResponse extends CFXMessage {
    * @param topClearanceHeight the value
    */
   @JsonSetter("TopClearanceHeight")
-  public void setTopClearanceHeight(double topClearanceHeight) {
+  public GetWorkOrderDataResponse setTopClearanceHeight(double topClearanceHeight) {
     this.topClearanceHeight = topClearanceHeight;
+    return this;
   }
 
   /**
@@ -176,8 +183,9 @@ public class GetWorkOrderDataResponse extends CFXMessage {
    * @param bottomClearanceHeight the value
    */
   @JsonSetter("BottomClearanceHeight")
-  public void setBottomClearanceHeight(double bottomClearanceHeight) {
+  public GetWorkOrderDataResponse setBottomClearanceHeight(double bottomClearanceHeight) {
     this.bottomClearanceHeight = bottomClearanceHeight;
+    return this;
   }
 
   /**
@@ -194,8 +202,9 @@ public class GetWorkOrderDataResponse extends CFXMessage {
    * @param weight the value
    */
   @JsonSetter("Weight")
-  public void setWeight(double weight) {
+  public GetWorkOrderDataResponse setWeight(double weight) {
     this.weight = weight;
+    return this;
   }
 
   /**

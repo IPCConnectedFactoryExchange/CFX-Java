@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -43,8 +43,9 @@ public class Head {
    * @param headId the value
    */
   @JsonSetter("HeadId")
-  public void setHeadId(String headId) {
+  public Head setHeadId(String headId) {
     this.headId = headId;
+    return this;
   }
 
   /**
@@ -63,8 +64,9 @@ public class Head {
    * @param headSequence the value
    */
   @JsonSetter("HeadSequence")
-  public void setHeadSequence(int headSequence) {
+  public Head setHeadSequence(int headSequence) {
     this.headSequence = headSequence;
+    return this;
   }
 
   /**
@@ -81,8 +83,9 @@ public class Head {
    * @param headName the value
    */
   @JsonSetter("HeadName")
-  public void setHeadName(String headName) {
+  public Head setHeadName(String headName) {
     this.headName = headName;
+    return this;
   }
 
   /**

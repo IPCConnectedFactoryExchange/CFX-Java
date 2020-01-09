@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -51,8 +51,9 @@ public class ComponentPressureTest {
    * @param expectedValue the value
    */
   @JsonSetter("ExpectedValue")
-  public void setExpectedValue(double expectedValue) {
+  public ComponentPressureTest setExpectedValue(double expectedValue) {
     this.expectedValue = expectedValue;
+    return this;
   }
 
   /**
@@ -69,8 +70,9 @@ public class ComponentPressureTest {
    * @param measuredValue the value
    */
   @JsonSetter("MeasuredValue")
-  public void setMeasuredValue(double measuredValue) {
+  public ComponentPressureTest setMeasuredValue(double measuredValue) {
     this.measuredValue = measuredValue;
+    return this;
   }
 
   /**
@@ -87,8 +89,9 @@ public class ComponentPressureTest {
    * @param toleranceMin the value
    */
   @JsonSetter("ToleranceMin")
-  public void setToleranceMin(double toleranceMin) {
+  public ComponentPressureTest setToleranceMin(double toleranceMin) {
     this.toleranceMin = toleranceMin;
+    return this;
   }
 
   /**
@@ -105,8 +108,9 @@ public class ComponentPressureTest {
    * @param toleranceMax the value
    */
   @JsonSetter("ToleranceMax")
-  public void setToleranceMax(double toleranceMax) {
+  public ComponentPressureTest setToleranceMax(double toleranceMax) {
     this.toleranceMax = toleranceMax;
+    return this;
   }
 
   /**
@@ -123,8 +127,9 @@ public class ComponentPressureTest {
    * @param unit the value
    */
   @JsonSetter("Unit")
-  public void setUnit(String unit) {
+  public ComponentPressureTest setUnit(String unit) {
     this.unit = unit;
+    return this;
   }
 
   /**
@@ -142,8 +147,9 @@ public class ComponentPressureTest {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(boolean result) {
+  public ComponentPressureTest setResult(boolean result) {
     this.result = result;
+    return this;
   }
 
   /**

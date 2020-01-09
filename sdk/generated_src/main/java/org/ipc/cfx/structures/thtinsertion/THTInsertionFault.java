@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.thtinsertion;
 
@@ -45,8 +45,9 @@ public class THTInsertionFault extends Fault {
    * @param insertionFaultType the value
    */
   @JsonSetter("InsertionFaultType")
-  public void setInsertionFaultType(THTInsertionFaultType insertionFaultType) {
+  public THTInsertionFault setInsertionFaultType(THTInsertionFaultType insertionFaultType) {
     this.insertionFaultType = insertionFaultType;
+    return this;
   }
 
   /**
@@ -64,8 +65,9 @@ public class THTInsertionFault extends Fault {
    * @param programStep the value
    */
   @JsonSetter("ProgramStep")
-  public void setProgramStep(int programStep) {
+  public THTInsertionFault setProgramStep(int programStep) {
     this.programStep = programStep;
+    return this;
   }
 
   /**
@@ -84,8 +86,9 @@ public class THTInsertionFault extends Fault {
    * @param designator the value
    */
   @JsonSetter("Designator")
-  public void setDesignator(ComponentDesignator designator) {
+  public THTInsertionFault setDesignator(ComponentDesignator designator) {
     this.designator = designator;
+    return this;
   }
 
   /**
@@ -103,8 +106,9 @@ public class THTInsertionFault extends Fault {
    * @param materialLocation the value
    */
   @JsonSetter("MaterialLocation")
-  public void setMaterialLocation(MaterialLocation materialLocation) {
+  public THTInsertionFault setMaterialLocation(MaterialLocation materialLocation) {
     this.materialLocation = materialLocation;
+    return this;
   }
 
   /**

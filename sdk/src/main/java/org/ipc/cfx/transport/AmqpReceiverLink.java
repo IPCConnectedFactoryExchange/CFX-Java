@@ -34,6 +34,8 @@ public class AmqpReceiverLink extends AmqpLink {
    * 
    */
   private AmqpLink receiverLink;
+  
+  private int linkCredit = 300;
 
   /**
    * 
@@ -48,4 +50,10 @@ public class AmqpReceiverLink extends AmqpLink {
   public AmqpLink getReceiverLink() {
     return receiverLink;
   }
+  
+  public AmqpReceiverLink(String address) 
+  {
+    super(address);
+//      setLinkType(LinkType.Receiver);
+  }  
 }

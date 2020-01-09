@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.solderreflow;
 
@@ -39,8 +39,9 @@ public class ReflowOvenFault extends Fault {
    * @param reflowOvenFaultType the value
    */
   @JsonSetter("ReflowOvenFaultType")
-  public void setReflowOvenFaultType(ReflowOvenFaultType reflowOvenFaultType) {
+  public ReflowOvenFault setReflowOvenFaultType(ReflowOvenFaultType reflowOvenFaultType) {
     this.reflowOvenFaultType = reflowOvenFaultType;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -49,8 +49,9 @@ public class DimensionalConstraints {
    * @param minimumLength the value
    */
   @JsonSetter("MinimumLength")
-  public void setMinimumLength(double minimumLength) {
+  public DimensionalConstraints setMinimumLength(double minimumLength) {
     this.minimumLength = minimumLength;
+    return this;
   }
 
   /**
@@ -69,8 +70,9 @@ public class DimensionalConstraints {
    * @param maximumLength the value
    */
   @JsonSetter("MaximumLength")
-  public void setMaximumLength(double maximumLength) {
+  public DimensionalConstraints setMaximumLength(double maximumLength) {
     this.maximumLength = maximumLength;
+    return this;
   }
 
   /**
@@ -89,8 +91,9 @@ public class DimensionalConstraints {
    * @param minimumWidth the value
    */
   @JsonSetter("MinimumWidth")
-  public void setMinimumWidth(double minimumWidth) {
+  public DimensionalConstraints setMinimumWidth(double minimumWidth) {
     this.minimumWidth = minimumWidth;
+    return this;
   }
 
   /**
@@ -109,8 +112,9 @@ public class DimensionalConstraints {
    * @param maximumWidth the value
    */
   @JsonSetter("MaximumWidth")
-  public void setMaximumWidth(double maximumWidth) {
+  public DimensionalConstraints setMaximumWidth(double maximumWidth) {
     this.maximumWidth = maximumWidth;
+    return this;
   }
 
   /**
@@ -129,8 +133,9 @@ public class DimensionalConstraints {
    * @param minimumHeight the value
    */
   @JsonSetter("MinimumHeight")
-  public void setMinimumHeight(double minimumHeight) {
+  public DimensionalConstraints setMinimumHeight(double minimumHeight) {
     this.minimumHeight = minimumHeight;
+    return this;
   }
 
   /**
@@ -149,8 +154,9 @@ public class DimensionalConstraints {
    * @param maximumHeight the value
    */
   @JsonSetter("MaximumHeight")
-  public void setMaximumHeight(double maximumHeight) {
+  public DimensionalConstraints setMaximumHeight(double maximumHeight) {
     this.maximumHeight = maximumHeight;
+    return this;
   }
 
   /**
@@ -169,8 +175,9 @@ public class DimensionalConstraints {
    * @param minimumWeight the value
    */
   @JsonSetter("MinimumWeight")
-  public void setMinimumWeight(double minimumWeight) {
+  public DimensionalConstraints setMinimumWeight(double minimumWeight) {
     this.minimumWeight = minimumWeight;
+    return this;
   }
 
   /**
@@ -189,8 +196,9 @@ public class DimensionalConstraints {
    * @param maximumWeight the value
    */
   @JsonSetter("MaximumWeight")
-  public void setMaximumWeight(double maximumWeight) {
+  public DimensionalConstraints setMaximumWeight(double maximumWeight) {
     this.maximumWeight = maximumWeight;
+    return this;
   }
 
   /**
@@ -209,8 +217,9 @@ public class DimensionalConstraints {
    * @param minimumThickness the value
    */
   @JsonSetter("MinimumThickness")
-  public void setMinimumThickness(double minimumThickness) {
+  public DimensionalConstraints setMinimumThickness(double minimumThickness) {
     this.minimumThickness = minimumThickness;
+    return this;
   }
 
   /**
@@ -229,8 +238,9 @@ public class DimensionalConstraints {
    * @param maximumThickness the value
    */
   @JsonSetter("MaximumThickness")
-  public void setMaximumThickness(double maximumThickness) {
+  public DimensionalConstraints setMaximumThickness(double maximumThickness) {
     this.maximumThickness = maximumThickness;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -53,8 +53,9 @@ public class EnvironmentalCondition {
    * @param startTime the value
    */
   @JsonSetter("StartTime")
-  public void setStartTime(Date startTime) {
+  public EnvironmentalCondition setStartTime(Date startTime) {
     this.startTime = startTime;
+    return this;
   }
 
   /**
@@ -71,8 +72,9 @@ public class EnvironmentalCondition {
    * @param endTime the value
    */
   @JsonSetter("EndTime")
-  public void setEndTime(Date endTime) {
+  public EnvironmentalCondition setEndTime(Date endTime) {
     this.endTime = endTime;
+    return this;
   }
 
   /**
@@ -89,8 +91,9 @@ public class EnvironmentalCondition {
    * @param meanValue the value
    */
   @JsonSetter("MeanValue")
-  public void setMeanValue(double meanValue) {
+  public EnvironmentalCondition setMeanValue(double meanValue) {
     this.meanValue = meanValue;
+    return this;
   }
 
   /**
@@ -107,8 +110,9 @@ public class EnvironmentalCondition {
    * @param medianValue the value
    */
   @JsonSetter("MedianValue")
-  public void setMedianValue(double medianValue) {
+  public EnvironmentalCondition setMedianValue(double medianValue) {
     this.medianValue = medianValue;
+    return this;
   }
 
   /**
@@ -125,8 +129,9 @@ public class EnvironmentalCondition {
    * @param maxValue the value
    */
   @JsonSetter("MaxValue")
-  public void setMaxValue(double maxValue) {
+  public EnvironmentalCondition setMaxValue(double maxValue) {
     this.maxValue = maxValue;
+    return this;
   }
 
   /**
@@ -143,8 +148,9 @@ public class EnvironmentalCondition {
    * @param minValue the value
    */
   @JsonSetter("MinValue")
-  public void setMinValue(double minValue) {
+  public EnvironmentalCondition setMinValue(double minValue) {
     this.minValue = minValue;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:12 by frankp
  */
 package org.ipc.cfx;
 
@@ -253,8 +253,9 @@ public class GetEndpointInformationResponse extends CFXMessage {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(RequestResult result) {
+  public GetEndpointInformationResponse setResult(RequestResult result) {
     this.result = result;
+    return this;
   }
 
   /**
@@ -271,8 +272,9 @@ public class GetEndpointInformationResponse extends CFXMessage {
    * @param endpointInformation the value
    */
   @JsonSetter("EndpointInformation")
-  public void setEndpointInformation(Endpoint endpointInformation) {
+  public GetEndpointInformationResponse setEndpointInformation(Endpoint endpointInformation) {
     this.endpointInformation = endpointInformation;
+    return this;
   }
 
   /**

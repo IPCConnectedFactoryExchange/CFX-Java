@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.geometry;
 
@@ -41,8 +41,9 @@ public class Vector2 {
    * @param zero the value
    */
   @JsonSetter("Zero")
-  public void setZero(org.ipc.cfx.structures.geometry.Vector2 zero) {
+  public Vector2 setZero(org.ipc.cfx.structures.geometry.Vector2 zero) {
     this.zero = zero;
+    return this;
   }
 
   /**
@@ -59,8 +60,9 @@ public class Vector2 {
    * @param one the value
    */
   @JsonSetter("One")
-  public void setOne(org.ipc.cfx.structures.geometry.Vector2 one) {
+  public Vector2 setOne(org.ipc.cfx.structures.geometry.Vector2 one) {
     this.one = one;
+    return this;
   }
 
   /**
@@ -77,8 +79,9 @@ public class Vector2 {
    * @param unitX the value
    */
   @JsonSetter("UnitX")
-  public void setUnitX(org.ipc.cfx.structures.geometry.Vector2 unitX) {
+  public Vector2 setUnitX(org.ipc.cfx.structures.geometry.Vector2 unitX) {
     this.unitX = unitX;
+    return this;
   }
 
   /**
@@ -95,8 +98,9 @@ public class Vector2 {
    * @param unitY the value
    */
   @JsonSetter("UnitY")
-  public void setUnitY(org.ipc.cfx.structures.geometry.Vector2 unitY) {
+  public Vector2 setUnitY(org.ipc.cfx.structures.geometry.Vector2 unitY) {
     this.unitY = unitY;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.smtplacement;
 
@@ -46,8 +46,9 @@ public class SMTPlacementEndpoint extends Endpoint {
    * @param nominalPlacementCPH the value
    */
   @JsonSetter("NominalPlacementCPH")
-  public void setNominalPlacementCPH(double nominalPlacementCPH) {
+  public SMTPlacementEndpoint setNominalPlacementCPH(double nominalPlacementCPH) {
     this.nominalPlacementCPH = nominalPlacementCPH;
+    return this;
   }
 
   /**
@@ -65,8 +66,9 @@ public class SMTPlacementEndpoint extends Endpoint {
    * @param nominalUnitsPerHour the value
    */
   @JsonSetter("NominalUnitsPerHour")
-  public void setNominalUnitsPerHour(double nominalUnitsPerHour) {
+  public SMTPlacementEndpoint setNominalUnitsPerHour(double nominalUnitsPerHour) {
     this.nominalUnitsPerHour = nominalUnitsPerHour;
+    return this;
   }
 
   /**
@@ -86,8 +88,9 @@ public class SMTPlacementEndpoint extends Endpoint {
    * @param supportedPCBDimensions the value
    */
   @JsonSetter("SupportedPCBDimensions")
-  public void setSupportedPCBDimensions(DimensionalConstraints supportedPCBDimensions) {
+  public SMTPlacementEndpoint setSupportedPCBDimensions(DimensionalConstraints supportedPCBDimensions) {
     this.supportedPCBDimensions = supportedPCBDimensions;
+    return this;
   }
 
   /**
@@ -106,8 +109,9 @@ public class SMTPlacementEndpoint extends Endpoint {
    * @param lanes the value
    */
   @JsonSetter("Lanes")
-  public void setLanes(SMTLaneInformation[] lanes) {
+  public SMTPlacementEndpoint setLanes(SMTLaneInformation[] lanes) {
     this.lanes = lanes;
+    return this;
   }
 
   /**
@@ -124,8 +128,9 @@ public class SMTPlacementEndpoint extends Endpoint {
    * @param heads the value
    */
   @JsonSetter("Heads")
-  public void setHeads(SMTHeadInformation[] heads) {
+  public SMTPlacementEndpoint setHeads(SMTHeadInformation[] heads) {
     this.heads = heads;
+    return this;
   }
 
   /**
@@ -142,8 +147,9 @@ public class SMTPlacementEndpoint extends Endpoint {
    * @param placementConstraints the value
    */
   @JsonSetter("PlacementConstraints")
-  public void setPlacementConstraints(SMTPlacementConstraints placementConstraints) {
+  public SMTPlacementEndpoint setPlacementConstraints(SMTPlacementConstraints placementConstraints) {
     this.placementConstraints = placementConstraints;
+    return this;
   }
 
   /**

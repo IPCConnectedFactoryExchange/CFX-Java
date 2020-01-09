@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.solderpasteinspection;
 
@@ -50,8 +50,9 @@ public class SolderPasteMeasurement extends Measurement {
    * @param x the value
    */
   @JsonSetter("X")
-  public void setX(double x) {
+  public SolderPasteMeasurement setX(double x) {
     this.x = x;
+    return this;
   }
 
   /**
@@ -68,8 +69,9 @@ public class SolderPasteMeasurement extends Measurement {
    * @param eX the value
    */
   @JsonSetter("EX")
-  public void setEX(double eX) {
+  public SolderPasteMeasurement setEX(double eX) {
     this.eX = eX;
+    return this;
   }
 
   /**
@@ -86,8 +88,9 @@ public class SolderPasteMeasurement extends Measurement {
    * @param y the value
    */
   @JsonSetter("Y")
-  public void setY(double y) {
+  public SolderPasteMeasurement setY(double y) {
     this.y = y;
+    return this;
   }
 
   /**
@@ -104,8 +107,9 @@ public class SolderPasteMeasurement extends Measurement {
    * @param eY the value
    */
   @JsonSetter("EY")
-  public void setEY(double eY) {
+  public SolderPasteMeasurement setEY(double eY) {
     this.eY = eY;
+    return this;
   }
 
   /**
@@ -122,8 +126,9 @@ public class SolderPasteMeasurement extends Measurement {
    * @param z the value
    */
   @JsonSetter("Z")
-  public void setZ(double z) {
+  public SolderPasteMeasurement setZ(double z) {
     this.z = z;
+    return this;
   }
 
   /**
@@ -140,8 +145,9 @@ public class SolderPasteMeasurement extends Measurement {
    * @param eZ the value
    */
   @JsonSetter("EZ")
-  public void setEZ(double eZ) {
+  public SolderPasteMeasurement setEZ(double eZ) {
     this.eZ = eZ;
+    return this;
   }
 
   /**
@@ -158,8 +164,9 @@ public class SolderPasteMeasurement extends Measurement {
    * @param dX the value
    */
   @JsonSetter("DX")
-  public void setDX(double dX) {
+  public SolderPasteMeasurement setDX(double dX) {
     this.dX = dX;
+    return this;
   }
 
   /**
@@ -176,8 +183,9 @@ public class SolderPasteMeasurement extends Measurement {
    * @param dY the value
    */
   @JsonSetter("DY")
-  public void setDY(double dY) {
+  public SolderPasteMeasurement setDY(double dY) {
     this.dY = dY;
+    return this;
   }
 
   /**
@@ -194,8 +202,9 @@ public class SolderPasteMeasurement extends Measurement {
    * @param vol the value
    */
   @JsonSetter("Vol")
-  public void setVol(double vol) {
+  public SolderPasteMeasurement setVol(double vol) {
     this.vol = vol;
+    return this;
   }
 
   /**
@@ -212,8 +221,9 @@ public class SolderPasteMeasurement extends Measurement {
    * @param eVol the value
    */
   @JsonSetter("EVol")
-  public void setEVol(double eVol) {
+  public SolderPasteMeasurement setEVol(double eVol) {
     this.eVol = eVol;
+    return this;
   }
 
   /**
@@ -230,8 +240,9 @@ public class SolderPasteMeasurement extends Measurement {
    * @param image the value
    */
   @JsonSetter("Image")
-  public void setImage(Image image) {
+  public SolderPasteMeasurement setImage(Image image) {
     this.image = image;
+    return this;
   }
 
   /**

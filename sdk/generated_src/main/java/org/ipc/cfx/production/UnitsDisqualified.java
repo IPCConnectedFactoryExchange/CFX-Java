@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production;
 
@@ -76,8 +76,9 @@ public class UnitsDisqualified extends CFXMessage {
    * @param primaryIdentifier the value
    */
   @JsonSetter("PrimaryIdentifier")
-  public void setPrimaryIdentifier(String primaryIdentifier) {
+  public UnitsDisqualified setPrimaryIdentifier(String primaryIdentifier) {
     this.primaryIdentifier = primaryIdentifier;
+    return this;
   }
 
   /**
@@ -106,8 +107,9 @@ public class UnitsDisqualified extends CFXMessage {
    * @param hermesIdentifier the value
    */
   @JsonSetter("HermesIdentifier")
-  public void setHermesIdentifier(String hermesIdentifier) {
+  public UnitsDisqualified setHermesIdentifier(String hermesIdentifier) {
     this.hermesIdentifier = hermesIdentifier;
+    return this;
   }
 
   /**
@@ -133,8 +135,9 @@ public class UnitsDisqualified extends CFXMessage {
    * @param reason the value
    */
   @JsonSetter("Reason")
-  public void setReason(DisqualificationReason reason) {
+  public UnitsDisqualified setReason(DisqualificationReason reason) {
     this.reason = reason;
+    return this;
   }
 
   /**
@@ -151,8 +154,9 @@ public class UnitsDisqualified extends CFXMessage {
    * @param comments the value
    */
   @JsonSetter("Comments")
-  public void setComments(String comments) {
+  public UnitsDisqualified setComments(String comments) {
     this.comments = comments;
+    return this;
   }
 
   /**
@@ -170,8 +174,9 @@ public class UnitsDisqualified extends CFXMessage {
    * @param units the value
    */
   @JsonSetter("Units")
-  public void setUnits(UnitPosition[] units) {
+  public UnitsDisqualified setUnits(UnitPosition[] units) {
     this.units = units;
+    return this;
   }
 
   /**

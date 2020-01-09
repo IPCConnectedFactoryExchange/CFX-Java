@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.resourceperformance;
 
@@ -51,8 +51,9 @@ public class HandleFaultRequest extends CFXMessage {
    * @param faultOccurrenceId the value
    */
   @JsonSetter("FaultOccurrenceId")
-  public void setFaultOccurrenceId(UUID faultOccurrenceId) {
+  public HandleFaultRequest setFaultOccurrenceId(UUID faultOccurrenceId) {
     this.faultOccurrenceId = faultOccurrenceId;
+    return this;
   }
 
   /**
@@ -71,8 +72,9 @@ public class HandleFaultRequest extends CFXMessage {
    * @param handleRemote the value
    */
   @JsonSetter("HandleRemote")
-  public void setHandleRemote(boolean handleRemote) {
+  public HandleFaultRequest setHandleRemote(boolean handleRemote) {
     this.handleRemote = handleRemote;
+    return this;
   }
 
   /**

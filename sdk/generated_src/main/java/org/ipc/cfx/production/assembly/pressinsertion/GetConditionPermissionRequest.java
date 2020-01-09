@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production.assembly.pressinsertion;
 
@@ -50,8 +50,9 @@ public class GetConditionPermissionRequest extends CFXMessage {
    * @param transactionID the value
    */
   @JsonSetter("TransactionID")
-  public void setTransactionID(UUID transactionID) {
+  public GetConditionPermissionRequest setTransactionID(UUID transactionID) {
     this.transactionID = transactionID;
+    return this;
   }
 
   /**
@@ -68,8 +69,9 @@ public class GetConditionPermissionRequest extends CFXMessage {
    * @param conditionStep the value
    */
   @JsonSetter("ConditionStep")
-  public void setConditionStep(ConditionStep conditionStep) {
+  public GetConditionPermissionRequest setConditionStep(ConditionStep conditionStep) {
     this.conditionStep = conditionStep;
+    return this;
   }
 
   /**
@@ -86,8 +88,9 @@ public class GetConditionPermissionRequest extends CFXMessage {
    * @param data the value
    */
   @JsonSetter("Data")
-  public void setData(String data) {
+  public GetConditionPermissionRequest setData(String data) {
     this.data = data;
+    return this;
   }
 
   /**

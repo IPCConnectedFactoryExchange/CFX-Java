@@ -85,4 +85,10 @@ public class AmqpSenderLink extends AmqpLink {
   public int getSpoolSize() {
     return spoolSize;
   }
+  
+  public AmqpSenderLink(String address) 
+  {
+    super(address);
+//      setLinkType(LinkType.Sender);
+  }    
 }

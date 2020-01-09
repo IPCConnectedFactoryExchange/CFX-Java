@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production;
 
@@ -30,6 +30,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 
 /**
  * Sent by a process endpoint when one or more tools are used in the course of performing an assembly operation.
+ * <pre>
             JSON Example - SMT Placement Machine
             {
               &quot;TransactionId&quot;: &quot;ff199a2e-4b31-4321-8afe-eff177f1a860&quot;,
@@ -116,6 +117,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
                 }
               ]
             }
+            </pre>
  * original type: CFX.Production.ToolsUsed
  */
 public class ToolsUsed extends CFXMessage {
@@ -128,8 +130,9 @@ public class ToolsUsed extends CFXMessage {
    * @param transactionId the value
    */
   @JsonSetter("TransactionId")
-  public void setTransactionId(UUID transactionId) {
+  public ToolsUsed setTransactionId(UUID transactionId) {
     this.transactionId = transactionId;
+    return this;
   }
 
   /**
@@ -146,8 +149,9 @@ public class ToolsUsed extends CFXMessage {
    * @param usedTools the value
    */
   @JsonSetter("UsedTools")
-  public void setUsedTools(ToolUsed[] usedTools) {
+  public ToolsUsed setUsedTools(ToolUsed[] usedTools) {
     this.usedTools = usedTools;
+    return this;
   }
 
   /**

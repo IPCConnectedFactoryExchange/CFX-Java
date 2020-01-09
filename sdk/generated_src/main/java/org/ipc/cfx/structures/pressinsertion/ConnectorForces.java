@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pressinsertion;
 
@@ -41,8 +41,9 @@ public class ConnectorForces {
    * @param maximumForce the value
    */
   @JsonSetter("MaximumForce")
-  public void setMaximumForce(double maximumForce) {
+  public ConnectorForces setMaximumForce(double maximumForce) {
     this.maximumForce = maximumForce;
+    return this;
   }
 
   /**
@@ -59,8 +60,9 @@ public class ConnectorForces {
    * @param minimumForce the value
    */
   @JsonSetter("MinimumForce")
-  public void setMinimumForce(double minimumForce) {
+  public ConnectorForces setMinimumForce(double minimumForce) {
     this.minimumForce = minimumForce;
+    return this;
   }
 
   /**
@@ -77,8 +79,9 @@ public class ConnectorForces {
    * @param otherForce the value
    */
   @JsonSetter("OtherForce")
-  public void setOtherForce(double otherForce) {
+  public ConnectorForces setOtherForce(double otherForce) {
     this.otherForce = otherForce;
+    return this;
   }
 
   /**
@@ -95,8 +98,9 @@ public class ConnectorForces {
    * @param userDefinedForce the value
    */
   @JsonSetter("UserDefinedForce")
-  public void setUserDefinedForce(double userDefinedForce) {
+  public ConnectorForces setUserDefinedForce(double userDefinedForce) {
     this.userDefinedForce = userDefinedForce;
+    return this;
   }
 
   /**

@@ -27,10 +27,13 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.charset.Charset;
+import java.security.KeyStore;
+import java.security.KeyStoreException;
 import java.security.cert.X509Certificate;
 import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Enumeration;
 import java.util.List;
 import java.util.Properties;
 import java.util.UUID;
@@ -245,8 +248,10 @@ public class AmqpUtilities {
 //        return "";
 //    }
 
-//    public static X509Certificate getCertificate(String certFindValue)
-//    {
+    public static javax.security.cert.X509Certificate getCertificate(String certFindValue) throws KeyStoreException
+    {
+// TODO: Missing implementation
+      
 //        StoreLocation[] locations = new StoreLocation[] { StoreLocation.LocalMachine, StoreLocation.CurrentUser };
 //        foreach (StoreLocation location in locations)
 //        {
@@ -265,17 +270,17 @@ public class AmqpUtilities {
 //                    certFindValue,
 //                    false);
 //            }
-//
-////            store.Dispose();
-//            
+
+//            store.Dispose();
+            
 //            if (collection.Count > 0)
 //            {
 //                return collection[0];
 //            }
 //        }
-//
-//        throw new IllegalArgumentException("No certificate can be found using the find value " + certFindValue);
-//    }
+
+        throw new IllegalArgumentException("No certificate can be found using the find value " + certFindValue);
+    }
 //
 //    private static byte[] compress2(byte[] data)
 //    {

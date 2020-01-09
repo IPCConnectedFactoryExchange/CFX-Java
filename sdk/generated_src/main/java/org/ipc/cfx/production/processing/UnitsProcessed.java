@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production.processing;
 
@@ -816,8 +816,9 @@ public class UnitsProcessed extends CFXMessage {
    * @param transactionId the value
    */
   @JsonSetter("TransactionId")
-  public void setTransactionId(UUID transactionId) {
+  public UnitsProcessed setTransactionId(UUID transactionId) {
     this.transactionId = transactionId;
+    return this;
   }
 
   /**
@@ -834,8 +835,9 @@ public class UnitsProcessed extends CFXMessage {
    * @param overallResult the value
    */
   @JsonSetter("OverallResult")
-  public void setOverallResult(ProcessingResult overallResult) {
+  public UnitsProcessed setOverallResult(ProcessingResult overallResult) {
     this.overallResult = overallResult;
+    return this;
   }
 
   /**
@@ -854,8 +856,9 @@ public class UnitsProcessed extends CFXMessage {
    * @param commonProcessData the value
    */
   @JsonSetter("CommonProcessData")
-  public void setCommonProcessData(ProcessData commonProcessData) {
+  public UnitsProcessed setCommonProcessData(ProcessData commonProcessData) {
     this.commonProcessData = commonProcessData;
+    return this;
   }
 
   /**
@@ -875,8 +878,9 @@ public class UnitsProcessed extends CFXMessage {
    * @param unitProcessData the value
    */
   @JsonSetter("UnitProcessData")
-  public void setUnitProcessData(ProcessedUnit[] unitProcessData) {
+  public UnitsProcessed setUnitProcessData(ProcessedUnit[] unitProcessData) {
     this.unitProcessData = unitProcessData;
+    return this;
   }
 
   /**

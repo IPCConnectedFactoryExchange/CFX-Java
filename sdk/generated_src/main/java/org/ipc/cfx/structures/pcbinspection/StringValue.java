@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:10 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pcbinspection;
 
@@ -38,8 +38,9 @@ public class StringValue extends Value {
    * @param value the value
    */
   @JsonSetter("Value")
-  public void setValue(String value) {
+  public StringValue setValue(String value) {
     this.value = value;
+    return this;
   }
 
   /**

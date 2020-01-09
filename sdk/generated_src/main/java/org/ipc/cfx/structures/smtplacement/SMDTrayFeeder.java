@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.smtplacement;
 
@@ -44,8 +44,9 @@ public class SMDTrayFeeder extends MaterialCarrier {
    * @param cellDimensionX the value
    */
   @JsonSetter("CellDimensionX")
-  public void setCellDimensionX(double cellDimensionX) {
+  public SMDTrayFeeder setCellDimensionX(double cellDimensionX) {
     this.cellDimensionX = cellDimensionX;
+    return this;
   }
 
   /**
@@ -62,8 +63,9 @@ public class SMDTrayFeeder extends MaterialCarrier {
    * @param cellDimensionY the value
    */
   @JsonSetter("CellDimensionY")
-  public void setCellDimensionY(double cellDimensionY) {
+  public SMDTrayFeeder setCellDimensionY(double cellDimensionY) {
     this.cellDimensionY = cellDimensionY;
+    return this;
   }
 
   /**
@@ -80,8 +82,9 @@ public class SMDTrayFeeder extends MaterialCarrier {
    * @param cellCountX the value
    */
   @JsonSetter("CellCountX")
-  public void setCellCountX(int cellCountX) {
+  public SMDTrayFeeder setCellCountX(int cellCountX) {
     this.cellCountX = cellCountX;
+    return this;
   }
 
   /**
@@ -98,8 +101,9 @@ public class SMDTrayFeeder extends MaterialCarrier {
    * @param cellCountY the value
    */
   @JsonSetter("CellCountY")
-  public void setCellCountY(int cellCountY) {
+  public SMDTrayFeeder setCellCountY(int cellCountY) {
     this.cellCountY = cellCountY;
+    return this;
   }
 
   /**
@@ -116,8 +120,9 @@ public class SMDTrayFeeder extends MaterialCarrier {
    * @param cellPitchX the value
    */
   @JsonSetter("CellPitchX")
-  public void setCellPitchX(double cellPitchX) {
+  public SMDTrayFeeder setCellPitchX(double cellPitchX) {
     this.cellPitchX = cellPitchX;
+    return this;
   }
 
   /**
@@ -134,8 +139,9 @@ public class SMDTrayFeeder extends MaterialCarrier {
    * @param cellPitchY the value
    */
   @JsonSetter("CellPitchY")
-  public void setCellPitchY(double cellPitchY) {
+  public SMDTrayFeeder setCellPitchY(double cellPitchY) {
     this.cellPitchY = cellPitchY;
+    return this;
   }
 
   /**

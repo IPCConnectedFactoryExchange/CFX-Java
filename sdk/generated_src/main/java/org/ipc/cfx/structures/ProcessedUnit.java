@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -42,8 +42,9 @@ public class ProcessedUnit {
    * @param unitIdentifier the value
    */
   @JsonSetter("UnitIdentifier")
-  public void setUnitIdentifier(String unitIdentifier) {
+  public ProcessedUnit setUnitIdentifier(String unitIdentifier) {
     this.unitIdentifier = unitIdentifier;
+    return this;
   }
 
   /**
@@ -61,8 +62,9 @@ public class ProcessedUnit {
    * @param unitPositionNumber the value
    */
   @JsonSetter("UnitPositionNumber")
-  public void setUnitPositionNumber(Integer unitPositionNumber) {
+  public ProcessedUnit setUnitPositionNumber(Integer unitPositionNumber) {
     this.unitPositionNumber = unitPositionNumber;
+    return this;
   }
 
   /**
@@ -79,8 +81,9 @@ public class ProcessedUnit {
    * @param unitResult the value
    */
   @JsonSetter("UnitResult")
-  public void setUnitResult(ProcessingResult unitResult) {
+  public ProcessedUnit setUnitResult(ProcessingResult unitResult) {
     this.unitResult = unitResult;
+    return this;
   }
 
   /**
@@ -100,8 +103,9 @@ public class ProcessedUnit {
    * @param unitProcessData the value
    */
   @JsonSetter("UnitProcessData")
-  public void setUnitProcessData(ProcessData unitProcessData) {
+  public ProcessedUnit setUnitProcessData(ProcessData unitProcessData) {
     this.unitProcessData = unitProcessData;
+    return this;
   }
 
   /**

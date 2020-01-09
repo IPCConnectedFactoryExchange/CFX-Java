@@ -34,7 +34,6 @@ import java.util.UUID;
 import org.ipc.cfx.utilities.CFXJsonSerializer;
 import org.slf4j.LoggerFactory;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonSetter;
@@ -287,7 +286,7 @@ public class CFXEnvelope {
 
       String msgName = "CFX." + messageBody.getClass().getCanonicalName().substring(12);
 
-      // replace after a '.' a captial character
+      // replace after a '.' a capital character
       int searchPos = 0;
       while (searchPos <= msgName.length()) {
         int nextpos = msgName.indexOf(".", searchPos);
@@ -375,13 +374,13 @@ public class CFXEnvelope {
 
   public static CFXEnvelope ReadRecord(DataInputStream reader) {
     try {
-      // long filePosition = reader..BaseStream.Position;
+      // long filePosition = reader..BaseStream.Position
       boolean transmitted = reader.readBoolean();
       int len = reader.readInt();
       byte[] data = new byte[len];
       int readBytes = reader.read(data, 0, len);
       CFXEnvelope result = fromBytes(data);
-      // result.setQueueFilePosition ( filePosition);
+      // result.setQueueFilePosition ( filePosition)
       result.setTransmitted(transmitted);
       return result;
     } catch (Exception ex) {

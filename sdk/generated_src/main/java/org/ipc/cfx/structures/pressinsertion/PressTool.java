@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pressinsertion;
 
@@ -42,8 +42,9 @@ public class PressTool extends Tool {
    * @param toolDimensionX the value
    */
   @JsonSetter("ToolDimensionX")
-  public void setToolDimensionX(double toolDimensionX) {
+  public PressTool setToolDimensionX(double toolDimensionX) {
     this.toolDimensionX = toolDimensionX;
+    return this;
   }
 
   /**
@@ -60,8 +61,9 @@ public class PressTool extends Tool {
    * @param toolDimensionY the value
    */
   @JsonSetter("ToolDimensionY")
-  public void setToolDimensionY(double toolDimensionY) {
+  public PressTool setToolDimensionY(double toolDimensionY) {
     this.toolDimensionY = toolDimensionY;
+    return this;
   }
 
   /**
@@ -78,8 +80,9 @@ public class PressTool extends Tool {
    * @param toolDimensionZ the value
    */
   @JsonSetter("ToolDimensionZ")
-  public void setToolDimensionZ(double toolDimensionZ) {
+  public PressTool setToolDimensionZ(double toolDimensionZ) {
     this.toolDimensionZ = toolDimensionZ;
+    return this;
   }
 
   /**
@@ -96,8 +99,9 @@ public class PressTool extends Tool {
    * @param toolClearanceDimension the value
    */
   @JsonSetter("ToolClearanceDimension")
-  public void setToolClearanceDimension(double toolClearanceDimension) {
+  public PressTool setToolClearanceDimension(double toolClearanceDimension) {
     this.toolClearanceDimension = toolClearanceDimension;
+    return this;
   }
 
   /**

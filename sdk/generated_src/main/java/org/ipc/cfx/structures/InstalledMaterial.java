@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -45,8 +45,9 @@ public class InstalledMaterial {
    * @param unitIdentifier the value
    */
   @JsonSetter("UnitIdentifier")
-  public void setUnitIdentifier(String unitIdentifier) {
+  public InstalledMaterial setUnitIdentifier(String unitIdentifier) {
     this.unitIdentifier = unitIdentifier;
+    return this;
   }
 
   /**
@@ -65,8 +66,9 @@ public class InstalledMaterial {
    * @param unitPositionNumber the value
    */
   @JsonSetter("UnitPositionNumber")
-  public void setUnitPositionNumber(Integer unitPositionNumber) {
+  public InstalledMaterial setUnitPositionNumber(Integer unitPositionNumber) {
     this.unitPositionNumber = unitPositionNumber;
+    return this;
   }
 
   /**
@@ -84,8 +86,9 @@ public class InstalledMaterial {
    * @param quantityInstalled the value
    */
   @JsonSetter("QuantityInstalled")
-  public void setQuantityInstalled(double quantityInstalled) {
+  public InstalledMaterial setQuantityInstalled(double quantityInstalled) {
     this.quantityInstalled = quantityInstalled;
+    return this;
   }
 
   /**
@@ -102,8 +105,9 @@ public class InstalledMaterial {
    * @param material the value
    */
   @JsonSetter("Material")
-  public void setMaterial(MaterialPackage material) {
+  public InstalledMaterial setMaterial(MaterialPackage material) {
     this.material = material;
+    return this;
   }
 
   /**
@@ -120,8 +124,9 @@ public class InstalledMaterial {
    * @param carrierLocation the value
    */
   @JsonSetter("CarrierLocation")
-  public void setCarrierLocation(MaterialCarrierLocation carrierLocation) {
+  public InstalledMaterial setCarrierLocation(MaterialCarrierLocation carrierLocation) {
     this.carrierLocation = carrierLocation;
+    return this;
   }
 
   /**
@@ -138,8 +143,9 @@ public class InstalledMaterial {
    * @param installedComponents the value
    */
   @JsonSetter("InstalledComponents")
-  public void setInstalledComponents(InstalledComponent[] installedComponents) {
+  public InstalledMaterial setInstalledComponents(InstalledComponent[] installedComponents) {
     this.installedComponents = installedComponents;
+    return this;
   }
 
   /**
@@ -156,8 +162,9 @@ public class InstalledMaterial {
    * @param nonInstalledComponents the value
    */
   @JsonSetter("NonInstalledComponents")
-  public void setNonInstalledComponents(NonInstalledComponent[] nonInstalledComponents) {
+  public InstalledMaterial setNonInstalledComponents(NonInstalledComponent[] nonInstalledComponents) {
     this.nonInstalledComponents = nonInstalledComponents;
+    return this;
   }
 
   /**

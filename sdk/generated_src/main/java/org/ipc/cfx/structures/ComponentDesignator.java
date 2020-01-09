@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -57,8 +57,9 @@ public class ComponentDesignator {
    * @param referenceDesignator the value
    */
   @JsonSetter("ReferenceDesignator")
-  public void setReferenceDesignator(String referenceDesignator) {
+  public ComponentDesignator setReferenceDesignator(String referenceDesignator) {
     this.referenceDesignator = referenceDesignator;
+    return this;
   }
 
   /**
@@ -83,8 +84,9 @@ public class ComponentDesignator {
    * @param unitPosition the value
    */
   @JsonSetter("UnitPosition")
-  public void setUnitPosition(UnitPosition unitPosition) {
+  public ComponentDesignator setUnitPosition(UnitPosition unitPosition) {
     this.unitPosition = unitPosition;
+    return this;
   }
 
   /**
@@ -101,8 +103,9 @@ public class ComponentDesignator {
    * @param partNumber the value
    */
   @JsonSetter("PartNumber")
-  public void setPartNumber(String partNumber) {
+  public ComponentDesignator setPartNumber(String partNumber) {
     this.partNumber = partNumber;
+    return this;
   }
 
   /**

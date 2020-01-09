@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.coating;
 
@@ -44,8 +44,9 @@ public class CoatingMeasurement extends Measurement {
    * @param measurementType the value
    */
   @JsonSetter("MeasurementType")
-  public void setMeasurementType(CoatingMeasurementType measurementType) {
+  public CoatingMeasurement setMeasurementType(CoatingMeasurementType measurementType) {
     this.measurementType = measurementType;
+    return this;
   }
 
   /**
@@ -62,8 +63,9 @@ public class CoatingMeasurement extends Measurement {
    * @param actualValue the value
    */
   @JsonSetter("ActualValue")
-  public void setActualValue(Double actualValue) {
+  public CoatingMeasurement setActualValue(Double actualValue) {
     this.actualValue = actualValue;
+    return this;
   }
 
   /**
@@ -80,8 +82,9 @@ public class CoatingMeasurement extends Measurement {
    * @param expectedValue the value
    */
   @JsonSetter("ExpectedValue")
-  public void setExpectedValue(Double expectedValue) {
+  public CoatingMeasurement setExpectedValue(Double expectedValue) {
     this.expectedValue = expectedValue;
+    return this;
   }
 
   /**
@@ -98,8 +101,9 @@ public class CoatingMeasurement extends Measurement {
    * @param minAcceptableValue the value
    */
   @JsonSetter("MinAcceptableValue")
-  public void setMinAcceptableValue(Double minAcceptableValue) {
+  public CoatingMeasurement setMinAcceptableValue(Double minAcceptableValue) {
     this.minAcceptableValue = minAcceptableValue;
+    return this;
   }
 
   /**
@@ -116,8 +120,9 @@ public class CoatingMeasurement extends Measurement {
    * @param maxAcceptableValue the value
    */
   @JsonSetter("MaxAcceptableValue")
-  public void setMaxAcceptableValue(Double maxAcceptableValue) {
+  public CoatingMeasurement setMaxAcceptableValue(Double maxAcceptableValue) {
     this.maxAcceptableValue = maxAcceptableValue;
+    return this;
   }
 
   /**

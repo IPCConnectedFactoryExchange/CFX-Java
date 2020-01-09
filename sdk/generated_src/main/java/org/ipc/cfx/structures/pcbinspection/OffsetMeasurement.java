@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pcbinspection;
 
@@ -44,8 +44,9 @@ public class OffsetMeasurement extends Measurement {
    * @param dX the value
    */
   @JsonSetter("DX")
-  public void setDX(double dX) {
+  public OffsetMeasurement setDX(double dX) {
     this.dX = dX;
+    return this;
   }
 
   /**
@@ -62,8 +63,9 @@ public class OffsetMeasurement extends Measurement {
    * @param dY the value
    */
   @JsonSetter("DY")
-  public void setDY(double dY) {
+  public OffsetMeasurement setDY(double dY) {
     this.dY = dY;
+    return this;
   }
 
   /**
@@ -80,8 +82,9 @@ public class OffsetMeasurement extends Measurement {
    * @param dZ the value
    */
   @JsonSetter("DZ")
-  public void setDZ(double dZ) {
+  public OffsetMeasurement setDZ(double dZ) {
     this.dZ = dZ;
+    return this;
   }
 
   /**
@@ -98,8 +101,9 @@ public class OffsetMeasurement extends Measurement {
    * @param rXY the value
    */
   @JsonSetter("RXY")
-  public void setRXY(double rXY) {
+  public OffsetMeasurement setRXY(double rXY) {
     this.rXY = rXY;
+    return this;
   }
 
   /**
@@ -116,8 +120,9 @@ public class OffsetMeasurement extends Measurement {
    * @param rZX the value
    */
   @JsonSetter("RZX")
-  public void setRZX(double rZX) {
+  public OffsetMeasurement setRZX(double rZX) {
     this.rZX = rZX;
+    return this;
   }
 
   /**
@@ -134,8 +139,9 @@ public class OffsetMeasurement extends Measurement {
    * @param rZY the value
    */
   @JsonSetter("RZY")
-  public void setRZY(double rZY) {
+  public OffsetMeasurement setRZY(double rZY) {
     this.rZY = rZY;
+    return this;
   }
 
   /**

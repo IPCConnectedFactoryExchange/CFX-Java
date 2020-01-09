@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -42,8 +42,9 @@ public class Operator {
    * @param operatorIdentifier the value
    */
   @JsonSetter("OperatorIdentifier")
-  public void setOperatorIdentifier(String operatorIdentifier) {
+  public Operator setOperatorIdentifier(String operatorIdentifier) {
     this.operatorIdentifier = operatorIdentifier;
+    return this;
   }
 
   /**
@@ -61,8 +62,9 @@ public class Operator {
    * @param actorType the value
    */
   @JsonSetter("ActorType")
-  public void setActorType(ActorType actorType) {
+  public Operator setActorType(ActorType actorType) {
     this.actorType = actorType;
+    return this;
   }
 
   /**
@@ -79,8 +81,9 @@ public class Operator {
    * @param lastName the value
    */
   @JsonSetter("LastName")
-  public void setLastName(String lastName) {
+  public Operator setLastName(String lastName) {
     this.lastName = lastName;
+    return this;
   }
 
   /**
@@ -98,8 +101,9 @@ public class Operator {
    * @param firstName the value
    */
   @JsonSetter("FirstName")
-  public void setFirstName(String firstName) {
+  public Operator setFirstName(String firstName) {
     this.firstName = firstName;
+    return this;
   }
 
   /**
@@ -117,8 +121,9 @@ public class Operator {
    * @param loginName the value
    */
   @JsonSetter("LoginName")
-  public void setLoginName(String loginName) {
+  public Operator setLoginName(String loginName) {
     this.loginName = loginName;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.materials.management;
 
@@ -51,8 +51,9 @@ public class MaterialsSplit extends CFXMessage {
    * @param sourceMaterialPackageIdentifier the value
    */
   @JsonSetter("SourceMaterialPackageIdentifier")
-  public void setSourceMaterialPackageIdentifier(String sourceMaterialPackageIdentifier) {
+  public MaterialsSplit setSourceMaterialPackageIdentifier(String sourceMaterialPackageIdentifier) {
     this.sourceMaterialPackageIdentifier = sourceMaterialPackageIdentifier;
+    return this;
   }
 
   /**
@@ -71,8 +72,9 @@ public class MaterialsSplit extends CFXMessage {
    * @param sourceMaterialPackageRemainingQuantity the value
    */
   @JsonSetter("SourceMaterialPackageRemainingQuantity")
-  public void setSourceMaterialPackageRemainingQuantity(double sourceMaterialPackageRemainingQuantity) {
+  public MaterialsSplit setSourceMaterialPackageRemainingQuantity(double sourceMaterialPackageRemainingQuantity) {
     this.sourceMaterialPackageRemainingQuantity = sourceMaterialPackageRemainingQuantity;
+    return this;
   }
 
   /**
@@ -90,8 +92,9 @@ public class MaterialsSplit extends CFXMessage {
    * @param newMaterialPackageIdentifier the value
    */
   @JsonSetter("NewMaterialPackageIdentifier")
-  public void setNewMaterialPackageIdentifier(String newMaterialPackageIdentifier) {
+  public MaterialsSplit setNewMaterialPackageIdentifier(String newMaterialPackageIdentifier) {
     this.newMaterialPackageIdentifier = newMaterialPackageIdentifier;
+    return this;
   }
 
   /**
@@ -109,8 +112,9 @@ public class MaterialsSplit extends CFXMessage {
    * @param newMaterialPackageQuantity the value
    */
   @JsonSetter("NewMaterialPackageQuantity")
-  public void setNewMaterialPackageQuantity(double newMaterialPackageQuantity) {
+  public MaterialsSplit setNewMaterialPackageQuantity(double newMaterialPackageQuantity) {
     this.newMaterialPackageQuantity = newMaterialPackageQuantity;
+    return this;
   }
 
   /**

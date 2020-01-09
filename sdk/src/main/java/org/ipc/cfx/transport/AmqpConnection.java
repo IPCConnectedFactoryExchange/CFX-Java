@@ -185,4 +185,10 @@ public class AmqpConnection {
     	setCertificate(certificate);
     }
     	
+    public void dispose() {
+      cleanup();
+    }
+    
+    public void cleanup() {
+    }
 }

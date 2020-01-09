@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -45,8 +45,9 @@ public class TransportOrderHistory {
    * @param eventDateTime the value
    */
   @JsonSetter("EventDateTime")
-  public void setEventDateTime(Date eventDateTime) {
+  public TransportOrderHistory setEventDateTime(Date eventDateTime) {
     this.eventDateTime = eventDateTime;
+    return this;
   }
 
   /**
@@ -63,8 +64,9 @@ public class TransportOrderHistory {
    * @param status the value
    */
   @JsonSetter("Status")
-  public void setStatus(TransportOrderStatus status) {
+  public TransportOrderHistory setStatus(TransportOrderStatus status) {
     this.status = status;
+    return this;
   }
 
   /**
@@ -81,8 +83,9 @@ public class TransportOrderHistory {
    * @param operator the value
    */
   @JsonSetter("Operator")
-  public void setOperator(Operator operator) {
+  public TransportOrderHistory setOperator(Operator operator) {
     this.operator = operator;
+    return this;
   }
 
   /**
@@ -99,8 +102,9 @@ public class TransportOrderHistory {
    * @param location the value
    */
   @JsonSetter("Location")
-  public void setLocation(String location) {
+  public TransportOrderHistory setLocation(String location) {
     this.location = location;
+    return this;
   }
 
   /**
@@ -118,8 +122,9 @@ public class TransportOrderHistory {
    * @param comments the value
    */
   @JsonSetter("Comments")
-  public void setComments(String comments) {
+  public TransportOrderHistory setComments(String comments) {
     this.comments = comments;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production;
 
@@ -29,13 +29,13 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 
 /**
  * Sent by a process endpoint to indicate the activation of a recipe by its name
-            
+    <pre>        
             {
               &quot;RecipeName&quot;: &quot;RECIPE3234&quot;,
               &quot;Revision&quot;: &quot;B&quot;,
               &quot;Lane&quot;: 1,
               &quot;Stage&quot;: null
-            }
+            }</pre>
  * original type: CFX.Production.RecipeActivated
  */
 public class RecipeActivated extends CFXMessage {
@@ -52,8 +52,9 @@ public class RecipeActivated extends CFXMessage {
    * @param recipeName the value
    */
   @JsonSetter("RecipeName")
-  public void setRecipeName(String recipeName) {
+  public RecipeActivated setRecipeName(String recipeName) {
     this.recipeName = recipeName;
+    return this;
   }
 
   /**
@@ -71,8 +72,9 @@ public class RecipeActivated extends CFXMessage {
    * @param revision the value
    */
   @JsonSetter("Revision")
-  public void setRevision(String revision) {
+  public RecipeActivated setRevision(String revision) {
     this.revision = revision;
+    return this;
   }
 
   /**
@@ -90,8 +92,9 @@ public class RecipeActivated extends CFXMessage {
    * @param lane the value
    */
   @JsonSetter("Lane")
-  public void setLane(Integer lane) {
+  public RecipeActivated setLane(Integer lane) {
     this.lane = lane;
+    return this;
   }
 
   /**
@@ -108,8 +111,9 @@ public class RecipeActivated extends CFXMessage {
    * @param stage the value
    */
   @JsonSetter("Stage")
-  public void setStage(Stage stage) {
+  public RecipeActivated setStage(Stage stage) {
     this.stage = stage;
+    return this;
   }
 
   /**
@@ -128,8 +132,9 @@ public class RecipeActivated extends CFXMessage {
    * @param expectedCycleTime the value
    */
   @JsonSetter("ExpectedCycleTime")
-  public void setExpectedCycleTime(double expectedCycleTime) {
+  public RecipeActivated setExpectedCycleTime(double expectedCycleTime) {
     this.expectedCycleTime = expectedCycleTime;
+    return this;
   }
 
   /**
@@ -150,8 +155,9 @@ public class RecipeActivated extends CFXMessage {
    * @param expectedUnitsPerWorkTransaction the value
    */
   @JsonSetter("ExpectedUnitsPerWorkTransaction")
-  public void setExpectedUnitsPerWorkTransaction(double expectedUnitsPerWorkTransaction) {
+  public RecipeActivated setExpectedUnitsPerWorkTransaction(double expectedUnitsPerWorkTransaction) {
     this.expectedUnitsPerWorkTransaction = expectedUnitsPerWorkTransaction;
+    return this;
   }
 
   /**

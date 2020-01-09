@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.smtplacement;
 
@@ -41,8 +41,9 @@ public class SMTHeadAndNozzle extends Tool {
    * @param headId the value
    */
   @JsonSetter("HeadId")
-  public void setHeadId(String headId) {
+  public SMTHeadAndNozzle setHeadId(String headId) {
     this.headId = headId;
+    return this;
   }
 
   /**
@@ -60,8 +61,9 @@ public class SMTHeadAndNozzle extends Tool {
    * @param headNozzleNumber the value
    */
   @JsonSetter("HeadNozzleNumber")
-  public void setHeadNozzleNumber(Integer headNozzleNumber) {
+  public SMTHeadAndNozzle setHeadNozzleNumber(Integer headNozzleNumber) {
     this.headNozzleNumber = headNozzleNumber;
+    return this;
   }
 
   /**
@@ -78,8 +80,9 @@ public class SMTHeadAndNozzle extends Tool {
    * @param nozzleType the value
    */
   @JsonSetter("NozzleType")
-  public void setNozzleType(String nozzleType) {
+  public SMTHeadAndNozzle setNozzleType(String nozzleType) {
     this.nozzleType = nozzleType;
+    return this;
   }
 
   /**

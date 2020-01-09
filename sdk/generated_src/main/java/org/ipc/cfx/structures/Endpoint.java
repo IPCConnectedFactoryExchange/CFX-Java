@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -61,8 +61,9 @@ public class Endpoint {
    * @param cFXHandle the value
    */
   @JsonSetter("CFXHandle")
-  public void setCFXHandle(String cFXHandle) {
+  public Endpoint setCFXHandle(String cFXHandle) {
     this.cFXHandle = cFXHandle;
+    return this;
   }
 
   /**
@@ -80,8 +81,9 @@ public class Endpoint {
    * @param cFXVersion the value
    */
   @JsonSetter("CFXVersion")
-  public void setCFXVersion(String cFXVersion) {
+  public Endpoint setCFXVersion(String cFXVersion) {
     this.cFXVersion = cFXVersion;
+    return this;
   }
 
   /**
@@ -99,8 +101,9 @@ public class Endpoint {
    * @param requestNetworkUri the value
    */
   @JsonSetter("RequestNetworkUri")
-  public void setRequestNetworkUri(String requestNetworkUri) {
+  public Endpoint setRequestNetworkUri(String requestNetworkUri) {
     this.requestNetworkUri = requestNetworkUri;
+    return this;
   }
 
   /**
@@ -118,8 +121,9 @@ public class Endpoint {
    * @param requestTargetAddress the value
    */
   @JsonSetter("RequestTargetAddress")
-  public void setRequestTargetAddress(String requestTargetAddress) {
+  public Endpoint setRequestTargetAddress(String requestTargetAddress) {
     this.requestTargetAddress = requestTargetAddress;
+    return this;
   }
 
   /**
@@ -137,8 +141,9 @@ public class Endpoint {
    * @param uniqueIdentifier the value
    */
   @JsonSetter("UniqueIdentifier")
-  public void setUniqueIdentifier(String uniqueIdentifier) {
+  public Endpoint setUniqueIdentifier(String uniqueIdentifier) {
     this.uniqueIdentifier = uniqueIdentifier;
+    return this;
   }
 
   /**
@@ -156,8 +161,9 @@ public class Endpoint {
    * @param friendlyName the value
    */
   @JsonSetter("FriendlyName")
-  public void setFriendlyName(String friendlyName) {
+  public Endpoint setFriendlyName(String friendlyName) {
     this.friendlyName = friendlyName;
+    return this;
   }
 
   /**
@@ -175,8 +181,9 @@ public class Endpoint {
    * @param vendor the value
    */
   @JsonSetter("Vendor")
-  public void setVendor(String vendor) {
+  public Endpoint setVendor(String vendor) {
     this.vendor = vendor;
+    return this;
   }
 
   /**
@@ -194,8 +201,9 @@ public class Endpoint {
    * @param modelNumber the value
    */
   @JsonSetter("ModelNumber")
-  public void setModelNumber(String modelNumber) {
+  public Endpoint setModelNumber(String modelNumber) {
     this.modelNumber = modelNumber;
+    return this;
   }
 
   /**
@@ -213,8 +221,9 @@ public class Endpoint {
    * @param serialNumber the value
    */
   @JsonSetter("SerialNumber")
-  public void setSerialNumber(String serialNumber) {
+  public Endpoint setSerialNumber(String serialNumber) {
     this.serialNumber = serialNumber;
+    return this;
   }
 
   /**
@@ -232,8 +241,9 @@ public class Endpoint {
    * @param stages the value
    */
   @JsonSetter("Stages")
-  public void setStages(StageInformation[] stages) {
+  public Endpoint setStages(StageInformation[] stages) {
     this.stages = stages;
+    return this;
   }
 
   /**
@@ -250,8 +260,9 @@ public class Endpoint {
    * @param numberOfLanes the value
    */
   @JsonSetter("NumberOfLanes")
-  public void setNumberOfLanes(int numberOfLanes) {
+  public Endpoint setNumberOfLanes(int numberOfLanes) {
     this.numberOfLanes = numberOfLanes;
+    return this;
   }
 
   /**
@@ -269,8 +280,9 @@ public class Endpoint {
    * @param hermesInformation the value
    */
   @JsonSetter("HermesInformation")
-  public void setHermesInformation(HermesInformation hermesInformation) {
+  public Endpoint setHermesInformation(HermesInformation hermesInformation) {
     this.hermesInformation = hermesInformation;
+    return this;
   }
 
   /**
@@ -289,8 +301,9 @@ public class Endpoint {
    * @param operatingRequirements the value
    */
   @JsonSetter("OperatingRequirements")
-  public void setOperatingRequirements(OperatingRequirements operatingRequirements) {
+  public Endpoint setOperatingRequirements(OperatingRequirements operatingRequirements) {
     this.operatingRequirements = operatingRequirements;
+    return this;
   }
 
   /**
@@ -308,8 +321,9 @@ public class Endpoint {
    * @param supportedTopics the value
    */
   @JsonSetter("SupportedTopics")
-  public void setSupportedTopics(SupportedTopic[] supportedTopics) {
+  public Endpoint setSupportedTopics(SupportedTopic[] supportedTopics) {
     this.supportedTopics = supportedTopics;
+    return this;
   }
 
   /**

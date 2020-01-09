@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production;
 
@@ -51,8 +51,9 @@ public class WorkStageResumed extends CFXMessage {
    * @param transactionID the value
    */
   @JsonSetter("TransactionID")
-  public void setTransactionID(UUID transactionID) {
+  public WorkStageResumed setTransactionID(UUID transactionID) {
     this.transactionID = transactionID;
+    return this;
   }
 
   /**
@@ -69,8 +70,9 @@ public class WorkStageResumed extends CFXMessage {
    * @param stage the value
    */
   @JsonSetter("Stage")
-  public void setStage(Stage stage) {
+  public WorkStageResumed setStage(Stage stage) {
     this.stage = stage;
+    return this;
   }
 
   /**

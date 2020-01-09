@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pressinsertion;
 
@@ -45,8 +45,9 @@ public class PressResult {
    * @param pressBoardData the value
    */
   @JsonSetter("PressBoardData")
-  public void setPressBoardData(BoardData pressBoardData) {
+  public PressResult setPressBoardData(BoardData pressBoardData) {
     this.pressBoardData = pressBoardData;
+    return this;
   }
 
   /**
@@ -63,8 +64,9 @@ public class PressResult {
    * @param pressConnector the value
    */
   @JsonSetter("PressConnector")
-  public void setPressConnector(Connector pressConnector) {
+  public PressResult setPressConnector(Connector pressConnector) {
     this.pressConnector = pressConnector;
+    return this;
   }
 
   /**
@@ -81,8 +83,9 @@ public class PressResult {
    * @param data the value
    */
   @JsonSetter("Data")
-  public void setData(PressData data) {
+  public PressResult setData(PressData data) {
     this.data = data;
+    return this;
   }
 
   /**
@@ -99,8 +102,9 @@ public class PressResult {
    * @param connectorLocation the value
    */
   @JsonSetter("ConnectorLocation")
-  public void setConnectorLocation(ConnectorCoordinates connectorLocation) {
+  public PressResult setConnectorLocation(ConnectorCoordinates connectorLocation) {
     this.connectorLocation = connectorLocation;
+    return this;
   }
 
   /**
@@ -117,8 +121,9 @@ public class PressResult {
    * @param sequenceNumber the value
    */
   @JsonSetter("SequenceNumber")
-  public void setSequenceNumber(int sequenceNumber) {
+  public PressResult setSequenceNumber(int sequenceNumber) {
     this.sequenceNumber = sequenceNumber;
+    return this;
   }
 
   /**
@@ -135,8 +140,9 @@ public class PressResult {
    * @param machineID the value
    */
   @JsonSetter("MachineID")
-  public void setMachineID(String machineID) {
+  public PressResult setMachineID(String machineID) {
     this.machineID = machineID;
+    return this;
   }
 
   /**
@@ -154,8 +160,9 @@ public class PressResult {
    * @param pressOperator the value
    */
   @JsonSetter("PressOperator")
-  public void setPressOperator(Operator pressOperator) {
+  public PressResult setPressOperator(Operator pressOperator) {
     this.pressOperator = pressOperator;
+    return this;
   }
 
   /**

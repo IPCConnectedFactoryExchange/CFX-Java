@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -52,8 +52,9 @@ public class Inspection {
    * @param uniqueIdentifier the value
    */
   @JsonSetter("UniqueIdentifier")
-  public void setUniqueIdentifier(String uniqueIdentifier) {
+  public Inspection setUniqueIdentifier(String uniqueIdentifier) {
     this.uniqueIdentifier = uniqueIdentifier;
+    return this;
   }
 
   /**
@@ -72,8 +73,9 @@ public class Inspection {
    * @param inspectionName the value
    */
   @JsonSetter("InspectionName")
-  public void setInspectionName(String inspectionName) {
+  public Inspection setInspectionName(String inspectionName) {
     this.inspectionName = inspectionName;
+    return this;
   }
 
   /**
@@ -91,8 +93,9 @@ public class Inspection {
    * @param inspectionStartTime the value
    */
   @JsonSetter("InspectionStartTime")
-  public void setInspectionStartTime(Date inspectionStartTime) {
+  public Inspection setInspectionStartTime(Date inspectionStartTime) {
     this.inspectionStartTime = inspectionStartTime;
+    return this;
   }
 
   /**
@@ -109,8 +112,9 @@ public class Inspection {
    * @param inspectionEndTime the value
    */
   @JsonSetter("InspectionEndTime")
-  public void setInspectionEndTime(Date inspectionEndTime) {
+  public Inspection setInspectionEndTime(Date inspectionEndTime) {
     this.inspectionEndTime = inspectionEndTime;
+    return this;
   }
 
   /**
@@ -127,8 +131,9 @@ public class Inspection {
    * @param testProcedure the value
    */
   @JsonSetter("TestProcedure")
-  public void setTestProcedure(String testProcedure) {
+  public Inspection setTestProcedure(String testProcedure) {
     this.testProcedure = testProcedure;
+    return this;
   }
 
   /**
@@ -146,8 +151,9 @@ public class Inspection {
    * @param comments the value
    */
   @JsonSetter("Comments")
-  public void setComments(String comments) {
+  public Inspection setComments(String comments) {
     this.comments = comments;
+    return this;
   }
 
   /**
@@ -165,8 +171,9 @@ public class Inspection {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(TestResult result) {
+  public Inspection setResult(TestResult result) {
     this.result = result;
+    return this;
   }
 
   /**
@@ -183,8 +190,9 @@ public class Inspection {
    * @param verification the value
    */
   @JsonSetter("Verification")
-  public void setVerification(VerificationResult verification) {
+  public Inspection setVerification(VerificationResult verification) {
     this.verification = verification;
+    return this;
   }
 
   /**
@@ -201,8 +209,9 @@ public class Inspection {
    * @param error the value
    */
   @JsonSetter("Error")
-  public void setError(String error) {
+  public Inspection setError(String error) {
     this.error = error;
+    return this;
   }
 
   /**
@@ -220,8 +229,9 @@ public class Inspection {
    * @param defectsFound the value
    */
   @JsonSetter("DefectsFound")
-  public void setDefectsFound(Defect[] defectsFound) {
+  public Inspection setDefectsFound(Defect[] defectsFound) {
     this.defectsFound = defectsFound;
+    return this;
   }
 
   /**
@@ -238,8 +248,9 @@ public class Inspection {
    * @param symptoms the value
    */
   @JsonSetter("Symptoms")
-  public void setSymptoms(Symptom[] symptoms) {
+  public Inspection setSymptoms(Symptom[] symptoms) {
     this.symptoms = symptoms;
+    return this;
   }
 
   /**
@@ -257,8 +268,9 @@ public class Inspection {
    * @param measurements the value
    */
   @JsonSetter("Measurements")
-  public void setMeasurements(Measurement[] measurements) {
+  public Inspection setMeasurements(Measurement[] measurements) {
     this.measurements = measurements;
+    return this;
   }
 
   /**

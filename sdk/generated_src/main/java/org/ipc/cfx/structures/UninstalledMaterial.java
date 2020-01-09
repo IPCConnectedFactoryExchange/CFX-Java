@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -44,8 +44,9 @@ public class UninstalledMaterial {
    * @param unitIdentifier the value
    */
   @JsonSetter("UnitIdentifier")
-  public void setUnitIdentifier(String unitIdentifier) {
+  public UninstalledMaterial setUnitIdentifier(String unitIdentifier) {
     this.unitIdentifier = unitIdentifier;
+    return this;
   }
 
   /**
@@ -63,8 +64,9 @@ public class UninstalledMaterial {
    * @param unitPositionNumber the value
    */
   @JsonSetter("UnitPositionNumber")
-  public void setUnitPositionNumber(Integer unitPositionNumber) {
+  public UninstalledMaterial setUnitPositionNumber(Integer unitPositionNumber) {
     this.unitPositionNumber = unitPositionNumber;
+    return this;
   }
 
   /**
@@ -81,8 +83,9 @@ public class UninstalledMaterial {
    * @param quantityUninstalled the value
    */
   @JsonSetter("QuantityUninstalled")
-  public void setQuantityUninstalled(double quantityUninstalled) {
+  public UninstalledMaterial setQuantityUninstalled(double quantityUninstalled) {
     this.quantityUninstalled = quantityUninstalled;
+    return this;
   }
 
   /**
@@ -99,8 +102,9 @@ public class UninstalledMaterial {
    * @param reason the value
    */
   @JsonSetter("Reason")
-  public void setReason(UninstalledReason reason) {
+  public UninstalledMaterial setReason(UninstalledReason reason) {
     this.reason = reason;
+    return this;
   }
 
   /**
@@ -117,8 +121,9 @@ public class UninstalledMaterial {
    * @param material the value
    */
   @JsonSetter("Material")
-  public void setMaterial(MaterialPackage material) {
+  public UninstalledMaterial setMaterial(MaterialPackage material) {
     this.material = material;
+    return this;
   }
 
   /**
@@ -135,8 +140,9 @@ public class UninstalledMaterial {
    * @param uninstalledComponents the value
    */
   @JsonSetter("UninstalledComponents")
-  public void setUninstalledComponents(InstalledComponent[] uninstalledComponents) {
+  public UninstalledMaterial setUninstalledComponents(InstalledComponent[] uninstalledComponents) {
     this.uninstalledComponents = uninstalledComponents;
+    return this;
   }
 
   /**

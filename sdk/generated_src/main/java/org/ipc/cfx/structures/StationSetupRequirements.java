@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -45,8 +45,9 @@ public class StationSetupRequirements {
    * @param lane the value
    */
   @JsonSetter("Lane")
-  public void setLane(Integer lane) {
+  public StationSetupRequirements setLane(Integer lane) {
     this.lane = lane;
+    return this;
   }
 
   /**
@@ -63,8 +64,9 @@ public class StationSetupRequirements {
    * @param stage the value
    */
   @JsonSetter("Stage")
-  public void setStage(Stage stage) {
+  public StationSetupRequirements setStage(Stage stage) {
     this.stage = stage;
+    return this;
   }
 
   /**
@@ -81,8 +83,9 @@ public class StationSetupRequirements {
    * @param setupName the value
    */
   @JsonSetter("SetupName")
-  public void setSetupName(String setupName) {
+  public StationSetupRequirements setSetupName(String setupName) {
     this.setupName = setupName;
+    return this;
   }
 
   /**
@@ -101,8 +104,9 @@ public class StationSetupRequirements {
    * @param materialSetupRequirements the value
    */
   @JsonSetter("MaterialSetupRequirements")
-  public void setMaterialSetupRequirements(MaterialSetupRequirement[] materialSetupRequirements) {
+  public StationSetupRequirements setMaterialSetupRequirements(MaterialSetupRequirement[] materialSetupRequirements) {
     this.materialSetupRequirements = materialSetupRequirements;
+    return this;
   }
 
   /**
@@ -121,8 +125,9 @@ public class StationSetupRequirements {
    * @param toolSetupRequirements the value
    */
   @JsonSetter("ToolSetupRequirements")
-  public void setToolSetupRequirements(ToolSetupRequirement[] toolSetupRequirements) {
+  public StationSetupRequirements setToolSetupRequirements(ToolSetupRequirement[] toolSetupRequirements) {
     this.toolSetupRequirements = toolSetupRequirements;
+    return this;
   }
 
   /**

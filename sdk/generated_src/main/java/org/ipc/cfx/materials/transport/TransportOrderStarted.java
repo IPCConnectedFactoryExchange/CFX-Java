@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.materials.transport;
 
@@ -69,8 +69,9 @@ public class TransportOrderStarted extends CFXMessage {
    * @param transportOrderId the value
    */
   @JsonSetter("TransportOrderId")
-  public void setTransportOrderId(String transportOrderId) {
+  public TransportOrderStarted setTransportOrderId(String transportOrderId) {
     this.transportOrderId = transportOrderId;
+    return this;
   }
 
   /**
@@ -88,8 +89,9 @@ public class TransportOrderStarted extends CFXMessage {
    * @param startedBy the value
    */
   @JsonSetter("StartedBy")
-  public void setStartedBy(Operator startedBy) {
+  public TransportOrderStarted setStartedBy(Operator startedBy) {
     this.startedBy = startedBy;
+    return this;
   }
 
   /**
@@ -106,8 +108,9 @@ public class TransportOrderStarted extends CFXMessage {
    * @param comments the value
    */
   @JsonSetter("Comments")
-  public void setComments(String comments) {
+  public TransportOrderStarted setComments(String comments) {
     this.comments = comments;
+    return this;
   }
 
   /**
@@ -125,8 +128,9 @@ public class TransportOrderStarted extends CFXMessage {
    * @param status the value
    */
   @JsonSetter("Status")
-  public void setStatus(TransportOrderStatus status) {
+  public TransportOrderStarted setStatus(TransportOrderStatus status) {
     this.status = status;
+    return this;
   }
 
   /**
@@ -143,8 +147,9 @@ public class TransportOrderStarted extends CFXMessage {
    * @param relatedWorkOrderId the value
    */
   @JsonSetter("RelatedWorkOrderId")
-  public void setRelatedWorkOrderId(String relatedWorkOrderId) {
+  public TransportOrderStarted setRelatedWorkOrderId(String relatedWorkOrderId) {
     this.relatedWorkOrderId = relatedWorkOrderId;
+    return this;
   }
 
   /**
@@ -164,8 +169,9 @@ public class TransportOrderStarted extends CFXMessage {
    * @param source the value
    */
   @JsonSetter("Source")
-  public void setSource(String source) {
+  public TransportOrderStarted setSource(String source) {
     this.source = source;
+    return this;
   }
 
   /**
@@ -185,8 +191,9 @@ public class TransportOrderStarted extends CFXMessage {
    * @param finalDestination the value
    */
   @JsonSetter("FinalDestination")
-  public void setFinalDestination(String finalDestination) {
+  public TransportOrderStarted setFinalDestination(String finalDestination) {
     this.finalDestination = finalDestination;
+    return this;
   }
 
   /**
@@ -204,8 +211,9 @@ public class TransportOrderStarted extends CFXMessage {
    * @param nextCheckpoint the value
    */
   @JsonSetter("NextCheckpoint")
-  public void setNextCheckpoint(String nextCheckpoint) {
+  public TransportOrderStarted setNextCheckpoint(String nextCheckpoint) {
     this.nextCheckpoint = nextCheckpoint;
+    return this;
   }
 
   /**
@@ -224,8 +232,9 @@ public class TransportOrderStarted extends CFXMessage {
    * @param materials the value
    */
   @JsonSetter("Materials")
-  public void setMaterials(MaterialPackage[] materials) {
+  public TransportOrderStarted setMaterials(MaterialPackage[] materials) {
     this.materials = materials;
+    return this;
   }
 
   /**

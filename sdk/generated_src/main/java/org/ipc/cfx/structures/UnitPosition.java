@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -61,8 +61,9 @@ public class UnitPosition {
    * @param unitIdentifier the value
    */
   @JsonSetter("UnitIdentifier")
-  public void setUnitIdentifier(String unitIdentifier) {
+  public UnitPosition setUnitIdentifier(String unitIdentifier) {
     this.unitIdentifier = unitIdentifier;
+    return this;
   }
 
   /**
@@ -80,8 +81,9 @@ public class UnitPosition {
    * @param positionNumber the value
    */
   @JsonSetter("PositionNumber")
-  public void setPositionNumber(int positionNumber) {
+  public UnitPosition setPositionNumber(int positionNumber) {
     this.positionNumber = positionNumber;
+    return this;
   }
 
   /**
@@ -98,8 +100,9 @@ public class UnitPosition {
    * @param positionName the value
    */
   @JsonSetter("PositionName")
-  public void setPositionName(String positionName) {
+  public UnitPosition setPositionName(String positionName) {
     this.positionName = positionName;
+    return this;
   }
 
   /**
@@ -117,8 +120,9 @@ public class UnitPosition {
    * @param x the value
    */
   @JsonSetter("X")
-  public void setX(double x) {
+  public UnitPosition setX(double x) {
     this.x = x;
+    return this;
   }
 
   /**
@@ -135,8 +139,9 @@ public class UnitPosition {
    * @param y the value
    */
   @JsonSetter("Y")
-  public void setY(double y) {
+  public UnitPosition setY(double y) {
     this.y = y;
+    return this;
   }
 
   /**
@@ -153,8 +158,9 @@ public class UnitPosition {
    * @param rotation the value
    */
   @JsonSetter("Rotation")
-  public void setRotation(double rotation) {
+  public UnitPosition setRotation(double rotation) {
     this.rotation = rotation;
+    return this;
   }
 
   /**
@@ -171,8 +177,9 @@ public class UnitPosition {
    * @param flipX the value
    */
   @JsonSetter("FlipX")
-  public void setFlipX(boolean flipX) {
+  public UnitPosition setFlipX(boolean flipX) {
     this.flipX = flipX;
+    return this;
   }
 
   /**
@@ -189,8 +196,9 @@ public class UnitPosition {
    * @param flipY the value
    */
   @JsonSetter("FlipY")
-  public void setFlipY(boolean flipY) {
+  public UnitPosition setFlipY(boolean flipY) {
     this.flipY = flipY;
+    return this;
   }
 
   /**

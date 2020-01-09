@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -53,8 +53,9 @@ public class ComponentElectricalTest {
    * @param testerSerialNumber the value
    */
   @JsonSetter("TesterSerialNumber")
-  public void setTesterSerialNumber(String testerSerialNumber) {
+  public ComponentElectricalTest setTesterSerialNumber(String testerSerialNumber) {
     this.testerSerialNumber = testerSerialNumber;
+    return this;
   }
 
   /**
@@ -72,8 +73,9 @@ public class ComponentElectricalTest {
    * @param frequency the value
    */
   @JsonSetter("Frequency")
-  public void setFrequency(double frequency) {
+  public ComponentElectricalTest setFrequency(double frequency) {
     this.frequency = frequency;
+    return this;
   }
 
   /**
@@ -90,8 +92,9 @@ public class ComponentElectricalTest {
    * @param expectedValue the value
    */
   @JsonSetter("ExpectedValue")
-  public void setExpectedValue(double expectedValue) {
+  public ComponentElectricalTest setExpectedValue(double expectedValue) {
     this.expectedValue = expectedValue;
+    return this;
   }
 
   /**
@@ -108,8 +111,9 @@ public class ComponentElectricalTest {
    * @param measuredValue the value
    */
   @JsonSetter("MeasuredValue")
-  public void setMeasuredValue(double measuredValue) {
+  public ComponentElectricalTest setMeasuredValue(double measuredValue) {
     this.measuredValue = measuredValue;
+    return this;
   }
 
   /**
@@ -126,8 +130,9 @@ public class ComponentElectricalTest {
    * @param toleranceMin the value
    */
   @JsonSetter("ToleranceMin")
-  public void setToleranceMin(double toleranceMin) {
+  public ComponentElectricalTest setToleranceMin(double toleranceMin) {
     this.toleranceMin = toleranceMin;
+    return this;
   }
 
   /**
@@ -144,8 +149,9 @@ public class ComponentElectricalTest {
    * @param toleranceMax the value
    */
   @JsonSetter("ToleranceMax")
-  public void setToleranceMax(double toleranceMax) {
+  public ComponentElectricalTest setToleranceMax(double toleranceMax) {
     this.toleranceMax = toleranceMax;
+    return this;
   }
 
   /**
@@ -162,8 +168,9 @@ public class ComponentElectricalTest {
    * @param unit the value
    */
   @JsonSetter("Unit")
-  public void setUnit(ComponentElectricalTestUnit unit) {
+  public ComponentElectricalTest setUnit(ComponentElectricalTestUnit unit) {
     this.unit = unit;
+    return this;
   }
 
   /**
@@ -180,8 +187,9 @@ public class ComponentElectricalTest {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(boolean result) {
+  public ComponentElectricalTest setResult(boolean result) {
     this.result = result;
+    return this;
   }
 
   /**

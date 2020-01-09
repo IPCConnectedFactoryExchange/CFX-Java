@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:10 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.informationsystem.workordermanagement;
 
@@ -51,8 +51,9 @@ public class WorkOrderQuantityUpdated extends CFXMessage {
    * @param workOrderIdentifier the value
    */
   @JsonSetter("WorkOrderIdentifier")
-  public void setWorkOrderIdentifier(WorkOrderIdentifier workOrderIdentifier) {
+  public WorkOrderQuantityUpdated setWorkOrderIdentifier(WorkOrderIdentifier workOrderIdentifier) {
     this.workOrderIdentifier = workOrderIdentifier;
+    return this;
   }
 
   /**
@@ -69,8 +70,9 @@ public class WorkOrderQuantityUpdated extends CFXMessage {
    * @param newQuantity the value
    */
   @JsonSetter("NewQuantity")
-  public void setNewQuantity(double newQuantity) {
+  public WorkOrderQuantityUpdated setNewQuantity(double newQuantity) {
     this.newQuantity = newQuantity;
+    return this;
   }
 
   /**
@@ -87,8 +89,9 @@ public class WorkOrderQuantityUpdated extends CFXMessage {
    * @param previousQuantity the value
    */
   @JsonSetter("PreviousQuantity")
-  public void setPreviousQuantity(Double previousQuantity) {
+  public WorkOrderQuantityUpdated setPreviousQuantity(Double previousQuantity) {
     this.previousQuantity = previousQuantity;
+    return this;
   }
 
   /**

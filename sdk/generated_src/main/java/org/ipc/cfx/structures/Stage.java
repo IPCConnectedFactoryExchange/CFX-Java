@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -49,8 +49,9 @@ public class Stage {
    * @param stageSequence the value
    */
   @JsonSetter("StageSequence")
-  public void setStageSequence(int stageSequence) {
+  public Stage setStageSequence(int stageSequence) {
     this.stageSequence = stageSequence;
+    return this;
   }
 
   /**
@@ -67,8 +68,9 @@ public class Stage {
    * @param stageName the value
    */
   @JsonSetter("StageName")
-  public void setStageName(String stageName) {
+  public Stage setStageName(String stageName) {
     this.stageName = stageName;
+    return this;
   }
 
   /**
@@ -86,8 +88,9 @@ public class Stage {
    * @param stageType the value
    */
   @JsonSetter("StageType")
-  public void setStageType(StageType stageType) {
+  public Stage setStageType(StageType stageType) {
     this.stageType = stageType;
+    return this;
   }
 
   /**

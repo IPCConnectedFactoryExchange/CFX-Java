@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.reflowprofiling;
 
@@ -55,8 +55,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param timeDateUnitIn the value
    */
   @JsonSetter("TimeDateUnitIn")
-  public void setTimeDateUnitIn(Date timeDateUnitIn) {
+  public ReflowProfilingProcessData setTimeDateUnitIn(Date timeDateUnitIn) {
     this.timeDateUnitIn = timeDateUnitIn;
+    return this;
   }
 
   /**
@@ -73,8 +74,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param timeDateUnitOut the value
    */
   @JsonSetter("TimeDateUnitOut")
-  public void setTimeDateUnitOut(Date timeDateUnitOut) {
+  public ReflowProfilingProcessData setTimeDateUnitOut(Date timeDateUnitOut) {
     this.timeDateUnitOut = timeDateUnitOut;
+    return this;
   }
 
   /**
@@ -91,8 +93,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param productName the value
    */
   @JsonSetter("ProductName")
-  public void setProductName(String productName) {
+  public ReflowProfilingProcessData setProductName(String productName) {
     this.productName = productName;
+    return this;
   }
 
   /**
@@ -110,8 +113,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param barcode the value
    */
   @JsonSetter("Barcode")
-  public void setBarcode(String barcode) {
+  public ReflowProfilingProcessData setBarcode(String barcode) {
     this.barcode = barcode;
+    return this;
   }
 
   /**
@@ -129,8 +133,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param recipeName the value
    */
   @JsonSetter("RecipeName")
-  public void setRecipeName(String recipeName) {
+  public ReflowProfilingProcessData setRecipeName(String recipeName) {
     this.recipeName = recipeName;
+    return this;
   }
 
   /**
@@ -148,8 +153,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param processWindowName the value
    */
   @JsonSetter("ProcessWindowName")
-  public void setProcessWindowName(String processWindowName) {
+  public ReflowProfilingProcessData setProcessWindowName(String processWindowName) {
     this.processWindowName = processWindowName;
+    return this;
   }
 
   /**
@@ -167,8 +173,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param lotID the value
    */
   @JsonSetter("LotID")
-  public void setLotID(String lotID) {
+  public ReflowProfilingProcessData setLotID(String lotID) {
     this.lotID = lotID;
+    return this;
   }
 
   /**
@@ -186,8 +193,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param ovenName the value
    */
   @JsonSetter("OvenName")
-  public void setOvenName(String ovenName) {
+  public ReflowProfilingProcessData setOvenName(String ovenName) {
     this.ovenName = ovenName;
+    return this;
   }
 
   /**
@@ -205,8 +213,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param lane the value
    */
   @JsonSetter("Lane")
-  public void setLane(int lane) {
+  public ReflowProfilingProcessData setLane(int lane) {
     this.lane = lane;
+    return this;
   }
 
   /**
@@ -223,8 +232,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param conveyorSpeedSetpoint the value
    */
   @JsonSetter("ConveyorSpeedSetpoint")
-  public void setConveyorSpeedSetpoint(double conveyorSpeedSetpoint) {
+  public ReflowProfilingProcessData setConveyorSpeedSetpoint(double conveyorSpeedSetpoint) {
     this.conveyorSpeedSetpoint = conveyorSpeedSetpoint;
+    return this;
   }
 
   /**
@@ -241,8 +251,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param measuredConveyorSpeed the value
    */
   @JsonSetter("MeasuredConveyorSpeed")
-  public void setMeasuredConveyorSpeed(double measuredConveyorSpeed) {
+  public ReflowProfilingProcessData setMeasuredConveyorSpeed(double measuredConveyorSpeed) {
     this.measuredConveyorSpeed = measuredConveyorSpeed;
+    return this;
   }
 
   /**
@@ -259,8 +270,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(TestResult result) {
+  public ReflowProfilingProcessData setResult(TestResult result) {
     this.result = result;
+    return this;
   }
 
   /**
@@ -277,8 +289,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param productionUnitPWI the value
    */
   @JsonSetter("ProductionUnitPWI")
-  public void setProductionUnitPWI(double productionUnitPWI) {
+  public ReflowProfilingProcessData setProductionUnitPWI(double productionUnitPWI) {
     this.productionUnitPWI = productionUnitPWI;
+    return this;
   }
 
   /**
@@ -296,8 +309,9 @@ public class ReflowProfilingProcessData extends ProcessData {
    * @param zoneData the value
    */
   @JsonSetter("ZoneData")
-  public void setZoneData(ReflowZoneData[] zoneData) {
+  public ReflowProfilingProcessData setZoneData(ReflowZoneData[] zoneData) {
     this.zoneData = zoneData;
+    return this;
   }
 
   /**

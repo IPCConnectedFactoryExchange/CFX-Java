@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production;
 
@@ -64,8 +64,9 @@ public class BlockMaterialLocationsRequest extends CFXMessage {
    * @param reason the value
    */
   @JsonSetter("Reason")
-  public void setReason(BlockReason reason) {
+  public BlockMaterialLocationsRequest setReason(BlockReason reason) {
     this.reason = reason;
+    return this;
   }
 
   /**
@@ -82,8 +83,9 @@ public class BlockMaterialLocationsRequest extends CFXMessage {
    * @param comments the value
    */
   @JsonSetter("Comments")
-  public void setComments(String comments) {
+  public BlockMaterialLocationsRequest setComments(String comments) {
     this.comments = comments;
+    return this;
   }
 
   /**
@@ -101,8 +103,9 @@ public class BlockMaterialLocationsRequest extends CFXMessage {
    * @param locations the value
    */
   @JsonSetter("Locations")
-  public void setLocations(MaterialLocation[] locations) {
+  public BlockMaterialLocationsRequest setLocations(MaterialLocation[] locations) {
     this.locations = locations;
+    return this;
   }
 
   /**

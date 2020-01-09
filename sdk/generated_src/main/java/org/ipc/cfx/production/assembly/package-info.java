@@ -17,11 +17,11 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 /**
  * Messages are used by a production resource performing any form of assembly of production units. This includes both automated, semi-manual and manual assembly operations.
- * source: CFX.DLL, Version 1.1.3.0
+ * source: CFX.DLL, Version 1.1.6.0
  */
 package org.ipc.cfx.production.assembly;

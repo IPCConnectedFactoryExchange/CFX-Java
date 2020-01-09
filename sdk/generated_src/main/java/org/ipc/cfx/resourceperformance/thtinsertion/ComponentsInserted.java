@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.resourceperformance.thtinsertion;
 
@@ -52,8 +52,9 @@ public class ComponentsInserted extends CFXMessage {
    * @param startTime the value
    */
   @JsonSetter("StartTime")
-  public void setStartTime(Date startTime) {
+  public ComponentsInserted setStartTime(Date startTime) {
     this.startTime = startTime;
+    return this;
   }
 
   /**
@@ -70,8 +71,9 @@ public class ComponentsInserted extends CFXMessage {
    * @param endTime the value
    */
   @JsonSetter("EndTime")
-  public void setEndTime(Date endTime) {
+  public ComponentsInserted setEndTime(Date endTime) {
     this.endTime = endTime;
+    return this;
   }
 
   /**
@@ -88,8 +90,9 @@ public class ComponentsInserted extends CFXMessage {
    * @param totalComponentsInserted the value
    */
   @JsonSetter("TotalComponentsInserted")
-  public void setTotalComponentsInserted(int totalComponentsInserted) {
+  public ComponentsInserted setTotalComponentsInserted(int totalComponentsInserted) {
     this.totalComponentsInserted = totalComponentsInserted;
+    return this;
   }
 
   /**
@@ -106,8 +109,9 @@ public class ComponentsInserted extends CFXMessage {
    * @param totalComponentsNotInserted the value
    */
   @JsonSetter("TotalComponentsNotInserted")
-  public void setTotalComponentsNotInserted(int totalComponentsNotInserted) {
+  public ComponentsInserted setTotalComponentsNotInserted(int totalComponentsNotInserted) {
     this.totalComponentsNotInserted = totalComponentsNotInserted;
+    return this;
   }
 
   /**

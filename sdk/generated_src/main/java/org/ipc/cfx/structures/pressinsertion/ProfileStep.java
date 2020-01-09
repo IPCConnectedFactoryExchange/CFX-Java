@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pressinsertion;
 
@@ -41,8 +41,9 @@ public class ProfileStep {
    * @param sequencePosition the value
    */
   @JsonSetter("SequencePosition")
-  public void setSequencePosition(int sequencePosition) {
+  public ProfileStep setSequencePosition(int sequencePosition) {
     this.sequencePosition = sequencePosition;
+    return this;
   }
 
   /**
@@ -59,8 +60,9 @@ public class ProfileStep {
    * @param name the value
    */
   @JsonSetter("Name")
-  public void setName(String name) {
+  public ProfileStep setName(String name) {
     this.name = name;
+    return this;
   }
 
   /**
@@ -79,8 +81,9 @@ public class ProfileStep {
    * @param speed the value
    */
   @JsonSetter("Speed")
-  public void setSpeed(double speed) {
+  public ProfileStep setSpeed(double speed) {
     this.speed = speed;
+    return this;
   }
 
   /**
@@ -97,8 +100,9 @@ public class ProfileStep {
    * @param typeOfStep the value
    */
   @JsonSetter("TypeOfStep")
-  public void setTypeOfStep(StepType typeOfStep) {
+  public ProfileStep setTypeOfStep(StepType typeOfStep) {
     this.typeOfStep = typeOfStep;
+    return this;
   }
 
   /**

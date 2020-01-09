@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pressinsertion;
 
@@ -43,8 +43,9 @@ public class BoardData {
    * @param boardName the value
    */
   @JsonSetter("BoardName")
-  public void setBoardName(String boardName) {
+  public BoardData setBoardName(String boardName) {
     this.boardName = boardName;
+    return this;
   }
 
   /**
@@ -62,8 +63,9 @@ public class BoardData {
    * @param serialNumber the value
    */
   @JsonSetter("SerialNumber")
-  public void setSerialNumber(String serialNumber) {
+  public BoardData setSerialNumber(String serialNumber) {
     this.serialNumber = serialNumber;
+    return this;
   }
 
   /**
@@ -81,8 +83,9 @@ public class BoardData {
    * @param barcodeLabel the value
    */
   @JsonSetter("BarcodeLabel")
-  public void setBarcodeLabel(String barcodeLabel) {
+  public BoardData setBarcodeLabel(String barcodeLabel) {
     this.barcodeLabel = barcodeLabel;
+    return this;
   }
 
   /**
@@ -100,8 +103,9 @@ public class BoardData {
    * @param startDateTime the value
    */
   @JsonSetter("StartDateTime")
-  public void setStartDateTime(Date startDateTime) {
+  public BoardData setStartDateTime(Date startDateTime) {
     this.startDateTime = startDateTime;
+    return this;
   }
 
   /**
@@ -118,8 +122,9 @@ public class BoardData {
    * @param endDateTime the value
    */
   @JsonSetter("EndDateTime")
-  public void setEndDateTime(Date endDateTime) {
+  public BoardData setEndDateTime(Date endDateTime) {
     this.endDateTime = endDateTime;
+    return this;
   }
 
   /**

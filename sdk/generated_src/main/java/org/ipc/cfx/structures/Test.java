@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -52,8 +52,9 @@ public class Test {
    * @param uniqueIdentifier the value
    */
   @JsonSetter("UniqueIdentifier")
-  public void setUniqueIdentifier(String uniqueIdentifier) {
+  public Test setUniqueIdentifier(String uniqueIdentifier) {
     this.uniqueIdentifier = uniqueIdentifier;
+    return this;
   }
 
   /**
@@ -72,8 +73,9 @@ public class Test {
    * @param testName the value
    */
   @JsonSetter("TestName")
-  public void setTestName(String testName) {
+  public Test setTestName(String testName) {
     this.testName = testName;
+    return this;
   }
 
   /**
@@ -91,8 +93,9 @@ public class Test {
    * @param testStartTime the value
    */
   @JsonSetter("TestStartTime")
-  public void setTestStartTime(Date testStartTime) {
+  public Test setTestStartTime(Date testStartTime) {
     this.testStartTime = testStartTime;
+    return this;
   }
 
   /**
@@ -109,8 +112,9 @@ public class Test {
    * @param testEndTime the value
    */
   @JsonSetter("TestEndTime")
-  public void setTestEndTime(Date testEndTime) {
+  public Test setTestEndTime(Date testEndTime) {
     this.testEndTime = testEndTime;
+    return this;
   }
 
   /**
@@ -128,8 +132,9 @@ public class Test {
    * @param testConditions the value
    */
   @JsonSetter("TestConditions")
-  public void setTestConditions(EnvironmentalCondition[] testConditions) {
+  public Test setTestConditions(EnvironmentalCondition[] testConditions) {
     this.testConditions = testConditions;
+    return this;
   }
 
   /**
@@ -147,8 +152,9 @@ public class Test {
    * @param testProcedure the value
    */
   @JsonSetter("TestProcedure")
-  public void setTestProcedure(String testProcedure) {
+  public Test setTestProcedure(String testProcedure) {
     this.testProcedure = testProcedure;
+    return this;
   }
 
   /**
@@ -166,8 +172,9 @@ public class Test {
    * @param comments the value
    */
   @JsonSetter("Comments")
-  public void setComments(String comments) {
+  public Test setComments(String comments) {
     this.comments = comments;
+    return this;
   }
 
   /**
@@ -185,8 +192,9 @@ public class Test {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(TestResult result) {
+  public Test setResult(TestResult result) {
     this.result = result;
+    return this;
   }
 
   /**
@@ -203,8 +211,9 @@ public class Test {
    * @param error the value
    */
   @JsonSetter("Error")
-  public void setError(String error) {
+  public Test setError(String error) {
     this.error = error;
+    return this;
   }
 
   /**
@@ -222,8 +231,9 @@ public class Test {
    * @param symptomsFound the value
    */
   @JsonSetter("SymptomsFound")
-  public void setSymptomsFound(Symptom[] symptomsFound) {
+  public Test setSymptomsFound(Symptom[] symptomsFound) {
     this.symptomsFound = symptomsFound;
+    return this;
   }
 
   /**
@@ -240,8 +250,9 @@ public class Test {
    * @param defectsFound the value
    */
   @JsonSetter("DefectsFound")
-  public void setDefectsFound(Defect[] defectsFound) {
+  public Test setDefectsFound(Defect[] defectsFound) {
     this.defectsFound = defectsFound;
+    return this;
   }
 
   /**
@@ -259,8 +270,9 @@ public class Test {
    * @param measurements the value
    */
   @JsonSetter("Measurements")
-  public void setMeasurements(Measurement[] measurements) {
+  public Test setMeasurements(Measurement[] measurements) {
     this.measurements = measurements;
+    return this;
   }
 
   /**

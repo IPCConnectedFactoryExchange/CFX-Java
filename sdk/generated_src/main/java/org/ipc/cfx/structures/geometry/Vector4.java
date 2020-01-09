@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.geometry;
 
@@ -43,8 +43,9 @@ public class Vector4 {
    * @param zero the value
    */
   @JsonSetter("Zero")
-  public void setZero(org.ipc.cfx.structures.geometry.Vector4 zero) {
+  public Vector4 setZero(org.ipc.cfx.structures.geometry.Vector4 zero) {
     this.zero = zero;
+    return this;
   }
 
   /**
@@ -61,8 +62,9 @@ public class Vector4 {
    * @param one the value
    */
   @JsonSetter("One")
-  public void setOne(org.ipc.cfx.structures.geometry.Vector4 one) {
+  public Vector4 setOne(org.ipc.cfx.structures.geometry.Vector4 one) {
     this.one = one;
+    return this;
   }
 
   /**
@@ -79,8 +81,9 @@ public class Vector4 {
    * @param unitX the value
    */
   @JsonSetter("UnitX")
-  public void setUnitX(org.ipc.cfx.structures.geometry.Vector4 unitX) {
+  public Vector4 setUnitX(org.ipc.cfx.structures.geometry.Vector4 unitX) {
     this.unitX = unitX;
+    return this;
   }
 
   /**
@@ -97,8 +100,9 @@ public class Vector4 {
    * @param unitY the value
    */
   @JsonSetter("UnitY")
-  public void setUnitY(org.ipc.cfx.structures.geometry.Vector4 unitY) {
+  public Vector4 setUnitY(org.ipc.cfx.structures.geometry.Vector4 unitY) {
     this.unitY = unitY;
+    return this;
   }
 
   /**
@@ -115,8 +119,9 @@ public class Vector4 {
    * @param unitZ the value
    */
   @JsonSetter("UnitZ")
-  public void setUnitZ(org.ipc.cfx.structures.geometry.Vector4 unitZ) {
+  public Vector4 setUnitZ(org.ipc.cfx.structures.geometry.Vector4 unitZ) {
     this.unitZ = unitZ;
+    return this;
   }
 
   /**
@@ -133,8 +138,9 @@ public class Vector4 {
    * @param unitW the value
    */
   @JsonSetter("UnitW")
-  public void setUnitW(org.ipc.cfx.structures.geometry.Vector4 unitW) {
+  public Vector4 setUnitW(org.ipc.cfx.structures.geometry.Vector4 unitW) {
     this.unitW = unitW;
+    return this;
   }
 
   /**

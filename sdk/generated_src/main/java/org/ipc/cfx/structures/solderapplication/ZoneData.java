@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.solderapplication;
 
@@ -58,8 +58,9 @@ public class ZoneData {
    * @param stageSequence the value
    */
   @JsonSetter("StageSequence")
-  public void setStageSequence(int stageSequence) {
+  public ZoneData setStageSequence(int stageSequence) {
     this.stageSequence = stageSequence;
+    return this;
   }
 
   /**
@@ -78,8 +79,9 @@ public class ZoneData {
    * @param processTime the value
    */
   @JsonSetter("ProcessTime")
-  public void setProcessTime(long processTime) {
+  public ZoneData setProcessTime(long processTime) {
     this.processTime = processTime;
+    return this;
   }
 
   /**
@@ -98,8 +100,9 @@ public class ZoneData {
    * @param bottle1_Pressure the value
    */
   @JsonSetter("Bottle1_Pressure")
-  public void setBottle1_Pressure(double bottle1_Pressure) {
+  public ZoneData setBottle1_Pressure(double bottle1_Pressure) {
     this.bottle1_Pressure = bottle1_Pressure;
+    return this;
   }
 
   /**
@@ -118,8 +121,9 @@ public class ZoneData {
    * @param bottle2_Pressure the value
    */
   @JsonSetter("Bottle2_Pressure")
-  public void setBottle2_Pressure(double bottle2_Pressure) {
+  public ZoneData setBottle2_Pressure(double bottle2_Pressure) {
     this.bottle2_Pressure = bottle2_Pressure;
+    return this;
   }
 
   /**
@@ -138,8 +142,9 @@ public class ZoneData {
    * @param flux_Volume the value
    */
   @JsonSetter("Flux_Volume")
-  public void setFlux_Volume(double flux_Volume) {
+  public ZoneData setFlux_Volume(double flux_Volume) {
     this.flux_Volume = flux_Volume;
+    return this;
   }
 
   /**
@@ -159,8 +164,9 @@ public class ZoneData {
    * @param top_Preheater_Power the value
    */
   @JsonSetter("Top_Preheater_Power")
-  public void setTop_Preheater_Power(double top_Preheater_Power) {
+  public ZoneData setTop_Preheater_Power(double top_Preheater_Power) {
     this.top_Preheater_Power = top_Preheater_Power;
+    return this;
   }
 
   /**
@@ -181,8 +187,9 @@ public class ZoneData {
    * @param top_Preheater_Soak the value
    */
   @JsonSetter("Top_Preheater_Soak")
-  public void setTop_Preheater_Soak(double top_Preheater_Soak) {
+  public ZoneData setTop_Preheater_Soak(double top_Preheater_Soak) {
     this.top_Preheater_Soak = top_Preheater_Soak;
+    return this;
   }
 
   /**
@@ -203,8 +210,9 @@ public class ZoneData {
    * @param top_Preheater_Temp the value
    */
   @JsonSetter("Top_Preheater_Temp")
-  public void setTop_Preheater_Temp(double top_Preheater_Temp) {
+  public ZoneData setTop_Preheater_Temp(double top_Preheater_Temp) {
     this.top_Preheater_Temp = top_Preheater_Temp;
+    return this;
   }
 
   /**
@@ -224,8 +232,9 @@ public class ZoneData {
    * @param top_Preheater_Time the value
    */
   @JsonSetter("Top_Preheater_Time")
-  public void setTop_Preheater_Time(long top_Preheater_Time) {
+  public ZoneData setTop_Preheater_Time(long top_Preheater_Time) {
     this.top_Preheater_Time = top_Preheater_Time;
+    return this;
   }
 
   /**
@@ -244,8 +253,9 @@ public class ZoneData {
    * @param bot_Preheater_Power the value
    */
   @JsonSetter("Bot_Preheater_Power")
-  public void setBot_Preheater_Power(double bot_Preheater_Power) {
+  public ZoneData setBot_Preheater_Power(double bot_Preheater_Power) {
     this.bot_Preheater_Power = bot_Preheater_Power;
+    return this;
   }
 
   /**
@@ -265,8 +275,9 @@ public class ZoneData {
    * @param bot_Preheater_Soak the value
    */
   @JsonSetter("Bot_Preheater_Soak")
-  public void setBot_Preheater_Soak(double bot_Preheater_Soak) {
+  public ZoneData setBot_Preheater_Soak(double bot_Preheater_Soak) {
     this.bot_Preheater_Soak = bot_Preheater_Soak;
+    return this;
   }
 
   /**
@@ -287,8 +298,9 @@ public class ZoneData {
    * @param bot_Preheater_Temp the value
    */
   @JsonSetter("Bot_Preheater_Temp")
-  public void setBot_Preheater_Temp(float bot_Preheater_Temp) {
+  public ZoneData setBot_Preheater_Temp(float bot_Preheater_Temp) {
     this.bot_Preheater_Temp = bot_Preheater_Temp;
+    return this;
   }
 
   /**
@@ -308,8 +320,9 @@ public class ZoneData {
    * @param bot_Preheater_Time the value
    */
   @JsonSetter("Bot_Preheater_Time")
-  public void setBot_Preheater_Time(long bot_Preheater_Time) {
+  public ZoneData setBot_Preheater_Time(long bot_Preheater_Time) {
     this.bot_Preheater_Time = bot_Preheater_Time;
+    return this;
   }
 
   /**
@@ -328,8 +341,9 @@ public class ZoneData {
    * @param bath_Temp the value
    */
   @JsonSetter("Bath_Temp")
-  public void setBath_Temp(double bath_Temp) {
+  public ZoneData setBath_Temp(double bath_Temp) {
     this.bath_Temp = bath_Temp;
+    return this;
   }
 
   /**
@@ -349,8 +363,9 @@ public class ZoneData {
    * @param bath_Wave_Enabled the value
    */
   @JsonSetter("Bath_Wave_Enabled")
-  public void setBath_Wave_Enabled(boolean bath_Wave_Enabled) {
+  public ZoneData setBath_Wave_Enabled(boolean bath_Wave_Enabled) {
     this.bath_Wave_Enabled = bath_Wave_Enabled;
+    return this;
   }
 
   /**
@@ -370,8 +385,9 @@ public class ZoneData {
    * @param bath_Wave_Hgt the value
    */
   @JsonSetter("Bath_Wave_Hgt")
-  public void setBath_Wave_Hgt(double bath_Wave_Hgt) {
+  public ZoneData setBath_Wave_Hgt(double bath_Wave_Hgt) {
     this.bath_Wave_Hgt = bath_Wave_Hgt;
+    return this;
   }
 
   /**
@@ -390,8 +406,9 @@ public class ZoneData {
    * @param solder_Quantity_Used the value
    */
   @JsonSetter("Solder_Quantity_Used")
-  public void setSolder_Quantity_Used(double solder_Quantity_Used) {
+  public ZoneData setSolder_Quantity_Used(double solder_Quantity_Used) {
     this.solder_Quantity_Used = solder_Quantity_Used;
+    return this;
   }
 
   /**
@@ -410,8 +427,9 @@ public class ZoneData {
    * @param fid_XCorrection the value
    */
   @JsonSetter("Fid_XCorrection")
-  public void setFid_XCorrection(double fid_XCorrection) {
+  public ZoneData setFid_XCorrection(double fid_XCorrection) {
     this.fid_XCorrection = fid_XCorrection;
+    return this;
   }
 
   /**
@@ -430,8 +448,9 @@ public class ZoneData {
    * @param fid_YCorrection the value
    */
   @JsonSetter("Fid_YCorrection")
-  public void setFid_YCorrection(double fid_YCorrection) {
+  public ZoneData setFid_YCorrection(double fid_YCorrection) {
     this.fid_YCorrection = fid_YCorrection;
+    return this;
   }
 
   /**

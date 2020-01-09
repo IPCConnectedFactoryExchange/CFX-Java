@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.materials.transport;
 
@@ -125,8 +125,9 @@ public class GetTransportOrderStatusResponse extends CFXMessage {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(RequestResult result) {
+  public GetTransportOrderStatusResponse setResult(RequestResult result) {
     this.result = result;
+    return this;
   }
 
   /**
@@ -143,8 +144,9 @@ public class GetTransportOrderStatusResponse extends CFXMessage {
    * @param transportOrderId the value
    */
   @JsonSetter("TransportOrderId")
-  public void setTransportOrderId(String transportOrderId) {
+  public GetTransportOrderStatusResponse setTransportOrderId(String transportOrderId) {
     this.transportOrderId = transportOrderId;
+    return this;
   }
 
   /**
@@ -162,8 +164,9 @@ public class GetTransportOrderStatusResponse extends CFXMessage {
    * @param finalDestination the value
    */
   @JsonSetter("FinalDestination")
-  public void setFinalDestination(String finalDestination) {
+  public GetTransportOrderStatusResponse setFinalDestination(String finalDestination) {
     this.finalDestination = finalDestination;
+    return this;
   }
 
   /**
@@ -181,8 +184,9 @@ public class GetTransportOrderStatusResponse extends CFXMessage {
    * @param status the value
    */
   @JsonSetter("Status")
-  public void setStatus(TransportOrderStatus status) {
+  public GetTransportOrderStatusResponse setStatus(TransportOrderStatus status) {
     this.status = status;
+    return this;
   }
 
   /**
@@ -199,8 +203,9 @@ public class GetTransportOrderStatusResponse extends CFXMessage {
    * @param history the value
    */
   @JsonSetter("History")
-  public void setHistory(TransportOrderHistory[] history) {
+  public GetTransportOrderStatusResponse setHistory(TransportOrderHistory[] history) {
     this.history = history;
+    return this;
   }
 
   /**

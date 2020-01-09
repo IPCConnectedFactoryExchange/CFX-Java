@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pressinsertion;
 
@@ -41,8 +41,9 @@ public class SPC {
    * @param startDistance the value
    */
   @JsonSetter("StartDistance")
-  public void setStartDistance(double startDistance) {
+  public SPC setStartDistance(double startDistance) {
     this.startDistance = startDistance;
+    return this;
   }
 
   /**
@@ -59,8 +60,9 @@ public class SPC {
    * @param startHeight the value
    */
   @JsonSetter("StartHeight")
-  public void setStartHeight(double startHeight) {
+  public SPC setStartHeight(double startHeight) {
     this.startHeight = startHeight;
+    return this;
   }
 
   /**
@@ -77,8 +79,9 @@ public class SPC {
    * @param minimumForceLimit the value
    */
   @JsonSetter("MinimumForceLimit")
-  public void setMinimumForceLimit(double minimumForceLimit) {
+  public SPC setMinimumForceLimit(double minimumForceLimit) {
     this.minimumForceLimit = minimumForceLimit;
+    return this;
   }
 
   /**
@@ -95,8 +98,9 @@ public class SPC {
    * @param maximumForceLimit the value
    */
   @JsonSetter("MaximumForceLimit")
-  public void setMaximumForceLimit(double maximumForceLimit) {
+  public SPC setMaximumForceLimit(double maximumForceLimit) {
     this.maximumForceLimit = maximumForceLimit;
+    return this;
   }
 
   /**

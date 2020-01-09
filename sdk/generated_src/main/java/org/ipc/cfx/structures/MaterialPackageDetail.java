@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -56,8 +56,9 @@ public class MaterialPackageDetail {
    * @param uniqueIdentifier the value
    */
   @JsonSetter("UniqueIdentifier")
-  public void setUniqueIdentifier(String uniqueIdentifier) {
+  public MaterialPackageDetail setUniqueIdentifier(String uniqueIdentifier) {
     this.uniqueIdentifier = uniqueIdentifier;
+    return this;
   }
 
   /**
@@ -75,8 +76,9 @@ public class MaterialPackageDetail {
    * @param internalPartNumber the value
    */
   @JsonSetter("InternalPartNumber")
-  public void setInternalPartNumber(String internalPartNumber) {
+  public MaterialPackageDetail setInternalPartNumber(String internalPartNumber) {
     this.internalPartNumber = internalPartNumber;
+    return this;
   }
 
   /**
@@ -94,8 +96,9 @@ public class MaterialPackageDetail {
    * @param manufacturer the value
    */
   @JsonSetter("Manufacturer")
-  public void setManufacturer(String manufacturer) {
+  public MaterialPackageDetail setManufacturer(String manufacturer) {
     this.manufacturer = manufacturer;
+    return this;
   }
 
   /**
@@ -113,8 +116,9 @@ public class MaterialPackageDetail {
    * @param manufacturerPartNumber the value
    */
   @JsonSetter("ManufacturerPartNumber")
-  public void setManufacturerPartNumber(String manufacturerPartNumber) {
+  public MaterialPackageDetail setManufacturerPartNumber(String manufacturerPartNumber) {
     this.manufacturerPartNumber = manufacturerPartNumber;
+    return this;
   }
 
   /**
@@ -132,8 +136,9 @@ public class MaterialPackageDetail {
    * @param vendor the value
    */
   @JsonSetter("Vendor")
-  public void setVendor(String vendor) {
+  public MaterialPackageDetail setVendor(String vendor) {
     this.vendor = vendor;
+    return this;
   }
 
   /**
@@ -151,8 +156,9 @@ public class MaterialPackageDetail {
    * @param vendorPartNumber the value
    */
   @JsonSetter("VendorPartNumber")
-  public void setVendorPartNumber(String vendorPartNumber) {
+  public MaterialPackageDetail setVendorPartNumber(String vendorPartNumber) {
     this.vendorPartNumber = vendorPartNumber;
+    return this;
   }
 
   /**
@@ -170,8 +176,9 @@ public class MaterialPackageDetail {
    * @param manufacturerLotCode the value
    */
   @JsonSetter("ManufacturerLotCode")
-  public void setManufacturerLotCode(String manufacturerLotCode) {
+  public MaterialPackageDetail setManufacturerLotCode(String manufacturerLotCode) {
     this.manufacturerLotCode = manufacturerLotCode;
+    return this;
   }
 
   /**
@@ -189,8 +196,9 @@ public class MaterialPackageDetail {
    * @param created the value
    */
   @JsonSetter("Created")
-  public void setCreated(Date created) {
+  public MaterialPackageDetail setCreated(Date created) {
     this.created = created;
+    return this;
   }
 
   /**
@@ -207,8 +215,9 @@ public class MaterialPackageDetail {
    * @param manufactureDate the value
    */
   @JsonSetter("ManufactureDate")
-  public void setManufactureDate(Date manufactureDate) {
+  public MaterialPackageDetail setManufactureDate(Date manufactureDate) {
     this.manufactureDate = manufactureDate;
+    return this;
   }
 
   /**
@@ -225,8 +234,9 @@ public class MaterialPackageDetail {
    * @param receivedDate the value
    */
   @JsonSetter("ReceivedDate")
-  public void setReceivedDate(Date receivedDate) {
+  public MaterialPackageDetail setReceivedDate(Date receivedDate) {
     this.receivedDate = receivedDate;
+    return this;
   }
 
   /**
@@ -243,8 +253,9 @@ public class MaterialPackageDetail {
    * @param expiryDate the value
    */
   @JsonSetter("ExpiryDate")
-  public void setExpiryDate(Date expiryDate) {
+  public MaterialPackageDetail setExpiryDate(Date expiryDate) {
     this.expiryDate = expiryDate;
+    return this;
   }
 
   /**
@@ -262,8 +273,9 @@ public class MaterialPackageDetail {
    * @param units the value
    */
   @JsonSetter("Units")
-  public void setUnits(String units) {
+  public MaterialPackageDetail setUnits(String units) {
     this.units = units;
+    return this;
   }
 
   /**
@@ -283,8 +295,9 @@ public class MaterialPackageDetail {
    * @param initialQuantity the value
    */
   @JsonSetter("InitialQuantity")
-  public void setInitialQuantity(double initialQuantity) {
+  public MaterialPackageDetail setInitialQuantity(double initialQuantity) {
     this.initialQuantity = initialQuantity;
+    return this;
   }
 
   /**
@@ -302,8 +315,9 @@ public class MaterialPackageDetail {
    * @param quantity the value
    */
   @JsonSetter("Quantity")
-  public void setQuantity(double quantity) {
+  public MaterialPackageDetail setQuantity(double quantity) {
     this.quantity = quantity;
+    return this;
   }
 
   /**
@@ -320,8 +334,9 @@ public class MaterialPackageDetail {
    * @param status the value
    */
   @JsonSetter("Status")
-  public void setStatus(MaterialStatus status) {
+  public MaterialPackageDetail setStatus(MaterialStatus status) {
     this.status = status;
+    return this;
   }
 
   /**
@@ -339,8 +354,9 @@ public class MaterialPackageDetail {
    * @param hazardousMaterialType the value
    */
   @JsonSetter("HazardousMaterialType")
-  public void setHazardousMaterialType(HazardousMaterialType hazardousMaterialType) {
+  public MaterialPackageDetail setHazardousMaterialType(HazardousMaterialType hazardousMaterialType) {
     this.hazardousMaterialType = hazardousMaterialType;
+    return this;
   }
 
   /**
@@ -360,8 +376,9 @@ public class MaterialPackageDetail {
    * @param materialData the value
    */
   @JsonSetter("MaterialData")
-  public void setMaterialData(MaterialPackageData materialData) {
+  public MaterialPackageDetail setMaterialData(MaterialPackageData materialData) {
     this.materialData = materialData;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -44,8 +44,9 @@ public class ComponentVisionTest {
    * @param informationId the value
    */
   @JsonSetter("InformationId")
-  public void setInformationId(String informationId) {
+  public ComponentVisionTest setInformationId(String informationId) {
     this.informationId = informationId;
+    return this;
   }
 
   /**
@@ -63,8 +64,9 @@ public class ComponentVisionTest {
    * @param expectedValue the value
    */
   @JsonSetter("ExpectedValue")
-  public void setExpectedValue(double expectedValue) {
+  public ComponentVisionTest setExpectedValue(double expectedValue) {
     this.expectedValue = expectedValue;
+    return this;
   }
 
   /**
@@ -81,8 +83,9 @@ public class ComponentVisionTest {
    * @param measuredValue the value
    */
   @JsonSetter("MeasuredValue")
-  public void setMeasuredValue(double measuredValue) {
+  public ComponentVisionTest setMeasuredValue(double measuredValue) {
     this.measuredValue = measuredValue;
+    return this;
   }
 
   /**
@@ -99,8 +102,9 @@ public class ComponentVisionTest {
    * @param toleranceMin the value
    */
   @JsonSetter("ToleranceMin")
-  public void setToleranceMin(double toleranceMin) {
+  public ComponentVisionTest setToleranceMin(double toleranceMin) {
     this.toleranceMin = toleranceMin;
+    return this;
   }
 
   /**
@@ -117,8 +121,9 @@ public class ComponentVisionTest {
    * @param toleranceMax the value
    */
   @JsonSetter("ToleranceMax")
-  public void setToleranceMax(double toleranceMax) {
+  public ComponentVisionTest setToleranceMax(double toleranceMax) {
     this.toleranceMax = toleranceMax;
+    return this;
   }
 
   /**
@@ -135,8 +140,9 @@ public class ComponentVisionTest {
    * @param unit the value
    */
   @JsonSetter("Unit")
-  public void setUnit(String unit) {
+  public ComponentVisionTest setUnit(String unit) {
     this.unit = unit;
+    return this;
   }
 
   /**
@@ -154,8 +160,9 @@ public class ComponentVisionTest {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(boolean result) {
+  public ComponentVisionTest setResult(boolean result) {
     this.result = result;
+    return this;
   }
 
   /**

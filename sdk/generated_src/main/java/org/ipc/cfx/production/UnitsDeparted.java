@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production;
 
@@ -74,8 +74,9 @@ public class UnitsDeparted extends CFXMessage {
    * @param primaryIdentifier the value
    */
   @JsonSetter("PrimaryIdentifier")
-  public void setPrimaryIdentifier(String primaryIdentifier) {
+  public UnitsDeparted setPrimaryIdentifier(String primaryIdentifier) {
     this.primaryIdentifier = primaryIdentifier;
+    return this;
   }
 
   /**
@@ -104,8 +105,9 @@ public class UnitsDeparted extends CFXMessage {
    * @param hermesIdentifier the value
    */
   @JsonSetter("HermesIdentifier")
-  public void setHermesIdentifier(String hermesIdentifier) {
+  public UnitsDeparted setHermesIdentifier(String hermesIdentifier) {
     this.hermesIdentifier = hermesIdentifier;
+    return this;
   }
 
   /**
@@ -131,8 +133,9 @@ public class UnitsDeparted extends CFXMessage {
    * @param unitCount the value
    */
   @JsonSetter("UnitCount")
-  public void setUnitCount(int unitCount) {
+  public UnitsDeparted setUnitCount(int unitCount) {
     this.unitCount = unitCount;
+    return this;
   }
 
   /**
@@ -150,8 +153,9 @@ public class UnitsDeparted extends CFXMessage {
    * @param units the value
    */
   @JsonSetter("Units")
-  public void setUnits(UnitPosition[] units) {
+  public UnitsDeparted setUnits(UnitPosition[] units) {
     this.units = units;
+    return this;
   }
 
   /**
@@ -169,8 +173,9 @@ public class UnitsDeparted extends CFXMessage {
    * @param lane the value
    */
   @JsonSetter("Lane")
-  public void setLane(Integer lane) {
+  public UnitsDeparted setLane(Integer lane) {
     this.lane = lane;
+    return this;
   }
 
   /**

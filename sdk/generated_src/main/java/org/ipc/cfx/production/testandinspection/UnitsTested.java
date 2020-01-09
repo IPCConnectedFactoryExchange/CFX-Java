@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production.testandinspection;
 
@@ -329,8 +329,9 @@ public class UnitsTested extends CFXMessage {
    * @param transactionId the value
    */
   @JsonSetter("TransactionId")
-  public void setTransactionId(UUID transactionId) {
+  public UnitsTested setTransactionId(UUID transactionId) {
     this.transactionId = transactionId;
+    return this;
   }
 
   /**
@@ -347,8 +348,9 @@ public class UnitsTested extends CFXMessage {
    * @param testMethod the value
    */
   @JsonSetter("TestMethod")
-  public void setTestMethod(TestMethod testMethod) {
+  public UnitsTested setTestMethod(TestMethod testMethod) {
     this.testMethod = testMethod;
+    return this;
   }
 
   /**
@@ -365,8 +367,9 @@ public class UnitsTested extends CFXMessage {
    * @param tester the value
    */
   @JsonSetter("Tester")
-  public void setTester(Operator tester) {
+  public UnitsTested setTester(Operator tester) {
     this.tester = tester;
+    return this;
   }
 
   /**
@@ -383,8 +386,9 @@ public class UnitsTested extends CFXMessage {
    * @param recipeName the value
    */
   @JsonSetter("RecipeName")
-  public void setRecipeName(String recipeName) {
+  public UnitsTested setRecipeName(String recipeName) {
     this.recipeName = recipeName;
+    return this;
   }
 
   /**
@@ -402,8 +406,9 @@ public class UnitsTested extends CFXMessage {
    * @param recipeRevision the value
    */
   @JsonSetter("RecipeRevision")
-  public void setRecipeRevision(String recipeRevision) {
+  public UnitsTested setRecipeRevision(String recipeRevision) {
     this.recipeRevision = recipeRevision;
+    return this;
   }
 
   /**
@@ -421,8 +426,9 @@ public class UnitsTested extends CFXMessage {
    * @param samplingInformation the value
    */
   @JsonSetter("SamplingInformation")
-  public void setSamplingInformation(SamplingInformation samplingInformation) {
+  public UnitsTested setSamplingInformation(SamplingInformation samplingInformation) {
     this.samplingInformation = samplingInformation;
+    return this;
   }
 
   /**
@@ -439,8 +445,9 @@ public class UnitsTested extends CFXMessage {
    * @param testedUnits the value
    */
   @JsonSetter("TestedUnits")
-  public void setTestedUnits(TestedUnit[] testedUnits) {
+  public UnitsTested setTestedUnits(TestedUnit[] testedUnits) {
     this.testedUnits = testedUnits;
+    return this;
   }
 
   /**

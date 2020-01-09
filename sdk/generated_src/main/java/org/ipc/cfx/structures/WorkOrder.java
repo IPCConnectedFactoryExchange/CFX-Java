@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -55,8 +55,9 @@ public class WorkOrder {
    * @param workOrderIdentifier the value
    */
   @JsonSetter("WorkOrderIdentifier")
-  public void setWorkOrderIdentifier(WorkOrderIdentifier workOrderIdentifier) {
+  public WorkOrder setWorkOrderIdentifier(WorkOrderIdentifier workOrderIdentifier) {
     this.workOrderIdentifier = workOrderIdentifier;
+    return this;
   }
 
   /**
@@ -73,8 +74,9 @@ public class WorkOrder {
    * @param description the value
    */
   @JsonSetter("Description")
-  public void setDescription(String description) {
+  public WorkOrder setDescription(String description) {
     this.description = description;
+    return this;
   }
 
   /**
@@ -92,8 +94,9 @@ public class WorkOrder {
    * @param status the value
    */
   @JsonSetter("Status")
-  public void setStatus(WorkOrderStatus status) {
+  public WorkOrder setStatus(WorkOrderStatus status) {
     this.status = status;
+    return this;
   }
 
   /**
@@ -110,8 +113,9 @@ public class WorkOrder {
    * @param router the value
    */
   @JsonSetter("Router")
-  public void setRouter(String router) {
+  public WorkOrder setRouter(String router) {
     this.router = router;
+    return this;
   }
 
   /**
@@ -129,8 +133,9 @@ public class WorkOrder {
    * @param routerRevision the value
    */
   @JsonSetter("RouterRevision")
-  public void setRouterRevision(String routerRevision) {
+  public WorkOrder setRouterRevision(String routerRevision) {
     this.routerRevision = routerRevision;
+    return this;
   }
 
   /**
@@ -148,8 +153,9 @@ public class WorkOrder {
    * @param lotNumber the value
    */
   @JsonSetter("LotNumber")
-  public void setLotNumber(String lotNumber) {
+  public WorkOrder setLotNumber(String lotNumber) {
     this.lotNumber = lotNumber;
+    return this;
   }
 
   /**
@@ -167,8 +173,9 @@ public class WorkOrder {
    * @param customer the value
    */
   @JsonSetter("Customer")
-  public void setCustomer(String customer) {
+  public WorkOrder setCustomer(String customer) {
     this.customer = customer;
+    return this;
   }
 
   /**
@@ -186,8 +193,9 @@ public class WorkOrder {
    * @param department the value
    */
   @JsonSetter("Department")
-  public void setDepartment(String department) {
+  public WorkOrder setDepartment(String department) {
     this.department = department;
+    return this;
   }
 
   /**
@@ -205,8 +213,9 @@ public class WorkOrder {
    * @param createdDate the value
    */
   @JsonSetter("CreatedDate")
-  public void setCreatedDate(Date createdDate) {
+  public WorkOrder setCreatedDate(Date createdDate) {
     this.createdDate = createdDate;
+    return this;
   }
 
   /**
@@ -223,8 +232,9 @@ public class WorkOrder {
    * @param startDate the value
    */
   @JsonSetter("StartDate")
-  public void setStartDate(Date startDate) {
+  public WorkOrder setStartDate(Date startDate) {
     this.startDate = startDate;
+    return this;
   }
 
   /**
@@ -241,8 +251,9 @@ public class WorkOrder {
    * @param dateRequired the value
    */
   @JsonSetter("DateRequired")
-  public void setDateRequired(Date dateRequired) {
+  public WorkOrder setDateRequired(Date dateRequired) {
     this.dateRequired = dateRequired;
+    return this;
   }
 
   /**
@@ -259,8 +270,9 @@ public class WorkOrder {
    * @param partNumber the value
    */
   @JsonSetter("PartNumber")
-  public void setPartNumber(String partNumber) {
+  public WorkOrder setPartNumber(String partNumber) {
     this.partNumber = partNumber;
+    return this;
   }
 
   /**
@@ -278,8 +290,9 @@ public class WorkOrder {
    * @param partRevision the value
    */
   @JsonSetter("PartRevision")
-  public void setPartRevision(String partRevision) {
+  public WorkOrder setPartRevision(String partRevision) {
     this.partRevision = partRevision;
+    return this;
   }
 
   /**
@@ -297,8 +310,9 @@ public class WorkOrder {
    * @param quantity the value
    */
   @JsonSetter("Quantity")
-  public void setQuantity(double quantity) {
+  public WorkOrder setQuantity(double quantity) {
     this.quantity = quantity;
+    return this;
   }
 
   /**
@@ -319,8 +333,9 @@ public class WorkOrder {
    * @param unitOfMeasure the value
    */
   @JsonSetter("UnitOfMeasure")
-  public void setUnitOfMeasure(String unitOfMeasure) {
+  public WorkOrder setUnitOfMeasure(String unitOfMeasure) {
     this.unitOfMeasure = unitOfMeasure;
+    return this;
   }
 
   /**
@@ -343,8 +358,9 @@ public class WorkOrder {
    * @param dependsOn the value
    */
   @JsonSetter("DependsOn")
-  public void setDependsOn(WorkOrderIdentifier[] dependsOn) {
+  public WorkOrder setDependsOn(WorkOrderIdentifier[] dependsOn) {
     this.dependsOn = dependsOn;
+    return this;
   }
 
   /**

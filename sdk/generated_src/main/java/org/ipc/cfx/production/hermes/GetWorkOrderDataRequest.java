@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production.hermes;
 
@@ -42,8 +42,9 @@ public class GetWorkOrderDataRequest extends CFXMessage {
    * @param workOrderIdentifier the value
    */
   @JsonSetter("WorkOrderIdentifier")
-  public void setWorkOrderIdentifier(WorkOrderIdentifier workOrderIdentifier) {
+  public GetWorkOrderDataRequest setWorkOrderIdentifier(WorkOrderIdentifier workOrderIdentifier) {
     this.workOrderIdentifier = workOrderIdentifier;
+    return this;
   }
 
   /**
@@ -63,8 +64,9 @@ public class GetWorkOrderDataRequest extends CFXMessage {
    * @param unitIdentifier the value
    */
   @JsonSetter("UnitIdentifier")
-  public void setUnitIdentifier(String unitIdentifier) {
+  public GetWorkOrderDataRequest setUnitIdentifier(String unitIdentifier) {
     this.unitIdentifier = unitIdentifier;
+    return this;
   }
 
   /**

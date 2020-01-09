@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -43,8 +43,9 @@ public class NumericValue {
    * @param value the value
    */
   @JsonSetter("Value")
-  public void setValue(double value) {
+  public NumericValue setValue(double value) {
     this.value = value;
+    return this;
   }
 
   /**
@@ -61,8 +62,9 @@ public class NumericValue {
    * @param valueUnits the value
    */
   @JsonSetter("ValueUnits")
-  public void setValueUnits(String valueUnits) {
+  public NumericValue setValueUnits(String valueUnits) {
     this.valueUnits = valueUnits;
+    return this;
   }
 
   /**
@@ -80,8 +82,9 @@ public class NumericValue {
    * @param expectedValue the value
    */
   @JsonSetter("ExpectedValue")
-  public void setExpectedValue(Double expectedValue) {
+  public NumericValue setExpectedValue(Double expectedValue) {
     this.expectedValue = expectedValue;
+    return this;
   }
 
   /**
@@ -98,8 +101,9 @@ public class NumericValue {
    * @param expectedValueUnits the value
    */
   @JsonSetter("ExpectedValueUnits")
-  public void setExpectedValueUnits(String expectedValueUnits) {
+  public NumericValue setExpectedValueUnits(String expectedValueUnits) {
     this.expectedValueUnits = expectedValueUnits;
+    return this;
   }
 
   /**
@@ -117,8 +121,9 @@ public class NumericValue {
    * @param minimumAcceptableValue the value
    */
   @JsonSetter("MinimumAcceptableValue")
-  public void setMinimumAcceptableValue(Double minimumAcceptableValue) {
+  public NumericValue setMinimumAcceptableValue(Double minimumAcceptableValue) {
     this.minimumAcceptableValue = minimumAcceptableValue;
+    return this;
   }
 
   /**
@@ -135,8 +140,9 @@ public class NumericValue {
    * @param maximumAcceptableValue the value
    */
   @JsonSetter("MaximumAcceptableValue")
-  public void setMaximumAcceptableValue(Double maximumAcceptableValue) {
+  public NumericValue setMaximumAcceptableValue(Double maximumAcceptableValue) {
     this.maximumAcceptableValue = maximumAcceptableValue;
+    return this;
   }
 
   /**

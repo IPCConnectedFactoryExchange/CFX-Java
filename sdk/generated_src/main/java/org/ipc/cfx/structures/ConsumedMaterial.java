@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -43,8 +43,9 @@ public class ConsumedMaterial {
    * @param materialLocation the value
    */
   @JsonSetter("MaterialLocation")
-  public void setMaterialLocation(MaterialLocation materialLocation) {
+  public ConsumedMaterial setMaterialLocation(MaterialLocation materialLocation) {
     this.materialLocation = materialLocation;
+    return this;
   }
 
   /**
@@ -63,8 +64,9 @@ public class ConsumedMaterial {
    * @param quantityUsed the value
    */
   @JsonSetter("QuantityUsed")
-  public void setQuantityUsed(double quantityUsed) {
+  public ConsumedMaterial setQuantityUsed(double quantityUsed) {
     this.quantityUsed = quantityUsed;
+    return this;
   }
 
   /**
@@ -81,8 +83,9 @@ public class ConsumedMaterial {
    * @param quantitySpoiled the value
    */
   @JsonSetter("QuantitySpoiled")
-  public void setQuantitySpoiled(double quantitySpoiled) {
+  public ConsumedMaterial setQuantitySpoiled(double quantitySpoiled) {
     this.quantitySpoiled = quantitySpoiled;
+    return this;
   }
 
   /**
@@ -99,8 +102,9 @@ public class ConsumedMaterial {
    * @param remainingQuantity the value
    */
   @JsonSetter("RemainingQuantity")
-  public void setRemainingQuantity(double remainingQuantity) {
+  public ConsumedMaterial setRemainingQuantity(double remainingQuantity) {
     this.remainingQuantity = remainingQuantity;
+    return this;
   }
 
   /**

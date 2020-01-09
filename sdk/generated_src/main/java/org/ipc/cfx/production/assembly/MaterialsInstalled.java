@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production.assembly;
 
@@ -147,8 +147,9 @@ public class MaterialsInstalled extends CFXMessage {
    * @param transactionId the value
    */
   @JsonSetter("TransactionId")
-  public void setTransactionId(UUID transactionId) {
+  public MaterialsInstalled setTransactionId(UUID transactionId) {
     this.transactionId = transactionId;
+    return this;
   }
 
   /**
@@ -165,8 +166,9 @@ public class MaterialsInstalled extends CFXMessage {
    * @param installedMaterials the value
    */
   @JsonSetter("InstalledMaterials")
-  public void setInstalledMaterials(InstalledMaterial[] installedMaterials) {
+  public MaterialsInstalled setInstalledMaterials(InstalledMaterial[] installedMaterials) {
     this.installedMaterials = installedMaterials;
+    return this;
   }
 
   /**

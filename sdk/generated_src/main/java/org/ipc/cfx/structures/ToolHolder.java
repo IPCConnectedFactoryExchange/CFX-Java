@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -40,8 +40,9 @@ public class ToolHolder {
    * @param locationUniqueIdentifier the value
    */
   @JsonSetter("LocationUniqueIdentifier")
-  public void setLocationUniqueIdentifier(String locationUniqueIdentifier) {
+  public ToolHolder setLocationUniqueIdentifier(String locationUniqueIdentifier) {
     this.locationUniqueIdentifier = locationUniqueIdentifier;
+    return this;
   }
 
   /**
@@ -59,8 +60,9 @@ public class ToolHolder {
    * @param locationName the value
    */
   @JsonSetter("LocationName")
-  public void setLocationName(String locationName) {
+  public ToolHolder setLocationName(String locationName) {
     this.locationName = locationName;
+    return this;
   }
 
   /**
@@ -79,8 +81,9 @@ public class ToolHolder {
    * @param baseName the value
    */
   @JsonSetter("BaseName")
-  public void setBaseName(String baseName) {
+  public ToolHolder setBaseName(String baseName) {
     this.baseName = baseName;
+    return this;
   }
 
   /**

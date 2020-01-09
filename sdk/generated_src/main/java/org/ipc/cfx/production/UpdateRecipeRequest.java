@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production;
 
@@ -58,8 +58,9 @@ public class UpdateRecipeRequest extends CFXMessage {
    * @param overwrite the value
    */
   @JsonSetter("Overwrite")
-  public void setOverwrite(boolean overwrite) {
+  public UpdateRecipeRequest setOverwrite(boolean overwrite) {
     this.overwrite = overwrite;
+    return this;
   }
 
   /**
@@ -78,8 +79,9 @@ public class UpdateRecipeRequest extends CFXMessage {
    * @param recipe the value
    */
   @JsonSetter("Recipe")
-  public void setRecipe(Recipe recipe) {
+  public UpdateRecipeRequest setRecipe(Recipe recipe) {
     this.recipe = recipe;
+    return this;
   }
 
   /**
@@ -96,8 +98,9 @@ public class UpdateRecipeRequest extends CFXMessage {
    * @param reason the value
    */
   @JsonSetter("Reason")
-  public void setReason(RecipeModificationReason reason) {
+  public UpdateRecipeRequest setReason(RecipeModificationReason reason) {
     this.reason = reason;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -41,8 +41,9 @@ public class RequestResult {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(StatusResult result) {
+  public RequestResult setResult(StatusResult result) {
     this.result = result;
+    return this;
   }
 
   /**
@@ -60,8 +61,9 @@ public class RequestResult {
    * @param resultCode the value
    */
   @JsonSetter("ResultCode")
-  public void setResultCode(int resultCode) {
+  public RequestResult setResultCode(int resultCode) {
     this.resultCode = resultCode;
+    return this;
   }
 
   /**
@@ -79,8 +81,9 @@ public class RequestResult {
    * @param message the value
    */
   @JsonSetter("Message")
-  public void setMessage(String message) {
+  public RequestResult setMessage(String message) {
     this.message = message;
+    return this;
   }
 
   /**

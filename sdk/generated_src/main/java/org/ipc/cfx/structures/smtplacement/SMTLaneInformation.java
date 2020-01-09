@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.smtplacement;
 
@@ -41,8 +41,9 @@ public class SMTLaneInformation {
    * @param laneNumber the value
    */
   @JsonSetter("LaneNumber")
-  public void setLaneNumber(Integer laneNumber) {
+  public SMTLaneInformation setLaneNumber(Integer laneNumber) {
     this.laneNumber = laneNumber;
+    return this;
   }
 
   /**
@@ -59,8 +60,9 @@ public class SMTLaneInformation {
    * @param laneName the value
    */
   @JsonSetter("LaneName")
-  public void setLaneName(String laneName) {
+  public SMTLaneInformation setLaneName(String laneName) {
     this.laneName = laneName;
+    return this;
   }
 
   /**
@@ -79,8 +81,9 @@ public class SMTLaneInformation {
    * @param supportedPCBDimensions the value
    */
   @JsonSetter("SupportedPCBDimensions")
-  public void setSupportedPCBDimensions(DimensionalConstraints supportedPCBDimensions) {
+  public SMTLaneInformation setSupportedPCBDimensions(DimensionalConstraints supportedPCBDimensions) {
     this.supportedPCBDimensions = supportedPCBDimensions;
+    return this;
   }
 
   /**

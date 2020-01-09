@@ -18,7 +18,7 @@
  * 
  * This file was automatically created
  * source: Newtonsoft.Json.DLL, Version 12.0.0.0
- * created: 30.08.2019 09:11:10 by frankp
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package newtonsoft.json;
 
@@ -50,8 +50,9 @@ public class JsonConverter {
    * @param canRead the value
    */
   @JsonSetter("CanRead")
-  public void setCanRead(boolean canRead) {
+  public JsonConverter setCanRead(boolean canRead) {
     this.canRead = canRead;
+    return this;
   }
 
   /**
@@ -68,8 +69,9 @@ public class JsonConverter {
    * @param canWrite the value
    */
   @JsonSetter("CanWrite")
-  public void setCanWrite(boolean canWrite) {
+  public JsonConverter setCanWrite(boolean canWrite) {
     this.canWrite = canWrite;
+    return this;
   }
 
   /**

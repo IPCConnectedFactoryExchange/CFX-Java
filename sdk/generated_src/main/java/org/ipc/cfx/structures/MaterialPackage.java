@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -46,8 +46,9 @@ public class MaterialPackage {
    * @param uniqueIdentifier the value
    */
   @JsonSetter("UniqueIdentifier")
-  public void setUniqueIdentifier(String uniqueIdentifier) {
+  public MaterialPackage setUniqueIdentifier(String uniqueIdentifier) {
     this.uniqueIdentifier = uniqueIdentifier;
+    return this;
   }
 
   /**
@@ -66,8 +67,9 @@ public class MaterialPackage {
    * @param internalPartNumber the value
    */
   @JsonSetter("InternalPartNumber")
-  public void setInternalPartNumber(String internalPartNumber) {
+  public MaterialPackage setInternalPartNumber(String internalPartNumber) {
     this.internalPartNumber = internalPartNumber;
+    return this;
   }
 
   /**
@@ -85,8 +87,9 @@ public class MaterialPackage {
    * @param quantity the value
    */
   @JsonSetter("Quantity")
-  public void setQuantity(double quantity) {
+  public MaterialPackage setQuantity(double quantity) {
     this.quantity = quantity;
+    return this;
   }
 
   /**
@@ -115,8 +118,9 @@ public class MaterialPackage {
    * @param leadingMaterialPackage the value
    */
   @JsonSetter("LeadingMaterialPackage")
-  public void setLeadingMaterialPackage(org.ipc.cfx.structures.MaterialPackage leadingMaterialPackage) {
+  public MaterialPackage setLeadingMaterialPackage(org.ipc.cfx.structures.MaterialPackage leadingMaterialPackage) {
     this.leadingMaterialPackage = leadingMaterialPackage;
+    return this;
   }
 
   /**
@@ -152,8 +156,9 @@ public class MaterialPackage {
    * @param batchId the value
    */
   @JsonSetter("BatchId")
-  public void setBatchId(String batchId) {
+  public MaterialPackage setBatchId(String batchId) {
     this.batchId = batchId;
+    return this;
   }
 
   /**
@@ -183,8 +188,9 @@ public class MaterialPackage {
    * @param batchMaterialPackage the value
    */
   @JsonSetter("BatchMaterialPackage")
-  public void setBatchMaterialPackage(org.ipc.cfx.structures.MaterialPackage batchMaterialPackage) {
+  public MaterialPackage setBatchMaterialPackage(org.ipc.cfx.structures.MaterialPackage batchMaterialPackage) {
     this.batchMaterialPackage = batchMaterialPackage;
+    return this;
   }
 
   /**
@@ -236,8 +242,9 @@ public class MaterialPackage {
    * @param greyZone the value
    */
   @JsonSetter("GreyZone")
-  public void setGreyZone(double greyZone) {
+  public MaterialPackage setGreyZone(double greyZone) {
     this.greyZone = greyZone;
+    return this;
   }
 
   /**

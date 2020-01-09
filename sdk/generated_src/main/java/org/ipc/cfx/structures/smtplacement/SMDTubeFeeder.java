@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.smtplacement;
 
@@ -46,8 +46,9 @@ public class SMDTubeFeeder extends MaterialCarrier {
    * @param baseUniqueIdentifier the value
    */
   @JsonSetter("BaseUniqueIdentifier")
-  public void setBaseUniqueIdentifier(String baseUniqueIdentifier) {
+  public SMDTubeFeeder setBaseUniqueIdentifier(String baseUniqueIdentifier) {
     this.baseUniqueIdentifier = baseUniqueIdentifier;
+    return this;
   }
 
   /**
@@ -68,8 +69,9 @@ public class SMDTubeFeeder extends MaterialCarrier {
    * @param baseName the value
    */
   @JsonSetter("BaseName")
-  public void setBaseName(String baseName) {
+  public SMDTubeFeeder setBaseName(String baseName) {
     this.baseName = baseName;
+    return this;
   }
 
   /**
@@ -87,8 +89,9 @@ public class SMDTubeFeeder extends MaterialCarrier {
    * @param laneNumber the value
    */
   @JsonSetter("LaneNumber")
-  public void setLaneNumber(int laneNumber) {
+  public SMDTubeFeeder setLaneNumber(int laneNumber) {
     this.laneNumber = laneNumber;
+    return this;
   }
 
   /**
@@ -105,8 +108,9 @@ public class SMDTubeFeeder extends MaterialCarrier {
    * @param width the value
    */
   @JsonSetter("Width")
-  public void setWidth(double width) {
+  public SMDTubeFeeder setWidth(double width) {
     this.width = width;
+    return this;
   }
 
   /**
@@ -123,8 +127,9 @@ public class SMDTubeFeeder extends MaterialCarrier {
    * @param pitch the value
    */
   @JsonSetter("Pitch")
-  public void setPitch(double pitch) {
+  public SMDTubeFeeder setPitch(double pitch) {
     this.pitch = pitch;
+    return this;
   }
 
   /**

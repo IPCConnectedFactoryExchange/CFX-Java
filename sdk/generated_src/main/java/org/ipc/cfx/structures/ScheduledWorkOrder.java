@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -49,8 +49,9 @@ public class ScheduledWorkOrder {
    * @param workOrderIdentifier the value
    */
   @JsonSetter("WorkOrderIdentifier")
-  public void setWorkOrderIdentifier(WorkOrderIdentifier workOrderIdentifier) {
+  public ScheduledWorkOrder setWorkOrderIdentifier(WorkOrderIdentifier workOrderIdentifier) {
     this.workOrderIdentifier = workOrderIdentifier;
+    return this;
   }
 
   /**
@@ -67,8 +68,9 @@ public class ScheduledWorkOrder {
    * @param scheduler the value
    */
   @JsonSetter("Scheduler")
-  public void setScheduler(Operator scheduler) {
+  public ScheduledWorkOrder setScheduler(Operator scheduler) {
     this.scheduler = scheduler;
+    return this;
   }
 
   /**
@@ -86,8 +88,9 @@ public class ScheduledWorkOrder {
    * @param workArea the value
    */
   @JsonSetter("WorkArea")
-  public void setWorkArea(String workArea) {
+  public ScheduledWorkOrder setWorkArea(String workArea) {
     this.workArea = workArea;
+    return this;
   }
 
   /**
@@ -106,8 +109,9 @@ public class ScheduledWorkOrder {
    * @param startTime the value
    */
   @JsonSetter("StartTime")
-  public void setStartTime(Date startTime) {
+  public ScheduledWorkOrder setStartTime(Date startTime) {
     this.startTime = startTime;
+    return this;
   }
 
   /**
@@ -124,8 +128,9 @@ public class ScheduledWorkOrder {
    * @param endTime the value
    */
   @JsonSetter("EndTime")
-  public void setEndTime(Date endTime) {
+  public ScheduledWorkOrder setEndTime(Date endTime) {
     this.endTime = endTime;
+    return this;
   }
 
   /**
@@ -143,8 +148,9 @@ public class ScheduledWorkOrder {
    * @param reservedResources the value
    */
   @JsonSetter("ReservedResources")
-  public void setReservedResources(String[] reservedResources) {
+  public ScheduledWorkOrder setReservedResources(String[] reservedResources) {
     this.reservedResources = reservedResources;
+    return this;
   }
 
   /**
@@ -162,8 +168,9 @@ public class ScheduledWorkOrder {
    * @param reservedTools the value
    */
   @JsonSetter("ReservedTools")
-  public void setReservedTools(Tool[] reservedTools) {
+  public ScheduledWorkOrder setReservedTools(Tool[] reservedTools) {
     this.reservedTools = reservedTools;
+    return this;
   }
 
   /**
@@ -181,8 +188,9 @@ public class ScheduledWorkOrder {
    * @param reservedOperators the value
    */
   @JsonSetter("ReservedOperators")
-  public void setReservedOperators(Operator[] reservedOperators) {
+  public ScheduledWorkOrder setReservedOperators(Operator[] reservedOperators) {
     this.reservedOperators = reservedOperators;
+    return this;
   }
 
   /**
@@ -200,8 +208,9 @@ public class ScheduledWorkOrder {
    * @param reservedMaterials the value
    */
   @JsonSetter("ReservedMaterials")
-  public void setReservedMaterials(MaterialPackage[] reservedMaterials) {
+  public ScheduledWorkOrder setReservedMaterials(MaterialPackage[] reservedMaterials) {
     this.reservedMaterials = reservedMaterials;
+    return this;
   }
 
   /**

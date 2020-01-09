@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pressinsertion;
 
@@ -41,8 +41,9 @@ public class Condition {
    * @param conditionName the value
    */
   @JsonSetter("ConditionName")
-  public void setConditionName(String conditionName) {
+  public Condition setConditionName(String conditionName) {
     this.conditionName = conditionName;
+    return this;
   }
 
   /**
@@ -60,8 +61,9 @@ public class Condition {
    * @param steps the value
    */
   @JsonSetter("Steps")
-  public void setSteps(ConditionStep[] steps) {
+  public Condition setSteps(ConditionStep[] steps) {
     this.steps = steps;
+    return this;
   }
 
   /**
@@ -78,8 +80,9 @@ public class Condition {
    * @param javaScriptCode the value
    */
   @JsonSetter("JavaScriptCode")
-  public void setJavaScriptCode(String javaScriptCode) {
+  public Condition setJavaScriptCode(String javaScriptCode) {
     this.javaScriptCode = javaScriptCode;
+    return this;
   }
 
   /**
@@ -97,8 +100,9 @@ public class Condition {
    * @param multiStep the value
    */
   @JsonSetter("MultiStep")
-  public void setMultiStep(boolean multiStep) {
+  public Condition setMultiStep(boolean multiStep) {
     this.multiStep = multiStep;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.materials.storage;
 
@@ -85,8 +85,9 @@ public class SplicePointDetected extends CFXMessage {
    * @param depletedMaterial the value
    */
   @JsonSetter("DepletedMaterial")
-  public void setDepletedMaterial(MaterialLocation depletedMaterial) {
+  public SplicePointDetected setDepletedMaterial(MaterialLocation depletedMaterial) {
     this.depletedMaterial = depletedMaterial;
+    return this;
   }
 
   /**
@@ -106,8 +107,9 @@ public class SplicePointDetected extends CFXMessage {
    * @param newlyActiveMaterial the value
    */
   @JsonSetter("NewlyActiveMaterial")
-  public void setNewlyActiveMaterial(MaterialLocation newlyActiveMaterial) {
+  public SplicePointDetected setNewlyActiveMaterial(MaterialLocation newlyActiveMaterial) {
     this.newlyActiveMaterial = newlyActiveMaterial;
+    return this;
   }
 
   /**

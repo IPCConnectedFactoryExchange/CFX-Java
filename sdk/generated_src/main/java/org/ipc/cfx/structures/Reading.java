@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -54,8 +54,9 @@ public class Reading {
    * @param readingIdentifier the value
    */
   @JsonSetter("ReadingIdentifier")
-  public void setReadingIdentifier(String readingIdentifier) {
+  public Reading setReadingIdentifier(String readingIdentifier) {
     this.readingIdentifier = readingIdentifier;
+    return this;
   }
 
   /**
@@ -73,8 +74,9 @@ public class Reading {
    * @param timeRecorded the value
    */
   @JsonSetter("TimeRecorded")
-  public void setTimeRecorded(Date timeRecorded) {
+  public Reading setTimeRecorded(Date timeRecorded) {
     this.timeRecorded = timeRecorded;
+    return this;
   }
 
   /**
@@ -93,8 +95,9 @@ public class Reading {
    * @param readingSequence the value
    */
   @JsonSetter("ReadingSequence")
-  public void setReadingSequence(int readingSequence) {
+  public Reading setReadingSequence(int readingSequence) {
     this.readingSequence = readingSequence;
+    return this;
   }
 
   /**
@@ -113,8 +116,9 @@ public class Reading {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(TestResult result) {
+  public Reading setResult(TestResult result) {
     this.result = result;
+    return this;
   }
 
   /**
@@ -132,8 +136,9 @@ public class Reading {
    * @param unitIdentifier the value
    */
   @JsonSetter("UnitIdentifier")
-  public void setUnitIdentifier(String unitIdentifier) {
+  public Reading setUnitIdentifier(String unitIdentifier) {
     this.unitIdentifier = unitIdentifier;
+    return this;
   }
 
   /**
@@ -155,8 +160,9 @@ public class Reading {
    * @param unitPositionNumber the value
    */
   @JsonSetter("UnitPositionNumber")
-  public void setUnitPositionNumber(Integer unitPositionNumber) {
+  public Reading setUnitPositionNumber(Integer unitPositionNumber) {
     this.unitPositionNumber = unitPositionNumber;
+    return this;
   }
 
   /**
@@ -176,8 +182,9 @@ public class Reading {
    * @param components the value
    */
   @JsonSetter("Components")
-  public void setComponents(ComponentDesignator[] components) {
+  public Reading setComponents(ComponentDesignator[] components) {
     this.components = components;
+    return this;
   }
 
   /**
@@ -194,8 +201,9 @@ public class Reading {
    * @param valueDataType the value
    */
   @JsonSetter("ValueDataType")
-  public void setValueDataType(DataType valueDataType) {
+  public Reading setValueDataType(DataType valueDataType) {
     this.valueDataType = valueDataType;
+    return this;
   }
 
   /**
@@ -212,8 +220,9 @@ public class Reading {
    * @param valueUnits the value
    */
   @JsonSetter("ValueUnits")
-  public void setValueUnits(String valueUnits) {
+  public Reading setValueUnits(String valueUnits) {
     this.valueUnits = valueUnits;
+    return this;
   }
 
   /**
@@ -232,8 +241,9 @@ public class Reading {
    * @param valueMimeType the value
    */
   @JsonSetter("ValueMimeType")
-  public void setValueMimeType(String valueMimeType) {
+  public Reading setValueMimeType(String valueMimeType) {
     this.valueMimeType = valueMimeType;
+    return this;
   }
 
   /**
@@ -252,8 +262,9 @@ public class Reading {
    * @param value the value
    */
   @JsonSetter("Value")
-  public void setValue(String value) {
+  public Reading setValue(String value) {
     this.value = value;
+    return this;
   }
 
   /**
@@ -272,8 +283,9 @@ public class Reading {
    * @param binaryValue the value
    */
   @JsonSetter("BinaryValue")
-  public void setBinaryValue(Byte[] binaryValue) {
+  public Reading setBinaryValue(Byte[] binaryValue) {
     this.binaryValue = binaryValue;
+    return this;
   }
 
   /**
@@ -291,8 +303,9 @@ public class Reading {
    * @param expectedValue the value
    */
   @JsonSetter("ExpectedValue")
-  public void setExpectedValue(String expectedValue) {
+  public Reading setExpectedValue(String expectedValue) {
     this.expectedValue = expectedValue;
+    return this;
   }
 
   /**
@@ -310,8 +323,9 @@ public class Reading {
    * @param expectedValueUnits the value
    */
   @JsonSetter("ExpectedValueUnits")
-  public void setExpectedValueUnits(String expectedValueUnits) {
+  public Reading setExpectedValueUnits(String expectedValueUnits) {
     this.expectedValueUnits = expectedValueUnits;
+    return this;
   }
 
   /**
@@ -329,8 +343,9 @@ public class Reading {
    * @param minimumAcceptableValue the value
    */
   @JsonSetter("MinimumAcceptableValue")
-  public void setMinimumAcceptableValue(String minimumAcceptableValue) {
+  public Reading setMinimumAcceptableValue(String minimumAcceptableValue) {
     this.minimumAcceptableValue = minimumAcceptableValue;
+    return this;
   }
 
   /**
@@ -348,8 +363,9 @@ public class Reading {
    * @param maximumAcceptableValue the value
    */
   @JsonSetter("MaximumAcceptableValue")
-  public void setMaximumAcceptableValue(String maximumAcceptableValue) {
+  public Reading setMaximumAcceptableValue(String maximumAcceptableValue) {
     this.maximumAcceptableValue = maximumAcceptableValue;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures;
 
@@ -42,8 +42,9 @@ public class ValidationResult {
    * @param uniqueIdentifier the value
    */
   @JsonSetter("UniqueIdentifier")
-  public void setUniqueIdentifier(String uniqueIdentifier) {
+  public ValidationResult setUniqueIdentifier(String uniqueIdentifier) {
     this.uniqueIdentifier = uniqueIdentifier;
+    return this;
   }
 
   /**
@@ -61,8 +62,9 @@ public class ValidationResult {
    * @param positionNumber the value
    */
   @JsonSetter("PositionNumber")
-  public void setPositionNumber(int positionNumber) {
+  public ValidationResult setPositionNumber(int positionNumber) {
     this.positionNumber = positionNumber;
+    return this;
   }
 
   /**
@@ -79,8 +81,9 @@ public class ValidationResult {
    * @param result the value
    */
   @JsonSetter("Result")
-  public void setResult(ValidationStatus result) {
+  public ValidationResult setResult(ValidationStatus result) {
     this.result = result;
+    return this;
   }
 
   /**
@@ -97,8 +100,9 @@ public class ValidationResult {
    * @param failureCode the value
    */
   @JsonSetter("FailureCode")
-  public void setFailureCode(int failureCode) {
+  public ValidationResult setFailureCode(int failureCode) {
     this.failureCode = failureCode;
+    return this;
   }
 
   /**
@@ -115,8 +119,9 @@ public class ValidationResult {
    * @param message the value
    */
   @JsonSetter("Message")
-  public void setMessage(String message) {
+  public ValidationResult setMessage(String message) {
     this.message = message;
+    return this;
   }
 
   /**

@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.production.application;
 
@@ -72,8 +72,9 @@ public class MaterialsApplied extends CFXMessage {
    * @param transactionId the value
    */
   @JsonSetter("TransactionId")
-  public void setTransactionId(UUID transactionId) {
+  public MaterialsApplied setTransactionId(UUID transactionId) {
     this.transactionId = transactionId;
+    return this;
   }
 
   /**
@@ -90,8 +91,9 @@ public class MaterialsApplied extends CFXMessage {
    * @param appliedMaterials the value
    */
   @JsonSetter("AppliedMaterials")
-  public void setAppliedMaterials(InstalledMaterial[] appliedMaterials) {
+  public MaterialsApplied setAppliedMaterials(InstalledMaterial[] appliedMaterials) {
     this.appliedMaterials = appliedMaterials;
+    return this;
   }
 
   /**

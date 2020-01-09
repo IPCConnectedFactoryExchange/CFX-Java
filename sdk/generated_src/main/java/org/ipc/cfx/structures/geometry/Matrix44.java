@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.geometry;
 
@@ -45,8 +45,9 @@ public class Matrix44 {
    * @param backward the value
    */
   @JsonSetter("Backward")
-  public void setBackward(Vector3 backward) {
+  public Matrix44 setBackward(Vector3 backward) {
     this.backward = backward;
+    return this;
   }
 
   /**
@@ -63,8 +64,9 @@ public class Matrix44 {
    * @param down the value
    */
   @JsonSetter("Down")
-  public void setDown(Vector3 down) {
+  public Matrix44 setDown(Vector3 down) {
     this.down = down;
+    return this;
   }
 
   /**
@@ -81,8 +83,9 @@ public class Matrix44 {
    * @param forward the value
    */
   @JsonSetter("Forward")
-  public void setForward(Vector3 forward) {
+  public Matrix44 setForward(Vector3 forward) {
     this.forward = forward;
+    return this;
   }
 
   /**
@@ -99,8 +102,9 @@ public class Matrix44 {
    * @param identity the value
    */
   @JsonSetter("Identity")
-  public void setIdentity(org.ipc.cfx.structures.geometry.Matrix44 identity) {
+  public Matrix44 setIdentity(org.ipc.cfx.structures.geometry.Matrix44 identity) {
     this.identity = identity;
+    return this;
   }
 
   /**
@@ -117,8 +121,9 @@ public class Matrix44 {
    * @param left the value
    */
   @JsonSetter("Left")
-  public void setLeft(Vector3 left) {
+  public Matrix44 setLeft(Vector3 left) {
     this.left = left;
+    return this;
   }
 
   /**
@@ -135,8 +140,9 @@ public class Matrix44 {
    * @param right the value
    */
   @JsonSetter("Right")
-  public void setRight(Vector3 right) {
+  public Matrix44 setRight(Vector3 right) {
     this.right = right;
+    return this;
   }
 
   /**
@@ -153,8 +159,9 @@ public class Matrix44 {
    * @param translation the value
    */
   @JsonSetter("Translation")
-  public void setTranslation(Vector3 translation) {
+  public Matrix44 setTranslation(Vector3 translation) {
     this.translation = translation;
+    return this;
   }
 
   /**
@@ -171,8 +178,9 @@ public class Matrix44 {
    * @param up the value
    */
   @JsonSetter("Up")
-  public void setUp(Vector3 up) {
+  public Matrix44 setUp(Vector3 up) {
     this.up = up;
+    return this;
   }
 
   /**

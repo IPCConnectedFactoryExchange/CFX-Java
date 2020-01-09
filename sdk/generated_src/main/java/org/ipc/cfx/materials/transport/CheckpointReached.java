@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.materials.transport;
 
@@ -67,8 +67,9 @@ public class CheckpointReached extends CFXMessage {
    * @param transportOrderId the value
    */
   @JsonSetter("TransportOrderId")
-  public void setTransportOrderId(String transportOrderId) {
+  public CheckpointReached setTransportOrderId(String transportOrderId) {
     this.transportOrderId = transportOrderId;
+    return this;
   }
 
   /**
@@ -86,8 +87,9 @@ public class CheckpointReached extends CFXMessage {
    * @param comments the value
    */
   @JsonSetter("Comments")
-  public void setComments(String comments) {
+  public CheckpointReached setComments(String comments) {
     this.comments = comments;
+    return this;
   }
 
   /**
@@ -105,8 +107,9 @@ public class CheckpointReached extends CFXMessage {
    * @param status the value
    */
   @JsonSetter("Status")
-  public void setStatus(TransportOrderStatus status) {
+  public CheckpointReached setStatus(TransportOrderStatus status) {
     this.status = status;
+    return this;
   }
 
   /**
@@ -123,8 +126,9 @@ public class CheckpointReached extends CFXMessage {
    * @param trackedBy the value
    */
   @JsonSetter("TrackedBy")
-  public void setTrackedBy(Operator trackedBy) {
+  public CheckpointReached setTrackedBy(Operator trackedBy) {
     this.trackedBy = trackedBy;
+    return this;
   }
 
   /**
@@ -141,8 +145,9 @@ public class CheckpointReached extends CFXMessage {
    * @param relatedWorkOrderId the value
    */
   @JsonSetter("RelatedWorkOrderId")
-  public void setRelatedWorkOrderId(String relatedWorkOrderId) {
+  public CheckpointReached setRelatedWorkOrderId(String relatedWorkOrderId) {
     this.relatedWorkOrderId = relatedWorkOrderId;
+    return this;
   }
 
   /**
@@ -160,8 +165,9 @@ public class CheckpointReached extends CFXMessage {
    * @param checkpoint the value
    */
   @JsonSetter("Checkpoint")
-  public void setCheckpoint(String checkpoint) {
+  public CheckpointReached setCheckpoint(String checkpoint) {
     this.checkpoint = checkpoint;
+    return this;
   }
 
   /**
@@ -179,8 +185,9 @@ public class CheckpointReached extends CFXMessage {
    * @param finalDestination the value
    */
   @JsonSetter("FinalDestination")
-  public void setFinalDestination(String finalDestination) {
+  public CheckpointReached setFinalDestination(String finalDestination) {
     this.finalDestination = finalDestination;
+    return this;
   }
 
   /**
@@ -199,8 +206,9 @@ public class CheckpointReached extends CFXMessage {
    * @param nextCheckpoint the value
    */
   @JsonSetter("NextCheckpoint")
-  public void setNextCheckpoint(String nextCheckpoint) {
+  public CheckpointReached setNextCheckpoint(String nextCheckpoint) {
     this.nextCheckpoint = nextCheckpoint;
+    return this;
   }
 
   /**

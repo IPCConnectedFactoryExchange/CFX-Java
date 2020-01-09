@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pcbinspection;
 
@@ -54,8 +54,9 @@ public class GeometricObject extends InspectionObject {
    * @param size the value
    */
   @JsonSetter("Size")
-  public void setSize(Vector3 size) {
+  public GeometricObject setSize(Vector3 size) {
     this.size = size;
+    return this;
   }
 
   /**
@@ -73,8 +74,9 @@ public class GeometricObject extends InspectionObject {
    * @param position the value
    */
   @JsonSetter("Position")
-  public void setPosition(Vector3 position) {
+  public GeometricObject setPosition(Vector3 position) {
     this.position = position;
+    return this;
   }
 
   /**
@@ -94,8 +96,9 @@ public class GeometricObject extends InspectionObject {
    * @param rotation the value
    */
   @JsonSetter("Rotation")
-  public void setRotation(Vector3 rotation) {
+  public GeometricObject setRotation(Vector3 rotation) {
     this.rotation = rotation;
+    return this;
   }
 
   /**
@@ -116,8 +119,9 @@ public class GeometricObject extends InspectionObject {
    * @param positionGlobal the value
    */
   @JsonSetter("PositionGlobal")
-  public void setPositionGlobal(Vector3 positionGlobal) {
+  public GeometricObject setPositionGlobal(Vector3 positionGlobal) {
     this.positionGlobal = positionGlobal;
+    return this;
   }
 
   /**
@@ -138,8 +142,9 @@ public class GeometricObject extends InspectionObject {
    * @param rotationGlobal the value
    */
   @JsonSetter("RotationGlobal")
-  public void setRotationGlobal(Vector3 rotationGlobal) {
+  public GeometricObject setRotationGlobal(Vector3 rotationGlobal) {
     this.rotationGlobal = rotationGlobal;
+    return this;
   }
 
   /**

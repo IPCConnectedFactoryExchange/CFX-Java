@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.solderapplication;
 
@@ -48,8 +48,9 @@ public class SelectiveSolderProcessData extends ProcessData {
    * @param process_Status the value
    */
   @JsonSetter("Process_Status")
-  public void setProcess_Status(String process_Status) {
+  public SelectiveSolderProcessData setProcess_Status(String process_Status) {
     this.process_Status = process_Status;
+    return this;
   }
 
   /**
@@ -68,8 +69,9 @@ public class SelectiveSolderProcessData extends ProcessData {
    * @param recipeName the value
    */
   @JsonSetter("RecipeName")
-  public void setRecipeName(String recipeName) {
+  public SelectiveSolderProcessData setRecipeName(String recipeName) {
     this.recipeName = recipeName;
+    return this;
   }
 
   /**
@@ -88,8 +90,9 @@ public class SelectiveSolderProcessData extends ProcessData {
    * @param nitrogen_Pressure the value
    */
   @JsonSetter("Nitrogen_Pressure")
-  public void setNitrogen_Pressure(double nitrogen_Pressure) {
+  public SelectiveSolderProcessData setNitrogen_Pressure(double nitrogen_Pressure) {
     this.nitrogen_Pressure = nitrogen_Pressure;
+    return this;
   }
 
   /**
@@ -108,8 +111,9 @@ public class SelectiveSolderProcessData extends ProcessData {
    * @param air_Pressure the value
    */
   @JsonSetter("Air_Pressure")
-  public void setAir_Pressure(float air_Pressure) {
+  public SelectiveSolderProcessData setAir_Pressure(float air_Pressure) {
     this.air_Pressure = air_Pressure;
+    return this;
   }
 
   /**
@@ -128,8 +132,9 @@ public class SelectiveSolderProcessData extends ProcessData {
    * @param cycle_Count the value
    */
   @JsonSetter("Cycle_Count")
-  public void setCycle_Count(int cycle_Count) {
+  public SelectiveSolderProcessData setCycle_Count(int cycle_Count) {
     this.cycle_Count = cycle_Count;
+    return this;
   }
 
   /**
@@ -147,8 +152,9 @@ public class SelectiveSolderProcessData extends ProcessData {
    * @param cycle_Time the value
    */
   @JsonSetter("Cycle_Time")
-  public void setCycle_Time(long cycle_Time) {
+  public SelectiveSolderProcessData setCycle_Time(long cycle_Time) {
     this.cycle_Time = cycle_Time;
+    return this;
   }
 
   /**
@@ -166,8 +172,9 @@ public class SelectiveSolderProcessData extends ProcessData {
    * @param nitrogen_Purity the value
    */
   @JsonSetter("Nitrogen_Purity")
-  public void setNitrogen_Purity(double nitrogen_Purity) {
+  public SelectiveSolderProcessData setNitrogen_Purity(double nitrogen_Purity) {
     this.nitrogen_Purity = nitrogen_Purity;
+    return this;
   }
 
   /**
@@ -186,8 +193,9 @@ public class SelectiveSolderProcessData extends ProcessData {
    * @param nitrogen_Flow the value
    */
   @JsonSetter("Nitrogen_Flow")
-  public void setNitrogen_Flow(double nitrogen_Flow) {
+  public SelectiveSolderProcessData setNitrogen_Flow(double nitrogen_Flow) {
     this.nitrogen_Flow = nitrogen_Flow;
+    return this;
   }
 
   /**
@@ -206,8 +214,9 @@ public class SelectiveSolderProcessData extends ProcessData {
    * @param fiducial_Enabled the value
    */
   @JsonSetter("Fiducial_Enabled")
-  public void setFiducial_Enabled(boolean fiducial_Enabled) {
+  public SelectiveSolderProcessData setFiducial_Enabled(boolean fiducial_Enabled) {
     this.fiducial_Enabled = fiducial_Enabled;
+    return this;
   }
 
   /**

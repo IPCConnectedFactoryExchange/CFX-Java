@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.pcbinspection;
 
@@ -42,8 +42,9 @@ public class Component extends GeometricObject {
    * @param type the value
    */
   @JsonSetter("Type")
-  public void setType(String type) {
+  public Component setType(String type) {
     this.type = type;
+    return this;
   }
 
   /**
@@ -61,8 +62,9 @@ public class Component extends GeometricObject {
    * @param group the value
    */
   @JsonSetter("Group")
-  public void setGroup(String group) {
+  public Component setGroup(String group) {
     this.group = group;
+    return this;
   }
 
   /**
@@ -80,8 +82,9 @@ public class Component extends GeometricObject {
    * @param pins the value
    */
   @JsonSetter("Pins")
-  public void setPins(Pin[] pins) {
+  public Component setPins(Pin[] pins) {
     this.pins = pins;
+    return this;
   }
 
   /**
@@ -98,8 +101,9 @@ public class Component extends GeometricObject {
    * @param isDefect the value
    */
   @JsonSetter("IsDefect")
-  public void setIsDefect(boolean isDefect) {
+  public Component setIsDefect(boolean isDefect) {
     this.isDefect = isDefect;
+    return this;
   }
 
   /**

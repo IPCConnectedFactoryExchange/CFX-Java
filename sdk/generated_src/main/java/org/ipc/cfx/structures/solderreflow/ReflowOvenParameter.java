@@ -17,8 +17,8 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 package org.ipc.cfx.structures.solderreflow;
 
@@ -41,8 +41,9 @@ public class ReflowOvenParameter extends Parameter {
    * @param conveyorSpeedSetpoint the value
    */
   @JsonSetter("ConveyorSpeedSetpoint")
-  public void setConveyorSpeedSetpoint(double conveyorSpeedSetpoint) {
+  public ReflowOvenParameter setConveyorSpeedSetpoint(double conveyorSpeedSetpoint) {
     this.conveyorSpeedSetpoint = conveyorSpeedSetpoint;
+    return this;
   }
 
   /**
@@ -59,8 +60,9 @@ public class ReflowOvenParameter extends Parameter {
    * @param conveyorWidth the value
    */
   @JsonSetter("ConveyorWidth")
-  public void setConveyorWidth(double conveyorWidth) {
+  public ReflowOvenParameter setConveyorWidth(double conveyorWidth) {
     this.conveyorWidth = conveyorWidth;
+    return this;
   }
 
   /**
@@ -77,8 +79,9 @@ public class ReflowOvenParameter extends Parameter {
    * @param zoneParameters the value
    */
   @JsonSetter("ZoneParameters")
-  public void setZoneParameters(ReflowZoneParameter[] zoneParameters) {
+  public ReflowOvenParameter setZoneParameters(ReflowZoneParameter[] zoneParameters) {
     this.zoneParameters = zoneParameters;
+    return this;
   }
 
   /**

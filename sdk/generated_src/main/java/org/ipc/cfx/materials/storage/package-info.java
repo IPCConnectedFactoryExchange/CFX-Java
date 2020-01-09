@@ -17,13 +17,13 @@
  * under the License.
  * 
  * This file was automatically created
- * source: CFX.DLL, Version 1.1.3.0
- * created: 30.08.2019 09:11:09 by frankp
+ * source: CFX.DLL, Version 1.1.6.0
+ * created: 22.11.2019 10:40:17 by frankp
  */
 /**
  * Related to events that occur when materials are stored, including consumption.  
             This includes not only stock areas, but also point-of-use workstations where materials
             are loaded during production.
- * source: CFX.DLL, Version 1.1.3.0
+ * source: CFX.DLL, Version 1.1.6.0
  */
 package org.ipc.cfx.materials.storage;
